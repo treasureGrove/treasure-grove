@@ -1,0 +1,626 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1054455855940084}
+  m_IsPrefabParent: 1
+--- !u!1 &1054455855940084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4090949844596972}
+  - component: {fileID: 54974219014672462}
+  - component: {fileID: 114815428302586886}
+  - component: {fileID: 114734606719126454}
+  - component: {fileID: 114805027119702030}
+  - component: {fileID: 65471920787617726}
+  - component: {fileID: 114289773516810554}
+  m_Layer: 0
+  m_Name: P-36 Ammo (inventory)
+  m_TagString: box
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1086933456619078
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4745665166225590}
+  - component: {fileID: 33992268679830304}
+  - component: {fileID: 23501897255248872}
+  m_Layer: 0
+  m_Name: mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1214548170770626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4091286385502396}
+  - component: {fileID: 114624803926127654}
+  - component: {fileID: 114300069593812774}
+  - component: {fileID: 135703091088353770}
+  - component: {fileID: 114212223175574370}
+  - component: {fileID: 114143067997632786}
+  m_Layer: 2
+  m_Name: trigger
+  m_TagString: inventory
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1562331288967626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4769974406573734}
+  m_Layer: 0
+  m_Name: Ammo Pickup (P-36) (Button)(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4090949844596972
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054455855940084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4091286385502396}
+  - {fileID: 4769974406573734}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4091286385502396
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1214548170770626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4090949844596972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4745665166225590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086933456619078}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_Children: []
+  m_Father: {fileID: 4769974406573734}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4769974406573734
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562331288967626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4745665166225590}
+  m_Father: {fileID: 4090949844596972}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23501897255248872
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086933456619078}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fd9c99dbc51c8564c8c6edb0a2af58a2, type: 2}
+  - {fileID: 2100000, guid: d3af865e78e9c5446a733f3ff00793bb, type: 2}
+  - {fileID: 2100000, guid: 8210754f4c353254fa302e0aa6c59625, type: 2}
+  - {fileID: 2100000, guid: 1ffadee7713528e46b5b4b871aa131f1, type: 2}
+  - {fileID: 2100000, guid: 94e880814f9457348a74466eeca90232, type: 2}
+  - {fileID: 2100000, guid: dad46909b586a684097990fd28bdfb92, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33992268679830304
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086933456619078}
+  m_Mesh: {fileID: 4300000, guid: f280a8333f743ae468b8ef277e55a7fa, type: 3}
+--- !u!54 &54974219014672462
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054455855940084}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65471920787617726
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054455855940084}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.5475956, z: 0.28977966}
+  m_Center: {x: 0.000000027331394, y: -0.016202927, z: -0.06613541}
+--- !u!114 &114143067997632786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1214548170770626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ddab01b84015e4981a3f039ef51d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOutlineEnabled: 1
+  shaderOutlineWidthName: _Outline
+  shaderOutlineColorName: _OutlineColor
+  useCustomOutlineValues: 0
+  customOutlineWidth: 0.05
+  customOutlineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  useCustomShader: 0
+  customShader: {fileID: 0}
+  customActiveDuration: 2
+  useTransparencyActive: 1
+  transparencyActive: 0
+  useCustomTransparencyValues: 0
+  customAlphaTransparency: 0
+  meshParent: {fileID: 1054455855940084}
+  ignoreParticles: 0
+  ignoreLineRenderer: 0
+  useMeshesToIgnore: 0
+  meshesToIgnore: []
+  useCustomMeshList: 0
+  customMeshList: []
+  outlineActive: 0
+  renderElementsStored: 0
+  outlineTemporaryActive: 0
+--- !u!114 &114212223175574370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1214548170770626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a170ed1b6a27bc4c8b4ad3190efcfff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActive: {fileID: 1054455855940084}
+  functionName: pickObjectByButton
+--- !u!114 &114289773516810554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054455855940084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703bee9dfca61354fa8809e52e0ce318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveElementEnabled: 1
+  elementScene: 0
+  elementID: 0
+  elementActiveState: 1
+  savePositionValues: 1
+  saveRotationValues: 1
+  useCustomTransform: 0
+  customTransform: {fileID: 0}
+  elementPrefabID: 26
+  useStats: 0
+  loadStatsDelay: 0
+  statInfoList: []
+  useEventOnObjectActive: 0
+  eventOnObjectActive:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnObjectInactive: 1
+  eventOnObjectInactive:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114815428302586886}
+        m_MethodName: removePickupIconAndDisableObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useDelayForEvent: 0
+  delayForEvent: 0
+  showDebugPrint: 0
+  useElementPrefabID: 0
+  objectOriginallyOnScene: 0
+--- !u!114 &114300069593812774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1214548170770626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46a5536ebaad7a4b94ddccdce973ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryObjectInfo:
+    Name: P-36 Ammo
+    inventoryGameObject: {fileID: 1636767478942136, guid: 42379dc090858d64da0c87fa2ca43b52,
+      type: 2}
+    objectInfo: Ammo for the P-36 weapon. It contains 45 units per box.
+    icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+    amount: 0
+    amountPerUnit: 45
+    infiniteAmount: 0
+    storeTotalAmountPerUnit: 1
+    showAmountPerUnitInAmountText: 0
+    canBeUsed: 0
+    canBeEquiped: 0
+    canBeDropped: 1
+    canBeCombined: 1
+    canBeExamined: 1
+    canBeDiscarded: 1
+    hideSlotOnMenu: 0
+    useNewBehaviorOnUse: 0
+    newBehaviorOnUseMessage: 
+    newBehaviorOnUnableToUseMessage: 
+    useNewBehaviorOnCombine: 1
+    newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+    useOneUnitOnNewBehaviourCombine: 0
+    useSoundOnUseObject: 0
+    soundOnUseObject: {fileID: 0}
+    isEquiped: 0
+    quickAccessSlotIndex: -1
+    useDurability: 0
+    durabilityAmount: 100
+    maxDurabilityAmount: 100
+    objectIsBroken: 0
+    sellMultiplierIfObjectIsBroken: 1
+    isWeapon: 0
+    isMeleeWeapon: 0
+    isArmorClothAccessory: 0
+    projectilesInMagazine: -1
+    mainWeaponObjectInfo: {fileID: 0}
+    objectToCombine: {fileID: 1589353741627784, guid: cabb96e71311f844a82be40d8cf64eea,
+      type: 2}
+    combinedObject: {fileID: 0}
+    combinedObjectMessage: 
+    canBeSold: 1
+    vendorPrice: 200
+    infiniteVendorAmountAvailable: 0
+    categoryName: Ammo
+    categoryIndex: 3
+    elementIndex: 8
+    sellPrice: 100
+    useMinLevelToBuy: 0
+    minLevelToBuy: 0
+    weight: 9
+    spawnObject: 0
+    useCustomObjectToDrop: 0
+    customObjectToDrop: {fileID: 0}
+    dropObjectOffset: {x: 0, y: 0, z: 0}
+    cantBeStoredOnInventory: 0
+    canBeHeld: 0
+    canBePlaceOnQuickAccessSlot: 0
+    setMaximumAmountPerSlot: 0
+    maximumAmountPerSlot: 0
+    button: {fileID: 0}
+    menuIconElement: {fileID: 0}
+    inventoryObjectPrefab: {fileID: 0}
+    currentVendorObjectSlotPanelInfo:
+      Name: 
+      categoryName: 
+      button: {fileID: 0}
+      objectNameText: {fileID: 0}
+      objectAmountAvailableText: {fileID: 0}
+      objectPriceText: {fileID: 0}
+      pressedIcon: {fileID: 0}
+      objectLevelText: {fileID: 0}
+    emptyInventoryPrefab: {fileID: 0}
+  mainObjectOnInventory: {fileID: 114805027119702030}
+  useZoomRange: 1
+  maxZoom: 30
+  minZoom: 100
+  initialZoom: 46
+--- !u!114 &114624803926127654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1214548170770626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe7bfbecac2ee4895bd133d0b782df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: P-36 Ammo
+  deviceAction: Take
+  useMultipleInteraction: 0
+  multipleInteractionNameList: []
+  secondaryDeviceAction: 
+  reloadDeviceActionOnPress: 0
+  hideIconOnPress: 0
+  disableIconOnPress: 0
+  showIcon: 1
+  showTouchIconButton: 1
+  hideIconOnUseDevice: 0
+  showIconOnStopUseDevice: 0
+  useTransformForStringAction: 0
+  transformForStringAction: {fileID: 0}
+  useSeparatedTransformForEveryView: 0
+  transformForThirdPerson: {fileID: 0}
+  transformForFirstPerson: {fileID: 0}
+  useLocalOffset: 0
+  actionOffset: 0.5
+  setUsingDeviceState: 0
+  setTextFontSizeActive: 0
+  textFontSize: 17
+  iconEnabled: 1
+  useRaycastToDetectDeviceParts: 0
+  usingDevice: 0
+  useCustomMinDistanceToUseDevice: 0
+  customMinDistanceToUseDevice: 0
+  useCustomMinAngleToUse: 0
+  customMinAngleToUseDevice: 0
+  useRelativeDirectionBetweenPlayerAndObject: 0
+  useCustomIconButtonInfo: 0
+  customIconButtonInfoName: 
+  ignoreUseOnlyDeviceIfVisibleOnCamera: 0
+  useCustomDeviceTransformPosition: 0
+  customDeviceTransformPosition: {fileID: 0}
+  useFixedDeviceIconPosition: 0
+  checkIfObstacleBetweenDeviceAndPlayer: 0
+  showIconTexture: 0
+  iconTexture: {fileID: 0}
+  useObjectDescription: 0
+  objectDescription: 
+  descriptionFontSize: 14
+  showObjectAmount: 0
+  objectAmount: 0
+  useHoldInteractionButton: 0
+  holdInteractionButtonDuration: 0
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &114734606719126454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054455855940084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8167ec4e24f98f34cb60166a6f106780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storePickupOnInventory: 1
+  useInventoryObjectWhenPicked: 0
+  useCustomPickupMessage: 1
+  objectTakenAsPickupMessage: Ammo P-36 x -AMOUNT-
+  objectTakenAsInventoryMessage: Ammo P-36 x -AMOUNT- Stored
+  explanation: "Use -AMOUNT- in the position of the text \n to replace the amount
+    picked if you need it"
+  useAbilitiesListToEnableOnTakePickup: 0
+  abilitiesListToEnableOnTakePickup: []
+  activateAbilityOnTakePickup: 0
+  abilityNameToActiveOnTakePickup: 
+  abilityIsTemporallyActivated: 0
+  getCraftingRecipes: 0
+  craftingRecipesList: []
+  showDebugPrint: 0
+  mainPickupObject: {fileID: 114815428302586886}
+  ammoName: P-36
+  unableToPickAmmoMessage: You haven't weapons with this ammo type
+--- !u!114 &114805027119702030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054455855940084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc65a721246a1745b929c81fe467156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainInventoryObject: {fileID: 114300069593812774}
+  useOnlyAmountNeeded: 0
+  closeInventoryOnObjectUsed: 0
+  checkConditionsToUseObjectEnabled: 0
+  playerOnGroundToUseObject: 0
+  actionSystemNotPlayingAnimations: 0
+  useCustomMessageOnConditionFailed: 0
+  customMessageOnConditionFailed: 
+  useRemoteEvent: 0
+  remoteEventList: []
+  useRemoteEventOnUseObject: 0
+  remoteEventListOnUseObject: []
+  useRemoteEventOnEquipObject: 0
+  remoteEventListOnEquipObject: []
+  useRemoteEventOnUnequipObject: 0
+  remoteEventListOnUnquipObject: []
+  useAbilitiesListToEnableOnUseInventoryObject: 0
+  abilitiesListToEnableOnUseInventoryObject: []
+  activateAbilityOnUseInventoryObject: 0
+  abilityNameToActiveOnUseInventoryObject: 
+  abilityIsTemporallyActivated: 0
+  checkIfAbilityIsNotActiveOrOnCoolDown: 0
+  increaseStatsValues: 0
+  statsToIncreaseInfoList: []
+  getCraftingRecipes: 0
+  craftingRecipesList: []
+  mainAmmoPickup: {fileID: 114734606719126454}
+--- !u!114 &114815428302586886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054455855940084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2931b7a580d5044082b16e57d353cd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 1
+  useAmountPerUnit: 0
+  amountPerUnit: 0
+  useDurability: 0
+  maxDurabilityAmount: 0
+  durabilityAmount: 0
+  pickUpSound: {fileID: 8300000, guid: f160e8697729222499ed27c488eb838a, type: 3}
+  staticPickUp: 0
+  moveToPlayerOnTrigger: 1
+  pickUpOption: 1
+  canBeExamined: 0
+  usableByAnything: 0
+  usableByPlayer: 1
+  usableByVehicles: 1
+  usableByCharacters: 0
+  showPickupInfoOnTaken: 1
+  usePickupIconOnTaken: 1
+  pickupIcon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+  takeWithTrigger: 1
+  usePickupIconOnScreen: 1
+  pickupIconGeneralName: Weapon Ammo (Inventory)
+  pickupIconName: 
+  useEventOnTaken: 1
+  eventOnTaken:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114289773516810554}
+        m_MethodName: setElementActiveStateToMainElementOnSceneManager
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnRemainingAmount: 0
+  eventOnRemainingAmount:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPickupFinder: 0
+  sendPickupFinderEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  player: {fileID: 0}
+  vehicle: {fileID: 0}
+  npc: {fileID: 0}
+  finder: {fileID: 0}
+  finderIsPlayer: 0
+  finderIsVehicle: 0
+  finderIsCharacter: 0
+  playerTag: Player
+  friendTag: friend
+  enemyTag: enemy
+  amountTaken: 0
+  ignoreExamineObjectBeforeStoreEnabled: 0
+  mainPickupType: {fileID: 114734606719126454}
+  inventoryObjectManager: {fileID: 114300069593812774}
+  deviceStringActionManager: {fileID: 114624803926127654}
+  mainSphereCollider: {fileID: 135703091088353770}
+  mainCollider: {fileID: 65471920787617726}
+  mainRigidbody: {fileID: 54974219014672462}
+  weaponsManager: {fileID: 0}
+  vehicleHUD: {fileID: 0}
+  playerInventoryManager: {fileID: 0}
+  mainPickupManagerName: Pickup Manager
+  inventoryAmountPicked: 0
+  examiningObject: 0
+--- !u!135 &135703091088353770
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1214548170770626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.45
+  m_Center: {x: 0, y: 0, z: 0}

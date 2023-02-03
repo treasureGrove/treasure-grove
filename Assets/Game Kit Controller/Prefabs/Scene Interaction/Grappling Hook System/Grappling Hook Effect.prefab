@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1300484103167646}
+  m_IsPrefabParent: 1
+--- !u!1 &1300484103167646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4842995260750672}
+  - component: {fileID: 114815080006061076}
+  m_Layer: 0
+  m_Name: Grappling Hook Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4842995260750672
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300484103167646}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114815080006061076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300484103167646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a55238d07af02149ac7ad442bf3acca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 2
+  SpiralSpeed: 4
+  DistanceSpeed: 2
+  Gravity: 0.5
+  Segments: 100
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  Magnitude: {x: 2, y: 2}
+  Frequency: 1
+  HorizontalOffset: 0.25
+  Strength: 0.5
+  Scale: 1
+  Curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: -2.5509727
+      outSlope: -2.5509727
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.24862131
+      value: -0.5047606
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.6992813
+      value: 0.49873662
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.9963827
+      value: -0.00088545843
+      inSlope: -2.4265995
+      outSlope: -2.4265995
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 0
+  MagnitudeOverTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 4.9870033
+      outSlope: 4.9870033
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.15642372
+      value: 0.7286927
+      inSlope: 4.577833
+      outSlope: 4.577833
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5049521
+      value: -0.0028322935
+      inSlope: -8.8639555
+      outSlope: -8.8639555
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.79342633
+      value: -0.023265168
+      inSlope: 4.4673076
+      outSlope: 4.4673076
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.991272
+      value: -0.013442993
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  MagnitudeOverDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 11.185779
+      outSlope: 11.185779
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2675449
+      value: 1.0042365
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.99783325
+      value: -0.010696411
+      inSlope: -0.089065954
+      outSlope: -0.089065954
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  GravityOverDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: -2.14729
+      outSlope: -2.14729
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.50358677
+      value: -0.9982245
+      inSlope: -0.02042856
+      outSlope: -0.02042856
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: -0.0031356812
+      inSlope: 2.6418808
+      outSlope: 2.6418808
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  GravityOverTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.500881
+      value: 0.9990984
+      inSlope: 3.125669
+      outSlope: -20.750956
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.7513724
+      value: 0.00243077
+      inSlope: 9.83551
+      outSlope: 9.83551
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.89151335
+      value: -0.004947109
+      inSlope: -2.932807
+      outSlope: -2.932807
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.0916976
+      value: 0.05497193
+      inSlope: -0.0025566055
+      outSlope: -0.0025566055
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.2153248
+      value: -0.08850235
+      inSlope: 0.006267801
+      outSlope: 0.006267801
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.3283386
+      value: 0.09001541
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  grapplingHookEffectActive: 0
+  fixedUpdateActive: 0
+  lineRenderer: {fileID: 0}
+  mainCameraTransform: {fileID: 0}
+  lineRendererOriginPositionTransform: {fileID: 0}
+  lineRendererTargetPositionTransform: {fileID: 0}
+  playerControllerTransform: {fileID: 0}

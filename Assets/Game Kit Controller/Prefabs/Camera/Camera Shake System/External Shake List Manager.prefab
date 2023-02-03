@@ -1,0 +1,890 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1585887877140314}
+  m_IsPrefabParent: 1
+--- !u!1 &1585887877140314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4594050137857758}
+  - component: {fileID: 114073943239605764}
+  m_Layer: 0
+  m_Name: External Shake List Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4594050137857758
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1585887877140314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.8746195, y: 4.8332324, z: -18.89891}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114073943239605764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1585887877140314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0082f82322be03b4bad60878294b4c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  externalShakeInfoList:
+  - name: Big Explosion
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 2, y: 5, z: 0}
+      shakeRotationSpeed: {x: 10, y: 15, z: 0}
+      shakeRotationSmooth: 15
+      shakeDuration: 1
+      decreaseShakeInTime: 1
+      decreaseShakeSpeed: 0.3
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 1
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 10, y: 30, z: 0}
+      shakeRotationSpeed: {x: 5, y: 20, z: 0}
+      shakeRotationSmooth: 10
+      shakeDuration: 5
+      decreaseShakeInTime: 1
+      decreaseShakeSpeed: 0.3
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Medium Explosion
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Little Explosion
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 5, y: 10, z: 0}
+      shakeRotationSpeed: {x: 2, y: 2, z: 0}
+      shakeRotationSmooth: 10
+      shakeDuration: 5
+      decreaseShakeInTime: 1
+      decreaseShakeSpeed: 0.3
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Big Bullets
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Medium Bullets
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Little Bullets
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 1, y: 2, z: 0}
+      shakeRotationSpeed: {x: 10, y: 20, z: 0}
+      shakeRotationSmooth: 10
+      shakeDuration: 0.5
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0.1
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Laser
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Big Fall
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 10, y: 0, z: 5}
+      shakeRotationSpeed: {x: 20, y: 0, z: 15}
+      shakeRotationSmooth: 10
+      shakeDuration: 1
+      decreaseShakeInTime: 1
+      decreaseShakeSpeed: 0.2
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Medium Fall
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 3, y: 0, z: 5}
+      shakeRotationSpeed: {x: 25, y: 0, z: 20}
+      shakeRotationSmooth: 15
+      shakeDuration: 0.7
+      decreaseShakeInTime: 1
+      decreaseShakeSpeed: 0.2
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Core Activation
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0.2, z: 0}
+      shakePositionSpeed: {x: 0, y: 100, z: 0}
+      shakePositionSmooth: 10
+      shakeRotation: {x: 0, y: 2, z: 0}
+      shakeRotationSpeed: {x: 0, y: 60, z: 0}
+      shakeRotationSmooth: 25
+      shakeDuration: 12
+      decreaseShakeInTime: 1
+      decreaseShakeSpeed: 0.05
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Jump Scare
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0.05}
+      shakePositionSpeed: {x: 0, y: 0, z: 4}
+      shakePositionSmooth: 92
+      shakeRotation: {x: 1, y: 3, z: 0}
+      shakeRotationSpeed: {x: 34, y: 50, z: 0}
+      shakeRotationSmooth: 32.5
+      shakeDuration: 1
+      decreaseShakeInTime: 1
+      decreaseShakeSpeed: 0.1
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Big Door Opening
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0.05}
+      shakePositionSpeed: {x: 0, y: 0, z: 4}
+      shakePositionSmooth: 92
+      shakeRotation: {x: 0.2, y: 2, z: 0}
+      shakeRotationSpeed: {x: 10, y: 15, z: 0}
+      shakeRotationSmooth: 27
+      shakeDuration: 10
+      decreaseShakeInTime: 1
+      decreaseShakeSpeed: 0.1
+      useDelayBeforeStartDecrease: 1
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Foot Stomp Test
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 1, y: 4, z: 2}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 7
+      shakeDuration: 0.6
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 1
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0.1
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Kick Combo
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 1, y: 4, z: 2}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 7
+      shakeDuration: 0.6
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 1
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Punch Combo
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 1, y: 4, z: 2}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 11
+      shakeDuration: 0.3
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 1
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Rotating Kick
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0.5, y: 4, z: 1}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 24
+      shakeDuration: 0.4
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Hit Object
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0.5, y: 2, z: 1}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 11
+      shakeDuration: 0.3
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Melee Attack Target To Damage Found
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 1, y: 4, z: 2}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 4
+      shakeDuration: 0.3
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 1
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Cutting Mode Slice
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 1, y: 2, z: 1.5}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 10
+      shakeDuration: 0.4
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 1
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Small Melee Damage Received
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 1, y: 4, z: 2}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 4
+      shakeDuration: 0.3
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 1
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Medium Melee Damage Received
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 1.5, y: 6, z: 3}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 4
+      shakeDuration: 0.3
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 1
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  - name: Large Melee Damage Received
+    sameValueBothViews: 1
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 2, y: 8, z: 4}
+      shakeRotationSpeed: {x: 50, y: 40, z: 40}
+      shakeRotationSmooth: 4
+      shakeDuration: 0.3
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 5
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 4
+      repeatShake: 0
+      numberOfRepeats: 3
+      delayBetweenRepeats: 1.5
+      externalShakeDelay: 0
+      useUnscaledTime: 1
+    useDamageShakeInFirstPerson: 0
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 0, z: 0}
+      shakeRotationSpeed: {x: 0, y: 0, z: 0}
+      shakeRotationSmooth: 0
+      shakeDuration: 0
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0

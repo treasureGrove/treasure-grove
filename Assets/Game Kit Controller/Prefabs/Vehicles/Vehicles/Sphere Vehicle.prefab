@@ -1,0 +1,3731 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &101338
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 444752}
+  m_Layer: 0
+  m_Name: Move Away Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &106926
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 424672}
+  m_Layer: 2
+  m_Name: Driver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &107638
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 424260}
+  - component: {fileID: 3309070}
+  - component: {fileID: 13551332}
+  - component: {fileID: 2385800}
+  - component: {fileID: 11422672}
+  m_Layer: 18
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &112970
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 449028}
+  - component: {fileID: 8241954}
+  m_Layer: 12
+  m_Name: PickUp Object Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &130276
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 455104}
+  m_Layer: 1
+  m_Name: Player Body Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &134852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 419820}
+  - component: {fileID: 5474346}
+  - component: {fileID: 13536820}
+  - component: {fileID: 11418046}
+  - component: {fileID: 11456842}
+  - component: {fileID: 11455464}
+  - component: {fileID: 11470894}
+  - component: {fileID: 11489234}
+  - component: {fileID: 11487120}
+  - component: {fileID: 208199873565909080}
+  - component: {fileID: 114518086801983866}
+  - component: {fileID: 114974680371764290}
+  - component: {fileID: 114343926428268090}
+  - component: {fileID: 114662724659430632}
+  - component: {fileID: 114597735463898952}
+  m_Layer: 2
+  m_Name: Sphere Controller
+  m_TagString: vehicle
+  m_Icon: {fileID: -1376725286, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &136054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 433164}
+  - component: {fileID: 11460018}
+  - component: {fileID: 11423766}
+  m_Layer: 0
+  m_Name: 'Sphere Camera '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &143602
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 487244}
+  m_Layer: 2
+  m_Name: Numbers Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &146882
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 452800}
+  m_Layer: 2
+  m_Name: Player IK Positions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &154644
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 435090}
+  m_Layer: 0
+  m_Name: Regular Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &162128
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 403906}
+  m_Layer: 2
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &164650
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 496614}
+  m_Layer: 2
+  m_Name: Place To Shoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &165290
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 450020}
+  - component: {fileID: 11422028}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &170376
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 436452}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &184434
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 486068}
+  m_Layer: 2
+  m_Name: Chassis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &185056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 405634}
+  - component: {fileID: 11474432}
+  - component: {fileID: 11467090}
+  - component: {fileID: 114061196958293228}
+  - component: {fileID: 114804225291162140}
+  m_Layer: 0
+  m_Name: Sphere Vehicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &187764
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 408686}
+  - component: {fileID: 8298218}
+  m_Layer: 2
+  m_Name: Destroy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &189114
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 418322}
+  - component: {fileID: 13557034}
+  m_Layer: 2
+  m_Name: COM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403906
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 408686}
+  m_Father: {fileID: 486068}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &405634
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185056}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -17.24, y: 2.2838712, z: -9.49}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 419820}
+  - {fileID: 433164}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &408686
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 403906}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &418322
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189114}
+  m_LocalRotation: {x: -0.000000021855694, y: 3.0308296e-22, z: -2.574202e-18, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 419820}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &419820
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 486068}
+  - {fileID: 418322}
+  - {fileID: 449028}
+  - {fileID: 4828978743411268}
+  m_Father: {fileID: 405634}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &424260
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 486068}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &424672
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106926}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 452800}
+  m_Father: {fileID: 4320180458960768}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &433164
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4640581135507732}
+  - {fileID: 4180531507482718}
+  - {fileID: 435090}
+  - {fileID: 444752}
+  - {fileID: 4151692474502714}
+  - {fileID: 4879178571784100}
+  m_Father: {fileID: 405634}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &435090
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 436452}
+  m_Father: {fileID: 433164}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &436452
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435090}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &444752
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 450020}
+  m_Father: {fileID: 433164}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &449028
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 419820}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &450020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -8.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 444752}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &452800
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 455104}
+  m_Father: {fileID: 424672}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &455104
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452800}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &486068
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4901916341929460}
+  - {fileID: 4320180458960768}
+  - {fileID: 496614}
+  - {fileID: 424260}
+  - {fileID: 403906}
+  - {fileID: 487244}
+  m_Father: {fileID: 419820}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &487244
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 486068}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &496614
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 486068}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2385800
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107638}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 98e9d0e339a9b5046a35b454d2a3b152, type: 2}
+  - {fileID: 2100000, guid: dad46909b586a684097990fd28bdfb92, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &3309070
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107638}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5474346
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  serializedVersion: 2
+  m_Mass: 20
+  m_Drag: 0
+  m_AngularDrag: 0.25
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!82 &8241954
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112970}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8298218
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187764}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &11418046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0dd4268f3ede8544a8f6c86250642b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateVehicleStateEnabled: 0
+  callVehicleUpdateEachFrame: 1
+  callVehicleFixedUpdateEachFrame: 1
+  updatePassengersAngularDirection: 0
+  useHorizontalInputLerp: 1
+  vehicleControllerSettings:
+    maxForwardSpeed: 50
+    canUseBoost: 1
+    maxBoostMultiplier: 2
+    useBoostCameraShake: 1
+    moveCameraAwayOnBoost: 1
+    boostCameraShakeStateName: Boost
+    canJump: 1
+    jumpPower: 4
+    canImpulseHoldingJump: 0
+    impulseForce: 0
+    impulseUseEnergy: 0
+    impulseUseEnergyRate: 0
+    impulseUseEnergyAmount: 0
+    autoBrakeOnGetOff: 0
+  driving: 0
+  isTurnedOn: 0
+  vehicleDestroyed: 0
+  usingGravityControl: 0
+  braking: 0
+  usingImpulse: 0
+  jumpInputPressed: 0
+  currentNormal: {x: 0, y: 0, z: 0}
+  lastTimeJump: 0
+  currentSpeed: 0
+  autobrakeActive: 0
+  horizontalAxis: 0
+  verticalAxis: 0
+  axisValues: {x: 0, y: 0}
+  rawAxisValues: {x: 0, y: 0}
+  motorInput: 0
+  moving: 0
+  usingBoost: 0
+  boostInput: 1
+  touchPlatform: 0
+  mainVehicleHUDManager: {fileID: 11455464}
+  mainVehicleCameraController: {fileID: 11460018}
+  mainVehicleGravityControl: {fileID: 11456842}
+  mainRigidbody: {fileID: 5474346}
+  mainIKDrivingSystem: {fileID: 11474432}
+  mainInputActionManager: {fileID: 11467090}
+  changingGear: 0
+  steering: 0
+  localLook: {x: 0, y: 0, z: 0}
+  vehicleParts:
+    COM: {fileID: 418322}
+    chassis: {fileID: 184434}
+  settings:
+    layer:
+      serializedVersion: 2
+      m_Bits: 4294569979
+    vehicleCamera: {fileID: 136054}
+    brakeForce: 30
+  maxSpeed: 10
+  maxClimbSpeed: 4
+  maxBoostClimbSpeed: 21.6
+  maxSwimSpeed: 5
+  maxAcceleration: 20
+  maxAirAcceleration: 10
+  maxClimbAcceleration: 40
+  maxSwimAcceleration: 5
+  maxAirJumps: 0
+  maxGroundAngle: 40
+  maxStairsAngle: 50
+  maxClimbAngle: 140
+  maxSnapSpeed: 100
+  probeDistance: 1
+  submergenceOffset: 0.5
+  submergenceRange: 1
+  buoyancy: 1
+  waterDrag: 1
+  swimThreshold: 0.5
+  probeMask:
+    serializedVersion: 2
+    m_Bits: 1
+  stairsMask:
+    serializedVersion: 2
+    m_Bits: 0
+  climbMask:
+    serializedVersion: 2
+    m_Bits: 1
+  waterMask:
+    serializedVersion: 2
+    m_Bits: 0
+  sphereRadius: 0.5
+  sphereAlignSpeed: 45
+  sphereAirRotation: 0.5
+  sphereSwimRotation: 2
+  anyOnGround: 0
+  stepsSinceLastJump: 0
+  climbContactCount: 0
+  desiresClimbing: 0
+  velocity: {x: 0, y: 0, z: 0}
+  sphereTransform: {fileID: 424260}
+--- !u!114 &11422028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a1e781b9bc0fb48bdbc84ef81a2a05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobStatesList:
+  - Name: Boost
+    eulAmount: {x: 5, y: 5, z: 20}
+    eulSpeed: {x: 50, y: 50, z: 50}
+    eulSmooth: 1
+    stateEnabled: 0
+    isCurrentState: 0
+  - Name: Gravity Control
+    eulAmount: {x: 1, y: 5, z: 1}
+    eulSpeed: {x: 10, y: 50, z: 10}
+    eulSmooth: 1
+    stateEnabled: 0
+    isCurrentState: 1
+  headBobEnabled: 1
+  shakingActive: 0
+  ResetSpeed: 2
+  playerBobState:
+    Name: 
+    eulAmount: {x: 0, y: 0, z: 0}
+    eulSpeed: {x: 0, y: 0, z: 0}
+    eulSmooth: 0
+    stateEnabled: 0
+    isCurrentState: 0
+  externalShake: 0
+  externalForceStateName: 
+--- !u!114 &11422672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd9553a1ed2ab142a68adbd46ae1bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageMultiplier: 1
+  vehicle: {fileID: 134852}
+  hudManager: {fileID: 11455464}
+--- !u!114 &11423766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a1e781b9bc0fb48bdbc84ef81a2a05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobStatesList:
+  - Name: Boost
+    eulAmount: {x: 5, y: 5, z: 20}
+    eulSpeed: {x: 50, y: 50, z: 50}
+    eulSmooth: 1
+    stateEnabled: 1
+    isCurrentState: 1
+  - Name: Regular Gravity Control
+    eulAmount: {x: 1, y: 5, z: 1}
+    eulSpeed: {x: 10, y: 50, z: 10}
+    eulSmooth: 1
+    stateEnabled: 1
+    isCurrentState: 0
+  - Name: Quick Gravity Control
+    eulAmount: {x: 5, y: 10, z: 5}
+    eulSpeed: {x: 100, y: 100, z: 100}
+    eulSmooth: 1
+    stateEnabled: 1
+    isCurrentState: 0
+  - Name: External Shake
+    eulAmount: {x: 0, y: 0, z: 0}
+    eulSpeed: {x: 0, y: 0, z: 0}
+    eulSmooth: 0
+    stateEnabled: 1
+    isCurrentState: 0
+  headBobEnabled: 1
+  shakingActive: 0
+  ResetSpeed: 2
+  playerBobState:
+    Name: 
+    eulAmount: {x: 0, y: 0, z: 0}
+    eulSpeed: {x: 0, y: 0, z: 0}
+    eulSmooth: 0
+    stateEnabled: 0
+    isCurrentState: 0
+  externalShake: 0
+  externalForceStateName: External Shake
+--- !u!114 &11455464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104e84ee6ca5170419653ba0f4de5060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicleName: Sphere Vehicle
+  healthAmount: 100
+  maxHealthAmount: 100
+  boostAmount: 100
+  maxBoostAmount: 0
+  vehicleUseFuel: 0
+  fuelAmount: 0
+  maxFuelAmount: 100
+  startWithGasTankEmpty: 0
+  destroyed: 0
+  regenerateHealth: 0
+  constantHealthRegenerate: 0
+  regenerateHealthSpeed: 0
+  regenerateHealthTime: 0
+  regenerateHealthAmount: 0
+  regenerateBoost: 0
+  constantBoostRegenerate: 0
+  regenerateBoostSpeed: 0
+  regenerateBoostTime: 0
+  regenerateBoostAmount: 0
+  vehicleUseBoost: 1
+  infiniteBoost: 0
+  boostUseRate: 5
+  infiniteFuel: 0
+  fuelUseRate: 0
+  regenerateFuel: 0
+  constantFuelRegenerate: 0
+  regenerateFuelSpeed: 0
+  regenerateFuelTime: 0
+  regenerateFuelAmount: 0
+  gasTankGameObject: {fileID: 0}
+  invincible: 0
+  destroyedSound: {fileID: 8300000, guid: 9869c3d69c28e08488a156d11be1ab96, type: 3}
+  destroyedSource: {fileID: 8298218}
+  layer:
+    serializedVersion: 2
+    m_Bits: 4294569979
+  layerForPassengers:
+    serializedVersion: 2
+    m_Bits: 1052672
+  useDamageParticles: 1
+  damageParticles: {fileID: 0}
+  useDestroyedParticles: 1
+  destroyedParticles: {fileID: 127774, guid: 7f246b0ecf42e4a4e815c0a2e6e5b3ad, type: 2}
+  healthPercentageDamageParticles: 25
+  placeToShoot: {fileID: 496614}
+  removePiecesWhenDestroyed: 1
+  fadeVehiclePiecesOnDestroyed: 1
+  timeToFadePieces: 3
+  destroyedMeshShader: {fileID: 0}
+  advancedSettings:
+    damageReceiverList: []
+    showGizmo: 0
+    gizmoLabelColor: {r: 0, g: 0, b: 0, a: 0}
+    alphaColor: 0
+    gizmoRadius: 0
+  damageObjectsOnCollision: 1
+  damageMultiplierOnCollision: 1
+  minVehicleVelocityToDamage: 11
+  minCollisionVelocityToDamage: 11
+  ignoreShieldOnCollision: 1
+  damageTypeID: -1
+  useRemoteEventOnObjectsFound: 0
+  remoteEventNameList: []
+  useWeakSpots: 0
+  vehicleHealth: {fileID: 0}
+  vehicleBoost: {fileID: 0}
+  vehicleAmmo: {fileID: 0}
+  vehicleFuel: {fileID: 0}
+  canSetTurnOnState: 0
+  autoTurnOnWhenGetOn: 1
+  launchDriverOnCollision: 0
+  minCollisionVelocityToLaunch: 0
+  launchDirectionOffset: {x: 0, y: 0, z: 0}
+  extraCollisionForce: 1.2
+  ignoreRagdollCollider: 0
+  applyDamageToDriver: 0
+  useCollisionVelocityAsDamage: 0
+  collisionDamageAmount: 0
+  collisionDamageMultiplier: 0
+  ignoreShieldOnLaunch: 1
+  receiveDamageFromCollision: 0
+  minVelocityToDamageCollision: 0
+  useCurrentVelocityAsDamage: 0
+  defaultDamageCollision: 0
+  vehicleRadius: 1
+  audioSourceList:
+  - audioSourceName: Pickup Object Audio Source
+    audioSource: {fileID: 8241954}
+  usedByAI: 0
+  passengersParent: {fileID: 4901916341929460}
+  isBeingDriven: 0
+  passengersOnVehicle: 0
+  showVehicleHUD: 1
+  showVehicleSpeed: 1
+  canUseSelfDestruct: 1
+  canStopSelfDestruction: 1
+  selfDestructDelay: 5
+  ejectPassengerOnSelfDestruct: 1
+  ejectPassengerFoce: 10
+  getOffPassengersOnSelfDestruct: 0
+  canEjectFromVehicle: 1
+  useHornToCallFriends: 0
+  callOnlyFoundFriends: 0
+  radiusToCallFriends: 0
+  useHornEvent: 0
+  hornEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  canUnlockCursor: 0
+  cursorUnlocked: 0
+  useEventsOnStateChanged: 1
+  eventOnGetOn:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnGetOff:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnDestroyed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114518086801983866}
+        m_MethodName: disableOutlineAndRemoveUsers
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 114804225291162140}
+        m_MethodName: setElementActiveStateToMainElementOnSceneManager
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useJumpPlatformEvents: 1
+  jumpPlatformEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11418046}
+        m_MethodName: useVehicleJumpPlatform
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  jumpPlatformParableEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11418046}
+        m_MethodName: useJumpPlatformParable
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setNewJumpPowerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11418046}
+        m_MethodName: setNewJumpPower
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setOriginalJumpPowerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11418046}
+        m_MethodName: setOriginalJumpPower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  passengerGettingOnOffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  changeVehicleStateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventsToCheckIfVehicleUsedByAIOnPassengerEnterExit: 0
+  eventToCheckIfVehicleUsedByAIOnPassengerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventToCheckIfVehicleUsedByAIOnPassengerExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventToSendPassenger: 0
+  eventToSendPassengerOnGetOn:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventToSentPassengerOnGetOff:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  vehicleExplosionForce: 500
+  vehicleExplosionRadius: 50
+  vehicleExplosionForceMode: 0
+  useCustomVehiclePartsToDestroy: 0
+  customVehiclePartsListToDestroy: []
+  useEventOnCustomVehicleParts: 0
+  eventOnCustomVehicleParts:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  customVehiclePartsExplosionForce: 500
+  customVehiclePartsExplosionRadius: 50
+  customVehiclePartsExplosionForceMode: 1
+  fireParticles: []
+  colliderLayerIndexParts: 1200000002000000
+  colliderParts:
+  - {fileID: 13551332}
+  - {fileID: 13557034}
+  colliderWithoutMeshesParts:
+  - {fileID: 13557034}
+  colliderWithoutMeshesPartsToIgnore: []
+  colliderWithMeshesParts: []
+  vehicleDamageReceiverList:
+  - {fileID: 11422672}
+  vehiclePartsToIgnore: []
+  vehicleRendererList:
+  - {fileID: 2385800}
+  vehiclePartInfoList:
+  - vehiclePartGameObject: {fileID: 107638}
+    mainRenderer: {fileID: 2385800}
+    mainRigidbody: {fileID: 0}
+    mainCollider: {fileID: 13551332}
+    addCollider: 0
+  debugLaunchCharacterSpeed: 0
+  debugLaunchCharacterPosition: {x: 0, y: 0, z: 0}
+  IKDrivingManager: {fileID: 11474432}
+  weaponsManager: {fileID: 0}
+  mainRigidbody: {fileID: 5474346}
+  damageInScreenManager: {fileID: 11487120}
+  mapInformationManager: {fileID: 11489234}
+  vehicleCameraManager: {fileID: 11460018}
+  gasTankManager: {fileID: 0}
+  vehicleGravitymanager: {fileID: 11456842}
+  mainVehicleController: {fileID: 11418046}
+  mainDecalManagerName: Decal Manager
+  impactDecalList:
+  - Default Regular Shoot
+  - Metal Regular Shoot
+  - Flesh Regular Shoot
+  - Stone Shoot
+  - Sand Shoot
+  - Wood Shoot
+  - 
+  impactDecalIndex: 1
+  impactDecalName: Metal Regular Shoot
+  useImpactSurface: 1
+  currentHUDElements:
+    vehicleHealth: {fileID: 0}
+    vehicleBoost: {fileID: 0}
+    vehicleFuel: {fileID: 0}
+    vehicleAmmo: {fileID: 0}
+    weaponName: {fileID: 0}
+    ammoInfo: {fileID: 0}
+    healthContent: {fileID: 0}
+    energyContent: {fileID: 0}
+    ammoContent: {fileID: 0}
+    fuelContent: {fileID: 0}
+    vehicleCursor: {fileID: 0}
+    currentSpeed: {fileID: 0}
+    speedContent: {fileID: 0}
+    defaultVehicleCursor: {fileID: 0}
+    defaultVehicleCursorColor: {r: 0, g: 0, b: 0, a: 0}
+    defaultVehicleCursorSize: {x: 0, y: 0}
+  healthAmountToTakeOnEditor: 0
+  showDebugLogCollisions: 0
+  healthStatName: Health
+  energyStatName: Energy
+  fuelStatName: Fuel
+  showAllSettings: 0
+  showMainSettings: 0
+  showVehicleStats: 0
+  showAdvancedSettings: 0
+  showEventSettings: 1
+  showDebugSettings: 0
+  showOtherSettings: 0
+  showPhysicsSettings: 0
+  showVehicleElements: 0
+  eventToSendCurrentFuelAmount:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventToSendCurrentHealthAmount:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114804225291162140}
+        m_MethodName: setCurrentFloatValueToSave
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventToSendCurrentBoostAmount:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setCollidersOnAllVehicleMeshParts: 1
+--- !u!114 &11456842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641b7a2593f6e1e4fb8f3acf98d0c96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useGravity: 0
+  gravityForce: 9.8
+  searchNewSurfaceOnHighFallSpeed: 1
+  shakeCameraOnHighFallSpeed: 1
+  minSpeedToShakeCamera: 10
+  checkSurfaceBelowOnRegularState: 0
+  timeToSetNullParentOnAir: 0.5
+  circumnavigateRotationSpeed: 10
+  circumnavigateCurrentSurfaceActive: 0
+  useLerpRotation: 0
+  checkSurfaceBelowLedge: 0
+  surfaceBelowLedgeRaycastDistance: 3
+  belowLedgeRotationSpeed: 10
+  minAngleDifferenceToAdhereToSurface: 4
+  changeDriverGravityWhenGetsOff: 1
+  regularGravity: {x: 0, y: 1, z: 0}
+  currentNormal: {x: 0, y: 1, z: 0}
+  startWithNewGravity: 0
+  useVehicleRotation: 0
+  adjustRotationToSurfaceFound: 0
+  newGravityToStart: {x: 0, y: 0, z: 0}
+  settings:
+    layer:
+      serializedVersion: 2
+      m_Bits: 4290374651
+    speed: 10
+    accelerateSpeed: 20
+    velocityToSearch: 10
+    gravityMultiplier: 1
+    rayDistance: 0.6
+    vehicleRadius: 0.82
+    centerOfMass: {fileID: 418322}
+    canUseGravityControl: 1
+    massDivider: 1000
+    tagForCircumnavigate: sphere
+    tagForMovingObjects: moving
+  gravityControlEnabled: 0
+  OnGround: 0
+  gravityPowerActive: 0
+  powerActivated: 0
+  recalculatingSurface: 0
+  searchingSurface: 0
+  searchingNewSurfaceBelow: 0
+  searchAround: 0
+  rotating: 0
+  showGizmo: 0
+  gravityAdherenceRaycastParent: {fileID: 0}
+  surfaceBelowRaycastTransform: {fileID: 0}
+  mainVehicleController: {fileID: 11418046}
+  gravityCenterCollider: {fileID: 13557034}
+  mainRigidbody: {fileID: 5474346}
+  vehicleCameraManager: {fileID: 11460018}
+  HUDManager: {fileID: 11455464}
+  actionManager: {fileID: 11467090}
+--- !u!114 &11460018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5055429832252e745aefbd9519945721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstPersonVerticalRotationSpeed: 6
+  firstPersonHorizontalRotationSpeed: 6
+  thirdPersonVerticalRotationSpeed: 6
+  thirdPersonHorizontalRotationSpeed: 6
+  currentVerticalRotationSpeed: 0
+  currentHorizontalRotationSpeed: 0
+  useSmoothCameraRotation: 1
+  useSmoothCameraRotationThirdPerson: 1
+  smoothCameraRotationSpeedVerticalThirdPerson: 24
+  smoothCameraRotationSpeedHorizontalThirdPerson: 24
+  useSmoothCameraRotationFirstPerson: 1
+  smoothCameraRotationSpeedVerticalFirstPerson: 24
+  smoothCameraRotationSpeedHorizontalFirstPerson: 24
+  clipCastRadius: 0.16
+  backClipSpeed: 0
+  maximumBoostDistance: 4
+  cameraBoostSpeed: 2
+  smoothBetweenState: 0.5
+  defaultStateName: Third Person
+  currentStateName: Third Person
+  cameraStateIndex: 0
+  vehicleCameraStates:
+  - name: Third Person
+    pivotTransform: {fileID: 435090}
+    cameraTransform: {fileID: 436452}
+    useRotationInput: 1
+    xLimits: {x: 45, y: 85}
+    yLimits: {x: 0, y: 0}
+    rotateMainCameraOnFirstPerson: 0
+    useNewCameraFov: 0
+    newCameraFov: 0
+    enabled: 1
+    firstPersonCamera: 0
+    cameraFixed: 0
+    smoothTransition: 0
+    useIdentityRotation: 0
+    canUnlockCursor: 0
+    useCameraSteer: 0
+    useDeadZoneForCameraSteer: 0
+    deadZoneAngle: 0
+    canUseZoom: 1
+    zoomSpeed: 120
+    zoomFovValue: 17
+    verticalRotationSpeedZoomIn: 2.5
+    horizontalRotationSpeedZoomIn: 2.5
+    showGizmo: 1
+    gizmoColor: {r: 0.9705882, g: 0, b: 0, a: 1}
+    labelGizmoOffset: 0
+    gizmoSettings: 0
+    originalDist: 0
+    originalPivotPosition: {x: 0, y: 0, z: 0}
+  - name: First Person
+    pivotTransform: {fileID: 4879178571784100}
+    cameraTransform: {fileID: 4573804302614320}
+    useRotationInput: 1
+    xLimits: {x: 90, y: 90}
+    yLimits: {x: 360, y: 360}
+    rotateMainCameraOnFirstPerson: 1
+    useNewCameraFov: 0
+    newCameraFov: 0
+    enabled: 1
+    firstPersonCamera: 1
+    cameraFixed: 0
+    smoothTransition: 0
+    useIdentityRotation: 0
+    canUnlockCursor: 0
+    useCameraSteer: 0
+    useDeadZoneForCameraSteer: 0
+    deadZoneAngle: 0
+    canUseZoom: 1
+    zoomSpeed: 120
+    zoomFovValue: 17
+    verticalRotationSpeedZoomIn: 2.5
+    horizontalRotationSpeedZoomIn: 2.5
+    showGizmo: 1
+    gizmoColor: {r: 0.82068956, g: 1, b: 0, a: 1}
+    labelGizmoOffset: 0
+    gizmoSettings: 0
+    originalDist: 0
+    originalPivotPosition: {x: 0, y: 0, z: 0}
+  - name: Move Away
+    pivotTransform: {fileID: 444752}
+    cameraTransform: {fileID: 450020}
+    useRotationInput: 1
+    xLimits: {x: 68, y: 90}
+    yLimits: {x: 0, y: 0}
+    rotateMainCameraOnFirstPerson: 0
+    useNewCameraFov: 0
+    newCameraFov: 0
+    enabled: 1
+    firstPersonCamera: 0
+    cameraFixed: 0
+    smoothTransition: 0
+    useIdentityRotation: 0
+    canUnlockCursor: 0
+    useCameraSteer: 0
+    useDeadZoneForCameraSteer: 0
+    deadZoneAngle: 0
+    canUseZoom: 1
+    zoomSpeed: 120
+    zoomFovValue: 17
+    verticalRotationSpeedZoomIn: 2.5
+    horizontalRotationSpeedZoomIn: 2.5
+    showGizmo: 1
+    gizmoColor: {r: 0.82068956, g: 1, b: 0, a: 1}
+    labelGizmoOffset: 0
+    gizmoSettings: 0
+    originalDist: 0
+    originalPivotPosition: {x: 0, y: 0, z: 0}
+  - name: Top Down Camera
+    pivotTransform: {fileID: 4151692474502714}
+    cameraTransform: {fileID: 4219395875993632}
+    useRotationInput: 0
+    xLimits: {x: 0, y: 0}
+    yLimits: {x: 0, y: 0}
+    rotateMainCameraOnFirstPerson: 0
+    useNewCameraFov: 0
+    newCameraFov: 0
+    enabled: 1
+    firstPersonCamera: 1
+    cameraFixed: 0
+    smoothTransition: 0
+    useIdentityRotation: 1
+    canUnlockCursor: 0
+    useCameraSteer: 0
+    useDeadZoneForCameraSteer: 0
+    deadZoneAngle: 0
+    canUseZoom: 1
+    zoomSpeed: 120
+    zoomFovValue: 17
+    verticalRotationSpeedZoomIn: 2.5
+    horizontalRotationSpeedZoomIn: 2.5
+    showGizmo: 1
+    gizmoColor: {r: 0.82068956, g: 1, b: 0, a: 1}
+    labelGizmoOffset: 0
+    gizmoSettings: 0
+    originalDist: 0
+    originalPivotPosition: {x: 0, y: 0, z: 0}
+  shakeSettings:
+    useDamageShake: 1
+    sameValueBothViews: 0
+    useDamageShakeInThirdPerson: 1
+    thirdPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 5, z: 0}
+      shakeRotationSpeed: {x: 0, y: 40, z: 0}
+      shakeRotationSmooth: 1
+      shakeDuration: 0.2
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+    useDamageShakeInFirstPerson: 1
+    firstPersonDamageShake:
+      shakePosition: {x: 0, y: 0, z: 0}
+      shakePositionSpeed: {x: 0, y: 0, z: 0}
+      shakePositionSmooth: 0
+      shakeRotation: {x: 0, y: 5, z: 0}
+      shakeRotationSpeed: {x: 0, y: 40, z: 0}
+      shakeRotationSmooth: 1
+      shakeDuration: 0.2
+      decreaseShakeInTime: 0
+      decreaseShakeSpeed: 0
+      useDelayBeforeStartDecrease: 0
+      delayBeforeStartDecrease: 0
+      repeatShake: 0
+      numberOfRepeats: 0
+      delayBetweenRepeats: 0
+      externalShakeDelay: 0
+      useUnscaledTime: 0
+  gizmoRadius: 0.12
+  showGizmo: 0
+  labelGizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  vehicle: {fileID: 134852}
+  vehicleTransformToFollow: {fileID: 0}
+  layer:
+    serializedVersion: 2
+    m_Bits: 4294705147
+  cameraChangeEnabled: 1
+  rotationDamping: 3
+  cameraPaused: 0
+  zoomEnabled: 1
+  isFirstPerson: 0
+  usingZoomOn: 0
+  currentState:
+    name: 
+    pivotTransform: {fileID: 0}
+    cameraTransform: {fileID: 0}
+    useRotationInput: 0
+    xLimits: {x: 0, y: 0}
+    yLimits: {x: 0, y: 0}
+    rotateMainCameraOnFirstPerson: 0
+    useNewCameraFov: 0
+    newCameraFov: 0
+    enabled: 0
+    firstPersonCamera: 0
+    cameraFixed: 0
+    smoothTransition: 0
+    useIdentityRotation: 0
+    canUnlockCursor: 0
+    useCameraSteer: 0
+    useDeadZoneForCameraSteer: 0
+    deadZoneAngle: 0
+    canUseZoom: 0
+    zoomSpeed: 0
+    zoomFovValue: 0
+    verticalRotationSpeedZoomIn: 0
+    horizontalRotationSpeedZoomIn: 0
+    showGizmo: 0
+    gizmoColor: {r: 0, g: 0, b: 0, a: 0}
+    labelGizmoOffset: 0
+    gizmoSettings: 0
+    originalDist: 0
+    originalPivotPosition: {x: 0, y: 0, z: 0}
+  smoothTransitionsInNewCameraFov: 0
+  drivingVehicle: 0
+  sendCurrentCameraTransformOnChangeState: 0
+  eventToSendCurrentCameraTransformOnChangeState:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithTransform, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  resetCameraRotationOnGetOff: 0
+  showCameraDirectionGizmo: 0
+  gizmoArrowLength: 1
+  gizmoArrowLineLength: 2.5
+  gizmoArrowAngle: 20
+  useSmoothCameraFollow: 0
+  smoothCameraFollowSpeed: 0
+  smoothCameraFollowMaxDistance: 0
+  smoothCameraFollowMaxDistanceSpeed: 0
+  IKDrivingManager: {fileID: 11474432}
+  weaponManager: {fileID: 0}
+  hudManager: {fileID: 11455464}
+  actionManager: {fileID: 11467090}
+  gravityControl: {fileID: 11456842}
+  mainRigidbody: {fileID: 5474346}
+  shakingManager: {fileID: 11423766}
+  lookAngle: {x: 0, y: 0}
+  showShakeSettings: 0
+--- !u!114 &11467090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bda270592482b46b1333dcb852f081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiAxesList:
+  - axesName: Sphere Vehicle Controls
+    axes:
+    - actionName: Vehicle Jump
+      Name: Vehicle Jump
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputJump
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 0
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: Space
+    - actionName: Enable Turbo
+      Name: Turbo
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputHoldOrReleaseTurbo
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 1
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: LeftShift
+    - actionName: Disable Turbo
+      Name: Turbo
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 2
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputHoldOrReleaseTurbo
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 1
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 0
+      keyButton: LeftShift
+    - actionName: Start Brake
+      Name: Brake
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputHoldOrReleaseBrake
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 2
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: G
+    - actionName: Stop Brake
+      Name: Brake
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 2
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputHoldOrReleaseBrake
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 2
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: G
+    - actionName: Enable Gravity Control
+      Name: Enable Gravity Control
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11456842}
+            m_MethodName: inputEnableOrDisableGravityControl
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 3
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: R
+    - actionName: Disable Gravity Control
+      Name: Disable Gravity Control
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11456842}
+            m_MethodName: inputEnableOrDisableGravityControl
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 4
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: F
+    - actionName: Increase Gravity Speed
+      Name: Increase Gravity Speed
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11456842}
+            m_MethodName: inputIncreasOrDecreaseGravitySpeed
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 5
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: LeftShift
+    - actionName: Decrease Gravity Speed
+      Name: Increase Gravity Speed
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 2
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11456842}
+            m_MethodName: inputIncreasOrDecreaseGravitySpeed
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 5
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 0
+      keyButton: LeftShift
+    - actionName: Change Vehicle Camera
+      Name: Change Vehicle Camera
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11460018}
+            m_MethodName: inputChangeCamera
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 6
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: V
+    - actionName: Show Controls Menu
+      Name: Show Controls Menu
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputShowControlsMenu
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 7
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: N
+    - actionName: Vehicle Zoom
+      Name: Vehicle Zoom
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11460018}
+            m_MethodName: inputZoom
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 8
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: Tab
+    - actionName: Self Destruct
+      Name: Selft Destruct
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputSelfDestruct
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 10
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: C
+    - actionName: Eject
+      Name: Eject
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputEject
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputEjectWithFreeFloatingMode
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 11
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 1
+      keyButton: LeftControl
+    - actionName: Get Off
+      Name: Get Off
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11455464}
+            m_MethodName: inputGetOffFromVehicle
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 12
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 0
+      keyButton: None
+    - actionName: Start Climb
+      Name: Climb
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11418046}
+            m_MethodName: inputToggleClimbState
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 13
+      axesStringList:
+      - Vehicle Jump
+      - Turbo
+      - Brake
+      - Enable Gravity Control
+      - Disable Gravity Control
+      - Increase Gravity Speed
+      - Change Vehicle Camera
+      - Show Controls Menu
+      - Vehicle Zoom
+      - Set TurnOn State
+      - Selft Destruct
+      - Eject
+      - Get Off
+      - Climb
+      multiAxesStringIndex: 0
+      showInControlsMenu: 0
+      keyButton: 
+    screenActionsGameObject: {fileID: 0}
+    currentlyActive: 1
+    multiAxesStringIndex: 29
+    multiAxesStringList:
+    - Player Controller
+    - Player Camera
+    - Gravity System
+    - Grab Objects
+    - Powers
+    - Abilities
+    - Use Devices
+    - Close Combat
+    - Scanner
+    - Player Weapons
+    - Inventory Menu
+    - Map Menu
+    - Friend List Manager
+    - Examine Object
+    - Puzzles
+    - Hide System
+    - Override System
+    - Fly System
+    - Jetpack
+    - Others
+    - Override Turrets
+    - Override Regular Object
+    - Override Explosive Barrel
+    - Aircraft Controls
+    - Car Controls
+    - Flying Vehicle Controls
+    - Hoverboard Controls
+    - Hovercraft Controls
+    - Motorbike Controls
+    - Sphere Vehicle Controls
+    - Usable Turret Controls
+    - Chair Controls
+    - Photo Mode
+    - Car Controls (Without Axis)
+    - Magic System
+    - Swim System
+    - Animal Controls
+  inputActivated: 0
+  input: {fileID: 0}
+  showDebugActions: 0
+  inputCurrentlyActive: 1
+  inputPaused: 0
+  manualControlActive: 0
+  manualHorizontalInput: 0
+  manualVerticalInput: 0
+  manualMouseHorizontalInput: 0
+  manualMouseVerticalInput: 0
+  setAutomaticValuesOnHorizontalInput: 1
+  setAutomaticValuesOnVerticalInput: 1
+  setAutomaticValuesOnMouseHorizontalInput: 1
+  setAutomaticValuesOnVerticalVerticalInput: 1
+  usingTouchMovementJoystick: 1
+  enableTouchJoysticks: 1
+  overrideInputValuesActive: 0
+  movementAxis: {x: 0, y: 0}
+  mouseAxis: {x: 0, y: 0}
+  rawMovementAxis: {x: 0, y: 0}
+  useAxisAsHorizontalMovementInput: 1
+  useAxisAsVerticalMovementInput: 1
+  horizontalMovementInputLerpSpeed: 10
+  verticalMovementInputLerpSpeed: 5
+  useExternalVehicleTouchControlsEnabled: 0
+  disableTouchJoysticksOnExternalVehicleEnabled: 0
+  eventToActivateTouchControlsOnExternalVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventToDeactivateTouchControlsOnExternalVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &11470894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe7bfbecac2ee4895bd133d0b782df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: Sphere Vehicle
+  deviceAction: Drive
+  useMultipleInteraction: 0
+  multipleInteractionNameList: []
+  secondaryDeviceAction: 
+  reloadDeviceActionOnPress: 0
+  hideIconOnPress: 0
+  disableIconOnPress: 0
+  showIcon: 1
+  showTouchIconButton: 1
+  hideIconOnUseDevice: 0
+  showIconOnStopUseDevice: 0
+  useTransformForStringAction: 0
+  transformForStringAction: {fileID: 0}
+  useSeparatedTransformForEveryView: 0
+  transformForThirdPerson: {fileID: 0}
+  transformForFirstPerson: {fileID: 0}
+  useLocalOffset: 1
+  actionOffset: 1
+  setUsingDeviceState: 0
+  setTextFontSizeActive: 0
+  textFontSize: 17
+  iconEnabled: 1
+  useRaycastToDetectDeviceParts: 0
+  usingDevice: 0
+  useCustomMinDistanceToUseDevice: 0
+  customMinDistanceToUseDevice: 0
+  useCustomMinAngleToUse: 0
+  customMinAngleToUseDevice: 0
+  useRelativeDirectionBetweenPlayerAndObject: 0
+  useCustomIconButtonInfo: 0
+  customIconButtonInfoName: 
+  ignoreUseOnlyDeviceIfVisibleOnCamera: 1
+  useCustomDeviceTransformPosition: 0
+  customDeviceTransformPosition: {fileID: 0}
+  useFixedDeviceIconPosition: 0
+  checkIfObstacleBetweenDeviceAndPlayer: 0
+  showIconTexture: 0
+  iconTexture: {fileID: 0}
+  useObjectDescription: 0
+  objectDescription: 
+  descriptionFontSize: 14
+  showObjectAmount: 0
+  objectAmount: 0
+  useHoldInteractionButton: 0
+  holdInteractionButtonDuration: 0
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &11474432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f31bc27c19c5d4b9a064b660fdbc6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExternalVehicleController: 0
+  vehicle: {fileID: 134852}
+  vehicelCameraGameObject: {fileID: 136054}
+  useCustomVehicleGameObject: 0
+  customVehicleGameObject: {fileID: 0}
+  IKDrivingInfo:
+    Name: 
+    setNewScaleOnPassenger: 0
+    newScaleOnPassenger: {x: 0, y: 0, z: 0}
+    showIKPositionsGizmo: 1
+    useIKOnVehicle: 1
+    IKDrivingPos: []
+    IKDrivingKneePos: []
+    useSteerDirection: 0
+    steerDirecion: {fileID: 0}
+    useHeadLookDirection: 0
+    headLookDirection: {fileID: 0}
+    useHeadLookPosition: 0
+    headLookPosition: {fileID: 0}
+    vehicleSeatInfo:
+      currentPassenger: {fileID: 0}
+      seatIsFree: 0
+      seatTransform: {fileID: 455104}
+      rightGetOffPosition: {fileID: 4640581135507732}
+      leftGetOffPosition: {fileID: 4180531507482718}
+      getOffDistance: 1.5
+      getOffPlace: 0
+      isDriverSeat: 1
+      useGrabbingHandID: 0
+      rightGrabbingHandID: 1
+      leftGrabbingHandID: 1
+      currentlyOnFirstPerson: 0
+      useActionSystemToEnterExitSeat: 0
+      eventOnActionToEnter:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventOnActionToExit:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToCancelActionEnterAndExit:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      actionSystemToEnterVehicle: {fileID: 0}
+      actionSystemToExitVehicle: {fileID: 0}
+      actionSystemToJumpOffFromVehicle: {fileID: 0}
+      remoteEventToCancelActionEnterExitInsideVehicle: Cancel Action Enter Exit Inside
+        Vehicle
+      remoteEventToCancelActionEnterExitOutsideVehicle: Cancel Action Enter Exit Outside
+        Vehicle
+      cancelActionEnterExitVehicleIfSpeedTooHigh: 1
+      minSpeedToCancelActionEnterExitVehicle: 40
+      minSpeedToJumpOffFromVehicle: 30
+      delayToStartJumpOff: 0.5
+      enterExitActionInProcess: 0
+    adjustPassengerPositionActive: 1
+    disableIKOnPassengerSmoothly: 0
+    currentDriveIkWeightValue: 1
+    shakePlayerBodyOnCollision: 0
+    playerBodyParent: {fileID: 0}
+    currentSeatUpRotation: {x: 0, y: 0, z: 0}
+    currentSeatShake: {x: 0, y: 0, z: 0}
+    currentAngularDirection: {x: 0, y: 0, z: 0}
+    stabilitySpeed: 0
+    shakeSpeed: 0
+    shakeFadeSpeed: 0
+    shakeForceDirectionMinClamp: {x: -6, y: -6, z: -6}
+    shakeForceDirectionMaxClamp: {x: 6, y: 6, z: 6}
+    forceDirection: {x: 1, y: 1, z: 1}
+    useAnimationActionIDOnDriveIdle: 0
+    animationActionID: 666778
+    showGizmo: 1
+  IKVehiclePassengersList:
+  - Name: Driver
+    setNewScaleOnPassenger: 0
+    newScaleOnPassenger: {x: 0, y: 0, z: 0}
+    showIKPositionsGizmo: 1
+    useIKOnVehicle: 1
+    IKDrivingPos: []
+    IKDrivingKneePos: []
+    useSteerDirection: 0
+    steerDirecion: {fileID: 0}
+    useHeadLookDirection: 0
+    headLookDirection: {fileID: 0}
+    useHeadLookPosition: 0
+    headLookPosition: {fileID: 0}
+    vehicleSeatInfo:
+      currentPassenger: {fileID: 0}
+      seatIsFree: 1
+      seatTransform: {fileID: 455104}
+      rightGetOffPosition: {fileID: 4640581135507732}
+      leftGetOffPosition: {fileID: 4180531507482718}
+      getOffDistance: 1.5
+      getOffPlace: 0
+      isDriverSeat: 1
+      useGrabbingHandID: 0
+      rightGrabbingHandID: 1
+      leftGrabbingHandID: 1
+      currentlyOnFirstPerson: 0
+      useActionSystemToEnterExitSeat: 0
+      eventOnActionToEnter:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventOnActionToExit:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToCancelActionEnterAndExit:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      actionSystemToEnterVehicle: {fileID: 0}
+      actionSystemToExitVehicle: {fileID: 0}
+      actionSystemToJumpOffFromVehicle: {fileID: 0}
+      remoteEventToCancelActionEnterExitInsideVehicle: Cancel Action Enter Exit Inside
+        Vehicle
+      remoteEventToCancelActionEnterExitOutsideVehicle: Cancel Action Enter Exit Outside
+        Vehicle
+      cancelActionEnterExitVehicleIfSpeedTooHigh: 1
+      minSpeedToCancelActionEnterExitVehicle: 40
+      minSpeedToJumpOffFromVehicle: 30
+      delayToStartJumpOff: 0.5
+      enterExitActionInProcess: 0
+    adjustPassengerPositionActive: 1
+    disableIKOnPassengerSmoothly: 0
+    currentDriveIkWeightValue: 1
+    shakePlayerBodyOnCollision: 0
+    playerBodyParent: {fileID: 0}
+    currentSeatUpRotation: {x: 0, y: 0, z: 0}
+    currentSeatShake: {x: 0, y: 0, z: 0}
+    currentAngularDirection: {x: 0, y: 0, z: 0}
+    stabilitySpeed: 0
+    shakeSpeed: 0
+    shakeFadeSpeed: 0
+    shakeForceDirectionMinClamp: {x: -6, y: -6, z: -6}
+    shakeForceDirectionMaxClamp: {x: 6, y: 6, z: 6}
+    forceDirection: {x: 1, y: 1, z: 1}
+    useAnimationActionIDOnDriveIdle: 0
+    animationActionID: 666778
+    showGizmo: 1
+  hidePlayerFromNPCs: 0
+  playerVisibleInVehicle: 0
+  ejectPlayerWhenDestroyed: 0
+  ejectingPlayerForce: 0
+  useExplosionForceWhenDestroyed: 0
+  explosionRadius: 0
+  explosionForce: 0
+  explosionDamage: 0
+  ignoreShield: 0
+  damageTypeID: -1
+  useRemoteEventOnObjectsFound: 0
+  removeEventName: 
+  showGizmo: 0
+  gizmoLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.1
+  useHandleForVertex: 0
+  handleRadius: 0
+  handleGizmoColor: {r: 0, g: 0, b: 0, a: 0}
+  usePositionHandle: 1
+  controlsMenuOpened: 0
+  hidePlayerWeaponsWhileDriving: 1
+  showSettings: 0
+  resetCameraRotationWhenGetOn: 1
+  resetCameraRotationWhenGetOff: 0
+  startGameInThisVehicle: 0
+  playerForVehicle: {fileID: 0}
+  playerIsAlwaysDriver: 1
+  pushCharactersOnExplosion: 1
+  applyExplosionForceToVehicles: 1
+  explosionForceToVehiclesMultiplier: 0.2
+  killObjectsInRadius: 0
+  forceMode: 0
+  useLayerMask: 0
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
+  canBeDrivenRemotely: 0
+  isBeingDrivenRemotely: 0
+  activateFreeFloatingModeOnEject: 0
+  activateFreeFloatingModeOnEjectDelay: 0.5
+  drawFireWeaponIfCarryingPreviously: 1
+  drawMeleeWeaponIfCarryingPreviously: 1
+  addCollisionForceDirectionToPassengers: 0
+  extraCollisionForceAmount: {x: 1, y: 1, z: 1}
+  addAngularDirectionToPassengers: 0
+  vehicleStabilitySpeed: 1
+  extraAngularDirectioAmount: {x: 0, y: 0, z: 0}
+  useMinCollisionForce: 0
+  minCollisionForce: 0
+  debugCollisionForce: {x: 0, y: 0, z: 0}
+  activateActionScreen: 1
+  actionScreenName: Sphere Controls
+  useEventOnDriverGetOn: 1
+  eventOnDriverGetOn:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114184099639525954}
+        m_MethodName: callRemoteEvent
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  useEventOnDriverGetOff: 1
+  eventOnDriverGetOff:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114904055864931086}
+        m_MethodName: callRemoteEvent
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setPlayerCameraStateOnGetOff: 0
+  setPlayerCameraStateOnFirstPersonOnGetOff: 0
+  playerCameraStateOnGetOff: 
+  setVehicleCameraStateOnGetOn: 0
+  setVehicleCameraStateOnFirstPersonOnGetOn: 0
+  vehicleCameraStateOnGetOn: 
+  resetAnimatorDrivingStateID: 666777
+  actionManager: {fileID: 11467090}
+  vehicleCameraManager: {fileID: 11460018}
+  HUDManager: {fileID: 11455464}
+  currentVehicleWeaponSystem: {fileID: 0}
+  vehicleGravityManager: {fileID: 11456842}
+  mainCollider: {fileID: 13536820}
+  useRemoteEventsOnPassengers: 1
+  remoteEventNameListGetOn:
+  - Set Driving State
+  remoteEventNameListGetOff:
+  - Set Regular State
+  showDebugPrint: 0
+  passengerGameObjectList: []
+--- !u!114 &11487120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e38539b6354282345abf4dc1924ff441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showScreenInfoEnabled: 1
+  damageOnScreenId: 0
+  removeDamageInScreenOnDeath: 1
+  iconOffset: {x: 0, y: 0, z: 0}
+  mainManagerName: Damage On Screen Info Manager
+  pauseDamageInScreen: 0
+  targetTransform: {fileID: 0}
+--- !u!114 &11489234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d4c2c8aae3ca649a0b7c20bf5d8aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapObjectName: 
+  description: This is a simple sphere vehicle.
+  mapObject: {fileID: 0}
+  offsetRadius: 0
+  showOffScreenIcon: 1
+  showMapWindowIcon: 1
+  showDistance: 1
+  showDistanceOffScreen: 0
+  isActivate: 1
+  visibleInAllBuildings: 0
+  visibleInAllFloors: 0
+  calculateFloorAtStart: 0
+  useCloseDistance: 1
+  triggerRadius: 5
+  triggerColor: {r: 0, g: 0, b: 1, a: 1}
+  gizmoLabelOffset: 0
+  gizmoLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  typeIndex: 9
+  typeName: Vehicle
+  typeNameList:
+  - Enemy
+  - Friend
+  - Objective
+  - Locked Door
+  - Mark
+  - Recharge Station
+  - Unlocked Door
+  - Security Camera
+  - Chest
+  - Vehicle
+  - Elevator
+  - Elevator Button
+  - Beacon
+  - Path Element
+  - Save Station
+  - Locked Chest
+  floorIndex: 0
+  currentFloor: Enemy
+  floorList:
+  - Visible in all floors
+  - floor-001
+  - floor-002
+  - floor-003
+  - floor-004
+  - floor-005
+  extraIconSizeOnMap: 0
+  followCameraRotation: 0
+  followObjectRotation: 0
+  offset: {x: 0, y: 0, z: 0}
+  mapManager: {fileID: 0}
+  useCustomObjectiveColor: 0
+  objectiveColor: {r: 0, g: 0, b: 0, a: 0}
+  removeCustomObjectiveColor: 0
+  objectiveOffset: 0
+  removeComponentWhenObjectiveReached: 1
+  disableWhenPlayerHasReached: 0
+  buildingIndex: 0
+  buildingName: 
+  buildingList: []
+  currentBuilding: 
+  belongToMapPart: 0
+  mapPartName: 
+  mapPartList: []
+  mapPartIndex: 0
+  mapCreatorManager: {fileID: 0}
+  useCustomValues: 0
+  ID: 2
+  callEventWhenPointReached: 0
+  pointReachedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventsOnChangeFloor: 0
+  useEventOnEnabledFloor: 0
+  evenOnEnabledFloor:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnDisabledFloor: 0
+  evenOnDisabledFloor:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  canChangeBuildingAndFloor: 0
+  activateAtStart: 1
+  offsetGizmoColor: {r: 0, g: 0, b: 0, a: 0}
+  offsetShowGizmo: 0
+  showGizmo: 0
+  currentMapObjectInfo:
+    name: 
+    typeName: 
+    mapObject: {fileID: 0}
+    mapIcon: {fileID: 0}
+    buildingIndex: 0
+    floorIndex: 0
+    floorNumber: 0
+    mapPartIndex: 0
+    offset: {x: 0, y: 0, z: 0}
+    isActivated: 0
+    textName: {fileID: 0}
+    ID: 0
+    mapPartOwnerFound: 0
+    canBeShowTemporaly: 0
+    visibleAllFloors: 0
+    hasFloorAssigned: 0
+    visibleAllBuildings: 0
+    hasMapObjectInformation: 0
+    useEventsOnChangeFloor: 0
+    mapObjectInformationManager: {fileID: 0}
+    extraIconSizeOnMap: 0
+    followCameraRotation: 0
+    followObjectRotation: 0
+    compassIcon:
+      Name: 
+      iconGameObject: {fileID: 0}
+      iconTransform: {fileID: 0}
+      iconRectTransform: {fileID: 0}
+      iconTargetTransform: {fileID: 0}
+      verticalOffset: 0
+      lastIconAngle: 0
+      useCompassClamp: 0
+      currentCompassTargetRotation: 0
+      firstValueAssigned: 0
+  setCustomCompassSettings: 0
+  useCompassIcon: 0
+  compassIconPrefab: {fileID: 0}
+  verticalOffset: 0
+  mapObjectAssigned: 0
+  mainScreenObjectivesManagerName: Screen Objectives Manager
+--- !u!135 &13536820
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &13551332
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107638}
+  m_Material: {fileID: 13400000, guid: 814078a2823abb54696ec6e05555399d, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &13557034
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.56
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 185056}
+  m_IsPrefabParent: 1
+--- !u!1 &1042853200438630
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4591220185135256}
+  m_Layer: 2
+  m_Name: Events On Driver Getting On/Off
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1089418965324614
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4319853194831352}
+  - component: {fileID: 114184099639525954}
+  m_Layer: 2
+  m_Name: Events On Driver Getting On
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1253550031995496
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4320180458960768}
+  m_Layer: 2
+  m_Name: Seats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1305040455330196
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4339002272735878}
+  - component: {fileID: 114904055864931086}
+  m_Layer: 2
+  m_Name: Events On Driver Getting Off
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1392993229174056
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4879178571784100}
+  m_Layer: 0
+  m_Name: First Person Pitvot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1451907320955690
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4640581135507732}
+  m_Layer: 0
+  m_Name: Right Get Off Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1659714468332494
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4573804302614320}
+  m_Layer: 0
+  m_Name: First Person Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1662231371907108
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4219395875993632}
+  m_Layer: 0
+  m_Name: Top Down Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1700916590341518
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4180531507482718}
+  m_Layer: 0
+  m_Name: Left Get Off Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1740464839243130
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4828978743411268}
+  m_Layer: 2
+  m_Name: Other Elements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1804453398562146
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4151692474502714}
+  m_Layer: 0
+  m_Name: Top Down Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1886945719174192
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4901916341929460}
+  m_Layer: 2
+  m_Name: Passengers Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4151692474502714
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1804453398562146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.72, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4219395875993632}
+  m_Father: {fileID: 433164}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4180531507482718
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1700916590341518}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0.66199994, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433164}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4219395875993632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662231371907108}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4151692474502714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!4 &4319853194831352
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1089418965324614}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591220185135256}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4320180458960768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253550031995496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 424672}
+  m_Father: {fileID: 486068}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4339002272735878
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305040455330196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591220185135256}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4573804302614320
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1659714468332494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4879178571784100}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4591220185135256
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1042853200438630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4319853194831352}
+  - {fileID: 4339002272735878}
+  m_Father: {fileID: 4828978743411268}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4640581135507732
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451907320955690}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0.6619997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433164}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4828978743411268
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1740464839243130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4591220185135256}
+  m_Father: {fileID: 419820}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4879178571784100
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392993229174056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4573804302614320}
+  m_Father: {fileID: 433164}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4901916341929460
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1886945719174192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 486068}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114061196958293228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4451bc431f0ac424e82a3c6892b12b09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionOffset: {x: 0, y: 0, z: 0}
+  rotationAmount: 90
+  layerToPlaceElements:
+    serializedVersion: 2
+    m_Bits: 1
+  useCustomObjectToSnap: 0
+  customObjectToSnap: {fileID: 0}
+  objectToSelect: {fileID: 0}
+  objectsToMoveList:
+  - {fileID: 405634}
+--- !u!114 &114184099639525954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1089418965324614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6760227c5775449b0a12c2c3ed74d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  remoteEventToCall: Enable Touch Sphere Vehicle Scheme
+  useAmount: 0
+  amountValue: 0
+  useBool: 0
+  boolValue: 0
+  useGameObject: 0
+  gameObjectToUse: {fileID: 0}
+  useTransform: 0
+  transformToUse: {fileID: 0}
+  useRemoveEventInfoList: 0
+  useSameRemoteEvenToCall: 1
+  removeEventInfoList: []
+  assignObjectManually: 0
+  objectToAssign: {fileID: 0}
+  searchPlayerOnSceneIfNotAssigned: 0
+--- !u!114 &114343926428268090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3439ef56462ca91469ca7959ad11fc4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attractObjectEnabled: 1
+  attractPlayerEnabled: 0
+  enableGravityOnDeactivateAttract: 0
+  useReducedVelocityOnDisableAttract: 1
+  maxReducedSpeed: 0.5
+  reducedSpeedDuration: 3
+  newSpeedAfterReducedDurationMultiplier: 2
+  ignoreApplySpeedOnHookStopOnPlayer: 0
+  resetPlayerSpeedOnHookStop: 0
+  autoGrabObjectOnCloseDistance: 0
+  minDistanceToAutoGrab: 0
+  activateInteractionActionWithObject: 0
+  minDistanceToActivateInteractionActionWithObject: 0
+  objectToActivate: {fileID: 0}
+  useHookTargetPostionOffset: 0
+  hookTargetPositionOffset: {x: 0, y: 0, z: 0}
+  mainRigidbody: {fileID: 5474346}
+  useRigidbodyList: 0
+  rigidbodyList: []
+  useCustomForceAttractionValues: 1
+  customMinDistanceToStopAttractObject: 5
+  customAddUpForceForAttraction: 1
+  customUpForceForAttraction: 7
+  customAddUpForceForAttractionDuration: 1
+  attractingObjectActive: 0
+  useEventsOnAttractState: 0
+  eventOnActivateAttract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11456842}
+        m_MethodName: pauseDownForce
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnDeactivateAttract:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventAfterReduceSpeed: 1
+  eventAfterReduceSpeed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11456842}
+        m_MethodName: pauseDownForce
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useRemoteEventsOnStateChange: 0
+  remoteEventNameListOnStart: []
+  remoteEventNameListOnEnd: []
+  mainTransform: {fileID: 0}
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &114518086801983866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ddab01b84015e4981a3f039ef51d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOutlineEnabled: 1
+  shaderOutlineWidthName: _Outline
+  shaderOutlineColorName: _OutlineColor
+  useCustomOutlineValues: 0
+  customOutlineWidth: 0.05
+  customOutlineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  useCustomShader: 0
+  customShader: {fileID: 0}
+  customActiveDuration: 2
+  useTransparencyActive: 1
+  transparencyActive: 0
+  useCustomTransparencyValues: 0
+  customAlphaTransparency: 0
+  meshParent: {fileID: 0}
+  ignoreParticles: 1
+  ignoreLineRenderer: 0
+  useMeshesToIgnore: 0
+  meshesToIgnore: []
+  useCustomMeshList: 0
+  customMeshList: []
+  outlineActive: 0
+  renderElementsStored: 0
+  outlineTemporaryActive: 0
+--- !u!114 &114597735463898952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3621352eacaef824b8ff25ad78572246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphere Vehicle
+  mainGameObject: {fileID: 185056}
+  objectCanBeTakenBackToInventoryEnabled: 1
+  objectPlaced: 1
+  useEventsOnPlaceOrTakeBackObject: 0
+  eventOnPlaceObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnTakeBackObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventsToSendPlayerOnPlaceOrTakeBackObject: 0
+  eventsToSendPlayerOnPlaceObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventsToSendPlayerOnTakeBackObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114662724659430632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4dea7e35424d648a1831b24c81ffdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkElementOnSceneEnabled: 1
+  mainElementOnScene: {fileID: 114804225291162140}
+--- !u!114 &114804225291162140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703bee9dfca61354fa8809e52e0ce318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveElementEnabled: 1
+  elementScene: 0
+  elementID: 0
+  elementActiveState: 1
+  savePositionValues: 1
+  saveRotationValues: 1
+  useCustomTransform: 1
+  customTransform: {fileID: 419820}
+  elementPrefabID: 10
+  useStats: 1
+  loadStatsDelay: 0
+  statInfoList:
+  - Name: Health
+    statIsAmount: 1
+    currentFloatValue: 0
+    eventToInitializeFloatStat:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11455464}
+          m_MethodName: setRemainHealth
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    eventToGetFloatStat:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11455464}
+          m_MethodName: activateEventToSendCurrentHealthAmount
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    currentBoolState: 0
+    eventToInitializeBoolStat:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    eventToGetBoolStat:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  useEventOnObjectActive: 0
+  eventOnObjectActive:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnObjectInactive: 1
+  eventOnObjectInactive:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 185056}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useDelayForEvent: 0
+  delayForEvent: 0
+  showDebugPrint: 0
+  useElementPrefabID: 0
+  objectOriginallyOnScene: 0
+--- !u!114 &114904055864931086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305040455330196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6760227c5775449b0a12c2c3ed74d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  remoteEventToCall: Enable Previous Controls Scheme
+  useAmount: 0
+  amountValue: 0
+  useBool: 0
+  boolValue: 0
+  useGameObject: 0
+  gameObjectToUse: {fileID: 0}
+  useTransform: 0
+  transformToUse: {fileID: 0}
+  useRemoveEventInfoList: 0
+  useSameRemoteEvenToCall: 1
+  removeEventInfoList: []
+  assignObjectManually: 0
+  objectToAssign: {fileID: 0}
+  searchPlayerOnSceneIfNotAssigned: 0
+--- !u!114 &114974680371764290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62709d3623aa140479f7331f492884ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectUsesWeight: 0
+  objectWeight: 0
+  useExtraGrabDistance: 1
+  extraGrabDistance: 2
+  useCustomMassToThrow: 0
+  customMassToThrow: 0
+  customObjectMassDividerOnThrow: 1
+  useEventsOnGrabObject: 1
+  eventOnGrabObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11456842}
+        m_MethodName: pauseDownForce
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11455464}
+        m_MethodName: setVehiceColliderListLayer
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Ignore Raycast
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventsOnDropObject: 1
+  eventOnDropObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11456842}
+        m_MethodName: pauseDownForce
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11455464}
+        m_MethodName: setVehicleOriginalListLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventToSetPlayer: 0
+  eventToSetPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  mainTrigger: {fileID: 0}
+--- !u!208 &208199873565909080
+NavMeshObstacle:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134852}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5

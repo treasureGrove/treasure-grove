@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871cdb62c88f27b47b5c390fd70817aa, type: 3}
+  m_Name: Bonfire
+  m_EditorClassIdentifier: 
+  Name: Bonfire
+  ID: 0
+  amountObtained: 1
+  useObjectToPlace: 1
+  objectToPlace: {fileID: 1955822545614302, guid: 120bc59c6eae3c64b89e97317d87ee25,
+    type: 2}
+  objectToPlacePositionOffset: {x: 0, y: 0, z: 0}
+  useCustomLayerMaskToPlaceObject: 0
+  customLayerMaskToPlaceObject:
+    serializedVersion: 2
+    m_Bits: 0
+  layerMaskToAttachObject:
+    serializedVersion: 2
+    m_Bits: 0
+  craftObjectInTime: 0
+  timeToCraftObject: 0
+  craftingIngredientObjectInfoList:
+  - Name: Wood
+    amountRequired: 12
+  - Name: Oil
+    amountRequired: 3
+  - Name: Coal
+    amountRequired: 5
+  repairIngredientObjectInfoList: []
+  brokenIngredientObjectInfoList: []
+  disassembleIngredientObjectInfoList:
+  - Name: Wood
+    amountRequired: 5
+  - Name: Coal
+    amountRequired: 2
+  - Name: Oil
+    amountRequired: 1
+  checkStatsInfoToCraft: 0
+  craftingStatInfoToCraftList: []

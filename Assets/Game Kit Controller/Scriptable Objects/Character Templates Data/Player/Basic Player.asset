@@ -1,0 +1,2891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd63c29a68f5b01498e309ed46abe3ad, type: 3}
+  m_Name: Basic Player
+  m_EditorClassIdentifier: 
+  characterTemplateID: 1
+  settingsInfoCategoryList:
+  - Name: Player's Modes
+    settingsInfoList:
+    - Name: Player's Initial Mode
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 1
+      stringValue: Simple
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Weapons Mode Enabled
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Powers Mode Enabled
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Combat Mode Enabled
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Simple Mode Enabled
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Player's Mode Menu Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Player's Mode Change Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Start Game With Generic Model
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Generic Model Name To Start
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 1
+      stringValue: Wolf
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Main Stats
+    settingsInfoList:
+    - Name: Current Health
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 100
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: Weapons
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Max Health
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 100
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: Weapons
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Inventory And Weapons
+    settingsInfoList:
+    - Name: "Remove Weapons From Player\xB4s Initial Inventory"
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: Weapons
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: "Clear Player\xB4s Initial Inventory"
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Remove All Weapons From Players's Body
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Player's Inventory Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Weapons Wheel Menu Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Camera
+    settingsInfoList:
+    - Name: Set First Person View
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Player Culling System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Mouse Wheel Camera Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Camera View Input Change Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Manual Lock-on Input Eanbled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Reset Rotation After X Time Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Zoom Input Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Locked Camera Type Name
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 1
+      stringValue: Top Down
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Set Locked Camera On Scene
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Movements
+    settingsInfoList:
+    - Name: Climb Ledge System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Dash On First Person Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Roll/Slide On Third Person Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Double Jump Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Sprint Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Walk By Default Enabled
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Run/Walk Toggle Enabled
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Ragdoll On Death Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Activate Strafe Mode On Third Person
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Abilities
+    settingsInfoList:
+    - Name: Grab Objects Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Scanner System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Player Stats Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Player Skills Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Abilities System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Time Bullet Input Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Powers Wheel Menu Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Others
+    settingsInfoList:
+    - Name: Damage Screen System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Damage In Screen Info System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Friend AI List Manager Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Hand IK Surface Detection Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Foot IK Surface Detection Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Stamina System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Oxygen System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Weight Management On Inventory Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Shield On Health Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Remove Jetpack
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Input Action Panel Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Use Land Mark Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Objective Log Menu Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Tutorials Ingame Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Objectives Screen Icons Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Health Bars On Screen Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Pickups Icons On Screen Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Pickups Info On Screen Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: HUD Elements
+    settingsInfoList:
+    - Name: Show Player HUD Info
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Show Player State (Health, Shield, energy....)
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Show Player Mode
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Show Player Abilities DPad
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 1
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Map System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Compass System Enabled
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 1
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 

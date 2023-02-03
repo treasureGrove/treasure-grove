@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871cdb62c88f27b47b5c390fd70817aa, type: 3}
+  m_Name: Sticky Grenade Launcher Ammo
+  m_EditorClassIdentifier: 
+  Name: Sticky Grenade Launcher Ammo
+  ID: 0
+  amountObtained: 200
+  useObjectToPlace: 0
+  objectToPlace: {fileID: 0}
+  craftingIngredientObjectInfoList:
+  - Name: Wood
+    amountRequired: 2
+  - Name: Iron
+    amountRequired: 2
+  - Name: Cloth
+    amountRequired: 1
+  repairIngredientObjectInfoList: []
+  brokenIngredientObjectInfoList: []
+  disassembleIngredientObjectInfoList:
+  - Name: Powder
+    amountRequired: 1
+  - Name: Iron
+    amountRequired: 1

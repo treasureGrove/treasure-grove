@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1324392569884136}
+  m_IsPrefabParent: 1
+--- !u!1 &1324392569884136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4523662560272660}
+  - component: {fileID: 65700276638696736}
+  - component: {fileID: 114675287132373694}
+  - component: {fileID: 114166616954685776}
+  - component: {fileID: 114464102613280628}
+  m_Layer: 2
+  m_Name: Pause-Resume Player Actions (Only First Time Enter Trigger With Delay To
+    Resume)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4523662560272660
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324392569884136}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.61, y: 2.09, z: 16.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65700276638696736
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324392569884136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.91, y: 3.13, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114166616954685776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324392569884136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415646ac301bfa544b2959ae07c4bef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableTriggerAfterEnter: 0
+  setJumpEnabledState: 0
+  jumpEnabledState: 0
+  setDoubleJumpState: 0
+  doubleJumpState: 0
+  setCameraViewState: 0
+  setCameraToFirstPerson: 0
+  setActionToChangeBetweenViewsState: 0
+  actionToChangeBetweenViewsState: 0
+  setPlayerInputActionState: 0
+  playerInputActionState: 0
+  multiAxesInputName: 
+  axesInputName: 
+  drawWeapon: 0
+  drawCurrentWeapon: 0
+  drawCertainWeapon: 0
+  weaponNameToDraw: 
+  keepWeapon: 0
+  setGravityPowerState: 0
+  gravityPowerState: 0
+  setZeroGravityModeState: 0
+  zeroGravityModeState: 0
+  setGravityDirection: 0
+  setGravityManager: {fileID: 0}
+  setFreeFloatingModeState: 0
+  freeFloatingModeState: 0
+  setLookAtPointState: 0
+  lookAtPointState: 0
+  pointToLook: {fileID: 0}
+  useDurationToLookAtPoint: 0
+  durationToLookAtPoint: 0
+  enableLookAtPointStateAfterDuration: 0
+  setLookAtPointSpeed: 0
+  lookAtPointSpeed: 0
+  setMaxDistanceToFindTarget: 0
+  maxDistanceToFindTarget: 0
+  setCameraZoomState: 0
+  cameraZoomState: 0
+  useCameraZoomDuration: 0
+  cameraZoomDuration: 0
+  enableCameraZoonInputAfterDuration: 0
+  setWalkSpeedValue: 0
+  walkSpeedValue: 0
+  setOriginalWalkSpeedValue: 0
+  setIncreaseWalkSpeedValue: 0
+  increaseWalkSpeedValue: 0
+  setIncreaseWalkSpeedEnabled: 0
+  increaseWalkSpeedEnabled: 0
+  setOriginalIncreaseWalkSpeedEnabledValue: 0
+  setSprintEnabledState: 0
+  sprintEnabledState: 0
+  setOriginalSprintEnabledState: 0
+  setStairsAdherenceValue: 0
+  stairsMaxValue: 0.25
+  stairsMinValue: 0.2
+  stairsGroundAdherence: 8
+  changeRootMotionActive: 0
+  useRootMotionActive: 1
+  useEventOnTrigger: 1
+  eventOnTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114464102613280628}
+        m_MethodName: pauseOrPlayPlayerComponents
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnEvent: 1
+  playerSendEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114464102613280628}
+        m_MethodName: getCurrentPlayer
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setPlayerManually: 0
+  playerToConfigure: {fileID: 0}
+  currentPlayer: {fileID: 0}
+--- !u!114 &114464102613280628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324392569884136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e963d1ecb2c6aa479602abcd95ec639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPlayer: {fileID: 0}
+  playerCameraGameObject: {fileID: 0}
+  assignPlayerManually: 0
+  playerComponentsPaused: 0
+  unlockCursor: 0
+  cameraIsMoved: 0
+  resetCameraPositionSpeed: 3
+  setCameraDirectionAtEnd: 0
+  cameraDirection: {fileID: 0}
+  pivotDirection: {fileID: 0}
+  disableSecondaryPlayerHUD: 0
+  disableAllPlayerHUD: 1
+  resumePlayerAfterDelay: 1
+  delayToResumePlayer: 6
+  useEventOnPause: 0
+  eventOnPause:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventToSendCamera:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  useEventOnResume: 0
+  eventOnResume:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &114675287132373694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324392569884136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fc770a0dc8169449e7164daf5e37bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventList:
+  - name: Change Player State
+    objectToCall: {fileID: 1324392569884136}
+    functionNameList: []
+    secondsDelay: 0
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 1
+    sendObjectDetectedFunction: setCurrentPlayer
+    sendObjectDetectedByEvent: 1
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114166616954685776}
+          m_MethodName: setCurrentPlayer
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114166616954685776}
+          m_MethodName: changePlayerState
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+  enterEventList: []
+  exitEventList: []
+  useSameFunctionInList: 0
+  sameFunctionList: []
+  useSameObjectToCall: 0
+  callThisObject: 0
+  sameObjectToCall: {fileID: 0}
+  triggeredByButton: 0
+  useObjectToTrigger: 0
+  objectNeededToTrigger: {fileID: 0}
+  useTagToTrigger: 1
+  tagNeededToTrigger: Player
+  useTagList: 0
+  tagList: []
+  justCallOnTrigger: 0
+  callFunctionEveryTimeTriggered: 0
+  eventTriggered: 0
+  dontUseDelay: 0
+  useSameDelay: 0
+  generalDelay: 0
+  triggerEventType: 0
+  useLayerMask: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  coroutineActive: 0
+  setParentToNull: 0
+  objectDetected: {fileID: 0}
+  triggerEventAtStart: 0
+  isEnter: 0
+  isExit: 0

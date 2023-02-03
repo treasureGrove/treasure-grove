@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &177370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 406308}
+  - component: {fileID: 3369722}
+  - component: {fileID: 2325250}
+  m_Layer: 0
+  m_Name: gravityArrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &190040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 485176}
+  - component: {fileID: 11188396}
+  - component: {fileID: 13579358}
+  - component: {fileID: 11418710}
+  m_Layer: 2
+  m_Name: gravityArrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177370}
+  m_LocalRotation: {x: -0.7071069, y: 0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 33.660786, y: 33.660767, z: 54.128696}
+  m_Children: []
+  m_Father: {fileID: 485176}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &485176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190040}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 24.88, y: -4.68, z: 11.02}
+  m_LocalScale: {x: 3.3057854, y: 3.3057852, z: 3.3057857}
+  m_Children:
+  - {fileID: 406308}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2325250
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177370}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3ae122f666059b34e8102fc6c98e8102, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &3369722
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177370}
+  m_Mesh: {fileID: 4300000, guid: b9553490148202d4dbb7bba88d0b7e75, type: 3}
+--- !u!111 &11188396
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190040}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 59a2122c380204344b53cb7599c95c48, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 59a2122c380204344b53cb7599c95c48, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &11418710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71362bbf87b5594ba07be53350c6bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useWithPlayer: 0
+  useWithNPC: 0
+  useWithVehicles: 0
+  useWithAnyRigidbody: 0
+  checkOnlyForArtificialGravitySystem: 0
+  typeOfTrigger: 0
+  setGravityMode: 1
+  setRegularGravity: 0
+  setZeroGravity: 0
+  disableZeroGravity: 0
+  movePlayerToGravityPosition: 0
+  raycastPositionToGetGravityPosition: {fileID: 0}
+  layermaskToGetGravityPosition:
+    serializedVersion: 2
+    m_Bits: 0
+  teleportSpeed: 0
+  rotationSpeed: 0
+  useCustomGravityDirection: 0
+  customGravityDirection: {x: 0, y: 0, z: 0}
+  useCenterPoint: 0
+  centerPoint: {fileID: 0}
+  useCenterPointForRigidbodies: 0
+  useInverseDirectionToCenterPoint: 0
+  useCenterPointList: 0
+  useCenterIfPointListTooClose: 1
+  centerPointList: []
+  useCenterPointListForRigidbodies: 0
+  changeGravityDirectionActive: 0
+  rotateToSurfaceSmoothly: 1
+  setCircumnavigateSurfaceState: 0
+  circumnavigateSurfaceState: 0
+  setCheckSurfaceInFrontState: 0
+  checkSurfaceInFrontState: 0
+  setCheckSurfaceBelowLedgeState: 0
+  checkSurfaceBelowLedgeState: 0
+  preservePlayerVelocity: 1
+  storeSetGravityManager: 1
+  setTargetParent: 0
+  targetParent: {fileID: 0}
+  setRigidbodiesParent: 0
+  useAnimation: 1
+  animationName: arrowAnim
+  artificialObjectGravityList: []
+--- !u!135 &13579358
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: -0.44, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 190040}
+  m_IsPrefabParent: 1

@@ -1,0 +1,2831 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1837671373229342}
+  m_IsPrefabParent: 1
+--- !u!1 &1114321993436112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4140964160178870}
+  m_Layer: 0
+  m_Name: Position To Keep Object Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1117891272425400
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4518516827476024}
+  - component: {fileID: 96646565575403288}
+  m_Layer: 0
+  m_Name: Trail Renderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1140166942844234
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4710982261999432}
+  m_Layer: 0
+  m_Name: Cut Rectangle Trigger Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1205048355212994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4383525199643752}
+  m_Layer: 0
+  m_Name: Attach To Character Reference Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1242471180883498
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4240257559654834}
+  m_Layer: 0
+  m_Name: Raycast Check Transform Damage Detection Capsule Cast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1259987628108636
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4681769760639866}
+  - component: {fileID: 33726447105546104}
+  - component: {fileID: 23176818562975674}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1272515121366598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4817138848463518}
+  - component: {fileID: 135875903396754264}
+  m_Layer: 2
+  m_Name: Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1293197449932814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4917889891801046}
+  m_Layer: 0
+  m_Name: Left Hand Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1344337451500180
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4603891730373012}
+  m_Layer: 0
+  m_Name: Raycast Check Transform Damage Detection Trigger (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1367091661628400
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4771062454877022}
+  m_Layer: 0
+  m_Name: Cutting Mode Panel Parent Reference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1405488657525326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4613944217188710}
+  m_Layer: 0
+  m_Name: Position To Keep Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1417243243721704
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4429676673492124}
+  m_Layer: 0
+  m_Name: Raycast Check Transform Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1454342673606692
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4277038500792496}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1492405438534402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4290672202412998}
+  m_Layer: 0
+  m_Name: Position In Third Person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1496383414952110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4576635239748926}
+  m_Layer: 0
+  m_Name: Right Hand Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1520608714795538
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4434163261355684}
+  m_Layer: 0
+  m_Name: Main Damage Position Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1527599651966574
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4028342397659842}
+  - component: {fileID: 33622973158928948}
+  - component: {fileID: 23609308243949378}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1534188744459276
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4439600934990348}
+  - component: {fileID: 33524401245954152}
+  - component: {fileID: 23450927116347672}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1550672781911826
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4815586350443268}
+  m_Layer: 0
+  m_Name: Cut Direction Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1580052903689362
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4159112513399912}
+  m_Layer: 0
+  m_Name: Plane Definer 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1615503299703662
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4074194029679036}
+  m_Layer: 0
+  m_Name: Plane Definer 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1657455861939540
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4769477437595056}
+  m_Layer: 0
+  m_Name: Raycast Check Transform Damage Detection Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1678724559261800
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4744349047468948}
+  - component: {fileID: 33518825775232626}
+  - component: {fileID: 23276366451420696}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1728300366892984
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4961319390882512}
+  m_Layer: 0
+  m_Name: Plane Definer 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1781755210697036
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4293450430694184}
+  m_Layer: 0
+  m_Name: Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1836608417908120
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4523844425841370}
+  m_Layer: 0
+  m_Name: Raycast Check Transform Damage Detection Trigger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1837671373229342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4525782106804592}
+  - component: {fileID: 54838677233010432}
+  - component: {fileID: 65217083554681204}
+  - component: {fileID: 114882338959622282}
+  - component: {fileID: 114870192977527940}
+  - component: {fileID: 114764185838502444}
+  - component: {fileID: 114350987558861544}
+  - component: {fileID: 114016315726478044}
+  - component: {fileID: 114553858507838780}
+  m_Layer: 0
+  m_Name: Shield Without Melee Weapon
+  m_TagString: box
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1843011622020260
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4214101752972960}
+  m_Layer: 0
+  m_Name: Rotation Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1854922802742440
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4886618762429796}
+  m_Layer: 0
+  m_Name: Raycast Check Transform Damage Detection Trigger (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1887712151455970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4391566775731898}
+  m_Layer: 0
+  m_Name: Rotation Point Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1897529852993534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4820918707403180}
+  m_Layer: 0
+  m_Name: Position In First Person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1942327586528730
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4890927170697548}
+  m_Layer: 0
+  m_Name: Raycast Check Transform Damage Detection Trigger (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1954219200050994
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4602686672562776}
+  - component: {fileID: 114352168820915384}
+  - component: {fileID: 65265316103981456}
+  - component: {fileID: 54754936644064806}
+  m_Layer: 2
+  m_Name: Damage Detection Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1979604598239034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4774281897987660}
+  - component: {fileID: 114649751619040466}
+  m_Layer: 0
+  m_Name: Events On Durability Empty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4028342397659842
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1527599651966574}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1773999, z: 0}
+  m_LocalScale: {x: 0.043688282, y: 1.2457803, z: 0.13980134}
+  m_Children: []
+  m_Father: {fileID: 4277038500792496}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4074194029679036
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1615503299703662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.218, y: 0, z: 0.772}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4771062454877022}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4140964160178870
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114321993436112}
+  m_LocalRotation: {x: 0.93445086, y: -0.0055600554, z: -0.0034197858, w: 0.3560323}
+  m_LocalPosition: {x: 0.164, y: -0.198, z: 0.185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 138.291, y: 0.7939911, z: 0.98399353}
+--- !u!4 &4159112513399912
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1580052903689362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2180004, y: -0.00000011920929, z: 0.7720003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4771062454877022}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4214101752972960
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1843011622020260}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4429676673492124}
+  - {fileID: 4602686672562776}
+  - {fileID: 4293450430694184}
+  - {fileID: 4518516827476024}
+  - {fileID: 4434163261355684}
+  - {fileID: 4771062454877022}
+  m_Father: {fileID: 4391566775731898}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4240257559654834
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242471180883498}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.42200035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4429676673492124}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4277038500792496
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454342673606692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4028342397659842}
+  - {fileID: 4744349047468948}
+  - {fileID: 4439600934990348}
+  - {fileID: 4681769760639866}
+  m_Father: {fileID: 4293450430694184}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4290672202412998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492405438534402}
+  m_LocalRotation: {x: 0.39892015, y: 0.05261146, z: -0.11970115, w: 0.90761584}
+  m_LocalPosition: {x: -0.008, y: -0.1237, z: -0.0205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 47.453003, y: 0, z: -15.026001}
+--- !u!4 &4293450430694184
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1781755210697036}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4277038500792496}
+  m_Father: {fileID: 4214101752972960}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4383525199643752
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205048355212994}
+  m_LocalRotation: {x: 0.71701103, y: 0.17061073, z: -0.062954105, w: 0.672922}
+  m_LocalPosition: {x: -0.246, y: 0.062, z: -0.664}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 99.43701, y: -58.190002, z: -77.268005}
+--- !u!4 &4391566775731898
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887712151455970}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.719, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4214101752972960}
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4429676673492124
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1417243243721704}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4240257559654834}
+  - {fileID: 4769477437595056}
+  - {fileID: 4523844425841370}
+  - {fileID: 4890927170697548}
+  - {fileID: 4886618762429796}
+  - {fileID: 4603891730373012}
+  m_Father: {fileID: 4214101752972960}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4434163261355684
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1520608714795538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0.465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4214101752972960}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4439600934990348
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534188744459276}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.6290002, z: 0}
+  m_LocalScale: {x: 0.08001632, y: 0.18925376, z: 0.08001637}
+  m_Children: []
+  m_Father: {fileID: 4277038500792496}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4518516827476024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1117891272425400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.373, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4214101752972960}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4523844425841370
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836608417908120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.106, z: -0.225}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 4429676673492124}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4525782106804592
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.73, y: 0, z: -35.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4576635239748926}
+  - {fileID: 4917889891801046}
+  - {fileID: 4613944217188710}
+  - {fileID: 4817138848463518}
+  - {fileID: 4290672202412998}
+  - {fileID: 4820918707403180}
+  - {fileID: 4140964160178870}
+  - {fileID: 4391566775731898}
+  - {fileID: 4383525199643752}
+  - {fileID: 4774281897987660}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4576635239748926
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496383414952110}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.096, y: 0.077, z: -0.097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!4 &4602686672562776
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954219200050994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0.197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4214101752972960}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4603891730373012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1344337451500180}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.061, y: 0.000000029802322, z: -0.22500017}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 4429676673492124}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4613944217188710
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405488657525326}
+  m_LocalRotation: {x: 0.68785447, y: 0.16387852, z: -0.6878546, w: 0.16387855}
+  m_LocalPosition: {x: -0.201, y: 0.456, z: 0.026}
+  m_LocalScale: {x: 1.0000037, y: 1.0000038, z: 1.0000017}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 153.199, y: 89.99999, z: -0.000015258789}
+--- !u!4 &4681769760639866
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259987628108636}
+  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 0.8006005, z: 0}
+  m_LocalScale: {x: 0.040959306, y: 0.10028082, z: 0.10028082}
+  m_Children: []
+  m_Father: {fileID: 4277038500792496}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!4 &4710982261999432
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1140166942844234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4771062454877022}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4744349047468948
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1678724559261800}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.43700027, z: 0}
+  m_LocalScale: {x: 0.08913186, y: 0.034034576, z: 0.25732034}
+  m_Children: []
+  m_Father: {fileID: 4277038500792496}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4769477437595056
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1657455861939540}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4429676673492124}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4771062454877022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367091661628400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4710982261999432}
+  - {fileID: 4815586350443268}
+  - {fileID: 4961319390882512}
+  - {fileID: 4074194029679036}
+  - {fileID: 4159112513399912}
+  m_Father: {fileID: 4214101752972960}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4774281897987660
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1979604598239034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4815586350443268
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1550672781911826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4771062454877022}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4817138848463518
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1272515121366598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4820918707403180
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897529852993534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.17, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4886618762429796
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1854922802742440}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.039, y: 0.000000029802322, z: -0.22500005}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 4429676673492124}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4890927170697548
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1942327586528730}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.108, z: -0.225}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 4429676673492124}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4917889891801046
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293197449932814}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.096, y: 0.077, z: -0.097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4525782106804592}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!4 &4961319390882512
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728300366892984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.402}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4771062454877022}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23176818562975674
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259987628108636}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8b8a5df84b9dfb942af49d3e498f631a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23276366451420696
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1678724559261800}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 34471be3411efe04fb8614d5c3d69985, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23450927116347672
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534188744459276}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 34471be3411efe04fb8614d5c3d69985, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23609308243949378
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1527599651966574}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8b8a5df84b9dfb942af49d3e498f631a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33518825775232626
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1678724559261800}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33524401245954152
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534188744459276}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33622973158928948
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1527599651966574}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33726447105546104
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259987628108636}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54754936644064806
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954219200050994}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!54 &54838677233010432
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65217083554681204
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 1.6676614, z: 0.28}
+  m_Center: {x: 0, y: 0.71786094, z: 0}
+--- !u!65 &65265316103981456
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954219200050994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28, z: 1.228292}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!96 &96646565575403288
+TrailRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1117891272425400}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 061e14ef150d9504f92963e052fc26a3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_Parameters:
+    serializedVersion: 2
+    widthMultiplier: 0.5
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.47098976
+        value: 0.4482758
+        inSlope: -0.04431301
+        outSlope: -0.04431301
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    generateLightingData: 0
+  m_MinVertexDistance: 0.1
+  m_Autodestruct: 0
+--- !u!114 &114016315726478044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3439ef56462ca91469ca7959ad11fc4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attractObjectEnabled: 1
+  attractPlayerEnabled: 0
+  enableGravityOnDeactivateAttract: 1
+  useReducedVelocityOnDisableAttract: 0
+  maxReducedSpeed: 0
+  reducedSpeedDuration: 0
+  newSpeedAfterReducedDurationMultiplier: 1
+  ignoreApplySpeedOnHookStopOnPlayer: 0
+  resetPlayerSpeedOnHookStop: 0
+  autoGrabObjectOnCloseDistance: 1
+  minDistanceToAutoGrab: 6
+  activateInteractionActionWithObject: 0
+  minDistanceToActivateInteractionActionWithObject: 0
+  objectToActivate: {fileID: 0}
+  useHookTargetPostionOffset: 0
+  hookTargetPositionOffset: {x: 0, y: 0, z: 0}
+  mainRigidbody: {fileID: 54838677233010432}
+  useRigidbodyList: 0
+  rigidbodyList:
+  - {fileID: 54991418070310914, guid: 32021f468a3b42943a5b22122ce14804, type: 2}
+  useCustomForceAttractionValues: 0
+  customMinDistanceToStopAttractObject: 5
+  customAddUpForceForAttraction: 0
+  customUpForceForAttraction: 0
+  customAddUpForceForAttractionDuration: 0
+  attractingObjectActive: 0
+  useEventsOnAttractState: 0
+  eventOnActivateAttract:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnDeactivateAttract:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventAfterReduceSpeed: 0
+  eventAfterReduceSpeed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useRemoteEventsOnStateChange: 0
+  remoteEventNameListOnStart: []
+  remoteEventNameListOnEnd: []
+  mainTransform: {fileID: 0}
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &114350987558861544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f94282928ce08ef4fa01911eff78de56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMeleeWeaponAttackInfo: {fileID: 0}
+  mainGrabPhysicalObjectMeleeAttackSystem: {fileID: 114764185838502444}
+--- !u!114 &114352168820915384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954219200050994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a2ac9676dfdc045b960d4963b2e188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitDamage: 10
+  damageMultiplier: 1
+  configureDamageAsConstant: 1
+  ignoreShield: 0
+  canActivateReactionSystemTemporally: 0
+  damageReactionID: -1
+  damageTypeID: -1
+  damageCanBeBlocked: 1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4239776761
+  checkTriggerSurfaces: 0
+  useIgnoreTags: 0
+  tagsToIgnoreList:
+  - enemy
+  sendMessageOnDamageDetected: 1
+  messageOnDamageDetectedName: setDamageDetectedOnTriggerById
+  useCustomObjectToSendMessage: 1
+  customObjectToSendMessage: {fileID: 0}
+  sendMessageOnSurfaceWithNoDamageDetected: 1
+  messageOnSurfaceWithNoDamageDetectedName: setNoDamageDetectedOnTriggerById
+  storeDetectedObjectOnList: 1
+  checkSurfacesForDecals: 1
+  raycastDistance: 3
+  addForceMultiplier: 10
+  forceMode: 1
+  applyImpactForceToVehicles: 1
+  impactForceToVehiclesMultiplier: 0.1
+  usePushCharacter: 0
+  pushCharacterFunctionName: pushCharacter
+  showDebugPrint: 0
+  currentlyEnabled: 0
+  currentCombatTypeIndex: 0
+  currentAttackIndex: 0
+  damageAppliedInLastAttack: 0
+  triggerId: 0
+  detectSurfaceStateActive: 0
+  useCastAllDamageDetection: 0
+  detectedObjectList: []
+  ignoreDetectedObjectsOnList: 0
+  eventOnDetectSurfaceStateActive:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  currentPlayer: {fileID: 0}
+  mainCollider: {fileID: 65265316103981456}
+  mainBoxCollider: {fileID: 0}
+  mainSphereCollider: {fileID: 0}
+--- !u!114 &114553858507838780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d97feec90439146b4bfd270fa5e3d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Shield Without Melee Weapon
+  maxDurabilityAmount: 30
+  durabilityAmount: 30
+  invulnerabilityActive: 0
+  regenerationSpeed: 4
+  activateRegenerationAfterDelay: 0
+  delayToActivateRegeneration: 0
+  objectIsBroken: 0
+  regenerationActive: 0
+  regenerationAfterDelayActive: 0
+  characterLocated: 0
+  useEventOnEmptyDurability: 1
+  eventOnEmptyDurability:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114649751619040466}
+        m_MethodName: activateSpawnObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnRefilledDurability: 0
+  eventOnRefilledDurability:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnInvulnerabilityActive: 0
+  eventOnInvulnerabilityActive:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useRemoteEventOnEmptyDurability: 0
+  remoteEventListOnEmptyDurability: []
+  mainCharacterGameObject: {fileID: 0}
+--- !u!114 &114649751619040466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1979604598239034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5348dbf9d359d8f428c7b022390b8ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObjectEnabled: 1
+  objectToSpawn: {fileID: 1989409380982338, guid: bcafc0216288fda49b220d03712d1381,
+    type: 2}
+  spawnPosition: {fileID: 0}
+  radiusToSpawn: 0
+  setObjectRotation: 0
+  setObjectScale: 0
+  newObjectScale: {x: 0, y: 0, z: 0}
+  spawnAmountOfSameObject: 0
+  amountOfSameObjectToSpawn: 0
+  spawnObjectsOnStart: 0
+  useSpawnReferencePosition: 0
+  spawnReferencePosition: {fileID: 0}
+  setSpawnedObjectParent: 0
+  spawnedObjectParent: {fileID: 0}
+  useRaycastToSpawnObject: 0
+  layerToSpawnObject:
+    serializedVersion: 2
+    m_Bits: 0
+  useInfiniteRaycastDistance: 0
+  raycastDistance: 0
+  raycastSpawnObjectOffset: {x: 0, y: 0, z: 0}
+  launchRaycastToDownDirection: 0
+  adjustSpawnedObjectToSurfaceNormal: 0
+  spawnObjectList: 0
+  objectListToSpawn: []
+  storeSpawnedObjects: 0
+  spawnedObjectList: []
+  useSpawnLimitAmount: 0
+  spawnLimitAmount: 0
+  checkIfObjectsSpawnedAreDead: 0
+  eventOnLimitReached:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnLimitNotReached:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendSpawnedObjectOnEvent: 0
+  eventToSendSPawnedObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sendSpawnedObjectOnRemoteEvent: 0
+  remoteEventToSendObject: 
+  showGizmo: 0
+  currentNumberOfSpawnObjects: 0
+--- !u!114 &114764185838502444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b10a204217e6f4abaab7c892247198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: Shield Without Melee Weapon
+  useRandomAttackIndex: 0
+  onlyAttackIfNoPreviousAttackInProcess: 0
+  minDelayBetweenAttacks: 0
+  resetIndexIfNotAttackAfterDelay: 1
+  delayToResetIndexAfterAttack: 1
+  weaponInfoName: Shield Without Melee Weapon
+  objectUsesStaminaOnAttacks: 1
+  hideWeaponMeshWhenNotUsed: 0
+  disableMeleeObjectCollider: 1
+  canUseBlock: 1
+  blockActionName: Block With Sword 2 Hands
+  blockDamageProtectionAmount: 1
+  useMaxBlockRangeAngle: 1
+  maxBlockRangeAngle: 360
+  blockID: 0
+  reducedBlockDamageProtectionAmount: 0.1
+  canUseShieldBlock: 0
+  shieldBlockActionName: 
+  shieldBlockID: 0
+  useMatchPositionSystemOnAllAttacks: 0
+  matchPositionOffsetOnAllAttacks: 1.6
+  holdToThrowObjectEnabled: 0
+  locateObjectstToTrackOnHoldEnabled: 0
+  layerToLocateObjectsToTrack:
+    serializedVersion: 2
+    m_Bits: 0
+  maxRaycastDistanceToLocateObjectToTrack: 0
+  canThrowObject: 0
+  canReturnObject: 0
+  canReUseObjectIfNotReturnActive: 0
+  throwSpeed: 27
+  returnSpeed: 10
+  returnSplineSpeed: 0.7
+  resetObjectRotationSpeed: 10
+  delayToThrowObject: 0
+  delayToReturnObject: 0.2
+  maxTimeOnAirIfNoSurfaceFound: 5
+  ignoreRigidbodiesOnThrowWeapon: 0
+  ignoreAttachToLocatedObjectOnThrow: 0
+  followObjectOnThrowMeleeWeaponSpeed: 45
+  pushCharactersDetectedOnIgnoreRigidbodiesOnThrowWeapon: 0
+  pushCharactersDetectedOnIgnoreRigidbodiesOnThrowWeaponMultiplier: 1
+  pushCharactersDetectedOnIgnoreRigidbodiesOnThrowWeaponMessageNameToSend: pushCharacter
+  pushCharactersDetectedOnIgnoreRigidbodiesOnReturnWeapon: 0
+  pushCharactersDetectedOnIgnoreRigidbodiesOnReturnWeaponMultiplier: 1
+  pushCharactersDetectedOnIgnoreRigidbodiesOnReturnWeaponMessageNameToSend: pushCharacter
+  throwObjectWithRotation: 1
+  throwObjectRotationSpeed: 500
+  returnObjectWithRotation: 1
+  returnObjectRotationSpeed: 500
+  rotateObjectToThrowDirection: 0
+  useSplineForReturn: 1
+  canReturnWeaponIfNoSurfaceFound: 1
+  ignoreIfSurfaceFoundToReturnWeapon: 0
+  rotateWeaponToSurfaceLocatedWhenCloseEnough: 1
+  attachToSurfaceAdjustSpeed: 2
+  useCutOnThrowObject: 0
+  useCutOnReturnObject: 0
+  returnWeaponIfObjectDetected: 0
+  useThrowActionName: 1
+  throwActionName: Throw Weapon
+  useStartReturnActionName: 1
+  startReturnActionName: Call Weapon
+  useEndReturnActionName: 1
+  endReturnActionName: Catch Weapon
+  forceToApplyToSurfaceFound: 10
+  forceExtraToApplyOnVehiclesFound: 3
+  capsuleCastRadius: 0.1
+  capsuleCastDistance: 1.35
+  damageOnSurfaceDetectedOnThrow: 10
+  applyDamageOnSurfaceDetectedOnReturn: 1
+  damageOnSurfaceDetectedOnReturn: 20
+  applyDamageOnObjectReturnPath: 1
+  damageOnObjectReturnPath: 20
+  useEventsOnThrowReturn: 0
+  eventOnThrowStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnThrowEnd:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnReturnStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnReturnEnd:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useRemoteEventOnThrow: 0
+  remoteEventOnThrowNameList: []
+  useRemoteEventOnReturn: 0
+  remoteEventOnReturnNameList: []
+  teleportPlayerOnThrowEnabled: 1
+  throwWeaponQuicklyAndTeleportIfSurfaceFound: 0
+  extraSpeedOnThrowWeaponQuicklyAndTeleport: 3
+  trailSpeed: 10
+  useTrailOnThrowReturn: 1
+  useEventsOnKeepOrDrawMeleeWeapon: 0
+  eventsOnKeepMeleeWeapon:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventsOnDrawMeleeWeapon:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  canActivateCuttingMode: 0
+  cutOverlapBoxSize: {x: 2, y: 0.1, z: 1}
+  cutPositionTransform: {fileID: 4710982261999432}
+  cutDirectionTransform: {fileID: 4815586350443268}
+  planeDefiner1: {fileID: 4961319390882512}
+  planeDefiner2: {fileID: 4074194029679036}
+  planeDefiner3: {fileID: 4159112513399912}
+  attacksEnabled: 0
+  useAnimationPercentageDuration: 1
+  useAnimationPercentageOver100: 0
+  useGeneralDamageTypeID: 0
+  generalDamageTypeID: -1
+  attackInfoList:
+  - Name: 
+    attackDamage: 9
+    attackType: Regular
+    minDelayBeforeNextAttack: 0.9
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.26
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.67
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand 1
+    attackDuration: 1.49
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 6
+    customRefillStaminaDelayAfterUse: 1.1
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  - Name: 
+    attackDamage: 10
+    attackType: Regular
+    minDelayBeforeNextAttack: 0.9
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.38
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.7
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand 2
+    attackDuration: 1.6
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 8
+    customRefillStaminaDelayAfterUse: 1.4
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  - Name: 
+    attackDamage: 11
+    attackType: Regular
+    minDelayBeforeNextAttack: 0.7
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.3
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 1
+      limbToPlaceTrigger: 6
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.55
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand 3
+    attackDuration: 1.2
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 9
+    customRefillStaminaDelayAfterUse: 1
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  - Name: 
+    attackDamage: 12
+    attackType: Regular
+    minDelayBeforeNextAttack: 0.7
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.3
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.67
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand Full Body 1
+    attackDuration: 1.3
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 11
+    customRefillStaminaDelayAfterUse: 1
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  - Name: 
+    attackDamage: 13
+    attackType: Strong
+    minDelayBeforeNextAttack: 1
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.14
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.7
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand 4
+    attackDuration: 1.7
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 12
+    customRefillStaminaDelayAfterUse: 1.5
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  - Name: 
+    attackDamage: 14
+    attackType: Strong
+    minDelayBeforeNextAttack: 0.8
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.22
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 1
+      limbToPlaceTrigger: 17
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.66
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand 5
+    attackDuration: 1.4
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 10
+    customRefillStaminaDelayAfterUse: 1.3
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  - Name: 
+    attackDamage: 12
+    attackType: Strong
+    minDelayBeforeNextAttack: 1.5
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.35
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.65
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand Full Body 2
+    attackDuration: 2.3
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 13
+    customRefillStaminaDelayAfterUse: 2
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  - Name: 
+    attackDamage: 13
+    attackType: Strong
+    minDelayBeforeNextAttack: 0.8
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.35
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.65
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand Full Body 3
+    attackDuration: 1.3
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 13
+    customRefillStaminaDelayAfterUse: 2
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  - Name: 
+    attackDamage: 16
+    attackType: Special
+    minDelayBeforeNextAttack: 2.5
+    damageReactionID: -1
+    damageTypeID: -1
+    playerOnGroundToActivateAttack: 1
+    pauseSoundIfAttackOnAir: 0
+    damageTriggerActiveInfoList:
+    - delayToActiveTrigger: 0.13
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.24
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.32
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.45
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.54
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.67
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.73
+      activateDamageTrigger: 1
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    - delayToActiveTrigger: 0.86
+      activateDamageTrigger: 0
+      delayTriggered: 0
+      setNewTriggerScale: 0
+      newTriggerScale: {x: 0, y: 0, z: 0}
+      newTriggerOffset: {x: 0, y: 0, z: 0}
+      setOriginalScale: 0
+      checkSurfacesWithCapsuleRaycast: 1
+      checkSurfaceCapsuleRaycastRadius: 0.1
+      changeDamageTriggerToLimb: 0
+      limbToPlaceTrigger: 0
+      placeTriggerInFrontOfCharacter: 0
+      useEventOnAttack: 0
+      eventOnAtatck:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      calculatedPercentageAttackDuration: 0
+      useRangeAttackID: 0
+      rangeAttackID: 0
+      disableRangeAttackID: 0
+      rangeAttackIDToDisable: 0
+    dualWieldDamageTriggerActiveInfoList: []
+    attackOnAirDamageTriggerActiveInfoList: []
+    useSingleSlashDamageInfo: 0
+    delayToActivateSingleSlashDamageTrigger: 0
+    delayToDeactivateSingleSlashDamageTrigger: 0
+    ignoreDetectedObjectsOnList: 0
+    useCustomAction: 1
+    customActionName: Sword Attack 1 Hand Special 1
+    attackDuration: 3.6
+    attackAnimationSpeed: 1
+    attackDurationOnAir: 0
+    attackAnimationSpeedOnAir: 1
+    staminaUsedOnAttack: 16
+    customRefillStaminaDelayAfterUse: 3.2
+    useRemoteEvent: 0
+    remoteEventNameList: []
+    useCutModeOnAttack: 0
+    pushCharactersOnDamage: 0
+    messageNameToSend: pushCharacter
+    pushForceAmount: 4
+    useProbabilityToPushCharacters: 0
+    probability: 1
+    useExtraPushDirection: 0
+    extraPushDirection: {x: 0, y: 0, z: 0}
+    extraPushForce: 0
+    ignoreMeleeWeaponAttackDirection: 0
+    useIgnoreTagsToPush: 0
+    tagsToIgnorePush: []
+    useMatchPositionSystem: 1
+    matchPositionOffset: 1.6
+    getHealthFromDamagingObjects: 0
+    healthFromDamagingObjectsMultiplier: 1
+  isDualWieldWeapon: 0
+  mainDualWieldMeleeWeaponObjectSystem: {fileID: 0}
+  useMeleeWeaponAttackInfoTemplate: 0
+  mainMeleeWeaponAttackInfoTemplate: {fileID: 0}
+  raycastCheckTransfromList:
+  - {fileID: 4769477437595056}
+  - {fileID: 4523844425841370}
+  - {fileID: 4890927170697548}
+  - {fileID: 4886618762429796}
+  - {fileID: 4603891730373012}
+  damageTypeAndReactionInfoList: []
+  weaponMesh: {fileID: 1781755210697036}
+  useCustomWeaponMeshToInstantiate: 0
+  customWeaponMeshToInstantiate: {fileID: 0}
+  deflectProjectilesEnabled: 0
+  mainArmoreSurfaceSystem: {fileID: 0}
+  deflectProjectilesOnBlockEnabled: 0
+  useDurationToDeflectProjectilesOnBlock: 0
+  durationToDeflecltProjectilesOnBlock: 0
+  adjustTriggerScaleValuesEnabled: 0
+  deflectProjectilesTriggerCenter: {x: 0, y: 0, z: 0}
+  deflectProjectilesTriggerSize: {x: 0, y: 0, z: 0}
+  deflectProjectilesOnBlockTriggerCenter: {x: 0, y: 0, z: 0}
+  deflectProjectilesOnBlockTriggerSize: {x: 0, y: 0, z: 0}
+  useDrawKeepWeaponAnimation: 0
+  drawWeaponActionName: 
+  keepWeaponActionName: 
+  useRemoteEventOnSurfacesDetected: 0
+  remoteEventNameListOnSurfaceDetected: []
+  useAbilitiesListToEnableOnWeapon: 0
+  abilitiesListToEnableOnWeapon: []
+  useAbilitiesListToDisableOnWeapon: 0
+  abilitiesListToDisableOnWeapon: []
+  useExtraActions: 0
+  currentExtraActionIndex: 0
+  extraActionMeleeWeaponInfoList: []
+  useObjectDurabilityOnAttack: 1
+  durabilityUsedOnAttack: 1
+  useObjectDurabilityOnBlock: 1
+  durabilityUsedOnBlock: 1
+  mainDurabilityInfo: {fileID: 114553858507838780}
+  useObjectStatsSystemEnabled: 0
+  mainObjectStatsSystem: {fileID: 0}
+  keepGrabbedObjectState: 0
+  objectThrown: 0
+  previousStrafeMode: 0
+  secondaryAbilityActive: 0
+  currentCharacter: {fileID: 0}
+  mainHitCombat: {fileID: 114352168820915384}
+  mainObjectCollider: {fileID: 65217083554681204}
+  objectRotationPoint: {fileID: 4214101752972960}
+  raycastCheckTransfrom: {fileID: 4240257559654834}
+  objectRotationPointParent: {fileID: 4391566775731898}
+  raycastCheckTransformParent: {fileID: 4429676673492124}
+  mainTraileRenderer: {fileID: 96646565575403288}
+  attachToCharactersReferenceTransform: {fileID: 4383525199643752}
+  mainDamagePositionTransform: {fileID: 4434163261355684}
+  referencePositionToKeepObjectMesh: {fileID: 4140964160178870}
+  mainGrabPhysicalObjectSystem: {fileID: 114882338959622282}
+  useCustomReferencePositionToKeepObjectMesh: 0
+  customReferencePositionToKeepObjectMesh: {fileID: 0}
+--- !u!114 &114870192977527940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ddab01b84015e4981a3f039ef51d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOutlineEnabled: 1
+  shaderOutlineWidthName: _Outline
+  shaderOutlineColorName: _OutlineColor
+  useCustomOutlineValues: 0
+  customOutlineWidth: 0.05
+  customOutlineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  useCustomShader: 0
+  customShader: {fileID: 0}
+  customActiveDuration: 2
+  useTransparencyActive: 1
+  transparencyActive: 0
+  useCustomTransparencyValues: 0
+  customAlphaTransparency: 0
+  meshParent: {fileID: 0}
+  ignoreParticles: 0
+  ignoreLineRenderer: 0
+  useMeshesToIgnore: 0
+  meshesToIgnore: []
+  useCustomMeshList: 0
+  customMeshList: []
+  outlineActive: 0
+  renderElementsStored: 0
+  outlineTemporaryActive: 0
+--- !u!114 &114882338959622282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837671373229342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f1353fcdf749e4097ef6bcbb87fcc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabObjectPhysically: 1
+  layerForUsers:
+    serializedVersion: 2
+    m_Bits: 4096
+  colliderScale: {x: 0, y: 0, z: 0}
+  colliderOffset: {x: 0, y: 0, z: 0}
+  setRigidbodyMassValue: 0
+  rigidbodyMassValue: 1
+  tagForObjectWhenActive: 
+  tagForObjectWhenInactive: 
+  carryObjectOutOfPlayerBody: 0
+  disableObjectColliderWhileGrabbed: 1
+  changeAnimationSpeed: 0
+  animationSpeed: 1
+  setNewMovementTreeID: 0
+  newMovementTreeID: 0
+  applyAnimatorVelocityWithoutMoving: 0
+  disableJumpOnGrabbedObject: 0
+  disableRunOnGrabbedObject: 0
+  checkViewToGrabObject: 1
+  canBeGrabbedOnFirstPerson: 0
+  canBeGrabbedOnThirdPerson: 1
+  referencePosition: {fileID: 0}
+  useReferencePositionForEveryView: 1
+  referencePositionThirdPerson: {fileID: 4290672202412998}
+  referencePositionFirstPerson: {fileID: 4820918707403180}
+  referencePositionToKeepObject: {fileID: 4613944217188710}
+  useBoneToKeepObject: 1
+  boneToKeepObject: 0
+  useMountPointToKeepObject: 0
+  mountPointTokeepObjectName: 
+  IKSystemEnabled: 0
+  useRightHand: 1
+  useLeftHand: 0
+  rightHandPosition: {fileID: 4576635239748926}
+  lefHandPosition: {fileID: 4917889891801046}
+  useRightElbow: 0
+  useLeftElbow: 0
+  rightElbowPosition: {fileID: 0}
+  lefElbowPosition: {fileID: 0}
+  useAnimationGrabbingHand: 0
+  rightGrabbingHandID: 0
+  leftGrabbingHandID: 0
+  useRightHandForObjectParent: 1
+  setExtraListKinematic: 0
+  extraListKinematic: []
+  useMeleeAttackSystem: 1
+  mainGrabPhysicalObjectMeleeAttackSystem: {fileID: 114764185838502444}
+  objectGrabed: 0
+  objectIsCharacter: 0
+  character: {fileID: 0}
+  characterBody: {fileID: 0}
+  keepGrabbedObjectState: 0
+  grabObjectsList: []
+  currentObjectParent: {fileID: 0}
+  useEventsOnGrabDrop: 0
+  eventOnGrab:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnDrop:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useRemoteEventOnObjectsFound: 0
+  remoteEventNameListOnStart:
+  - Set Melee Two Hands Strafe ID
+  remoteEventNameListOnEnd:
+  - Set Regular Strafe ID
+  objectMeshInsideMainParent: 1
+  objectMeshMainParent: {fileID: 4293450430694184}
+  useMeshCollider: 0
+  useBoxCollider: 0
+  showGizmo: 0
+  gizmoColor: {r: 1, g: 0, b: 0, a: 0.334}
+  objectToGrabParent: {fileID: 0}
+  grabObjectTrigger: {fileID: 135875903396754264}
+  mainCollider: {fileID: 65217083554681204}
+--- !u!135 &135875903396754264
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1272515121366598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.94
+  m_Center: {x: 0, y: 0, z: 0}

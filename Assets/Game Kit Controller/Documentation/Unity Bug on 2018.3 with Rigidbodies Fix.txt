@@ -1,0 +1,7 @@
+If you use 2018 unity version or higher and when you fire a weapon, it shows an error message, it is due to the new collision detection on unity 2018 and higher.
+
+To fix this, search the projectile prefabs in the project and configure the collision detection to deterministic in those projectiles which uses a different collision detection from discrete.
+
+If the collision detection is discrete, there is no need to change the setting.
+
+This is a bug from unity itself, in other versions like 2017, this won't happen.

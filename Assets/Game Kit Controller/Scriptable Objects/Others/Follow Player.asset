@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44fe21053ee2c24fa0ee98984769875, type: 3}
+  m_Name: Follow Player
+  m_EditorClassIdentifier: 
+  Name: Follow Player
+  ID: 0
+  completeDialogInfoTemplateList:
+  - language: English
+    completeDialogInfoList:
+    - Name: Make Friend AI to follow player
+      ID: 0
+      dialogInfoList:
+      - Name: 
+        ID: 0
+        dialogOwnerName: Jonny
+        dialogContent: Hi man, happy to see you here.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 1
+        dialogOwnerName: Jonny
+        dialogContent: Do you want help to fight?
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList:
+        - Name: 
+          ID: 0
+          dialogLineContent: Yes.
+        - Name: 
+          ID: 0
+          dialogLineContent: No.
+        - Name: 
+          ID: 0
+          dialogLineContent: I am not sure about it.
+      - Name: 
+        ID: 2
+        dialogOwnerName: Jonny
+        dialogContent: Cool. Let's go to kick some ass.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 3
+        dialogOwnerName: Jonny
+        dialogContent: Too bad. Hope you change your mind.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 4
+        dialogOwnerName: Jonny
+        dialogContent: Don't worry, I will help you in anything possible. Let me ask
+          you again.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 5
+        dialogOwnerName: Player
+        dialogContent: 
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList:
+        - Name: Player
+          ID: 0
+          dialogLineContent: Who are you?
+        - Name: Player
+          ID: 1
+          dialogLineContent: Get out of my view!
+        - Name: Player
+          ID: 2
+          dialogLineContent: Nice wheater, don't you think?
+        - Name: Player
+          ID: 3
+          dialogLineContent: Do you know what time is it?
+      - Name: 
+        ID: 6
+        dialogOwnerName: Jonny
+        dialogContent: I am just a NPC on this game. I won't attack you, unless you
+          hurt me.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList:
+        - Name: 
+          ID: 0
+          dialogLineContent: Tell me what you want.
+        - Name: 
+          ID: 0
+          dialogLineContent: Good to know, bye.
+      - Name: 
+        ID: 7
+        dialogOwnerName: Jonny
+        dialogContent: Ok, that hurted me. Now is my turn to hurt you.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 8
+        dialogOwnerName: Jonny
+        dialogContent: That is a strange question, but yeah, lovely.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 9
+        dialogOwnerName: Jonny
+        dialogContent: Bye.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 10
+        dialogOwnerName: Jonny
+        dialogContent: What?
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 11
+        dialogOwnerName: Jonny
+        dialogContent: Cold as hell.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 12
+        dialogOwnerName: Jonny
+        dialogContent: I don't believe on watches, don't ask me that again.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+  - language: Spanish
+    completeDialogInfoList:
+    - Name: Hacer que la AI siga al jugador
+      ID: 0
+      dialogInfoList:
+      - Name: 
+        ID: 0
+        dialogOwnerName: Juan
+        dialogContent: Hola, me alegro de verte.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 1
+        dialogOwnerName: Juan
+        dialogContent: "\xBFNecesitas ayuda para luchar?"
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList:
+        - Name: 
+          ID: 0
+          dialogLineContent: Si.
+        - Name: 
+          ID: 0
+          dialogLineContent: No.
+        - Name: 
+          ID: 0
+          dialogLineContent: No estoy seguro de ello.
+      - Name: 
+        ID: 2
+        dialogOwnerName: Juan
+        dialogContent: Mola, vamos a patear algunos traseros.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 3
+        dialogOwnerName: Juan
+        dialogContent: Una pena. Espero que cambies de opinion.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 4
+        dialogOwnerName: Juan
+        dialogContent: No te preocupes, te ayudare en todo lo posible. Dejame que
+          te lo preguntede nuevo.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 5
+        dialogOwnerName: Jugador
+        dialogContent: 
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList:
+        - Name: Jugador
+          ID: 0
+          dialogLineContent: "\xBFQuien eres?"
+        - Name: Jugador
+          ID: 1
+          dialogLineContent: '!Sal de mi vista!'
+        - Name: Jugador
+          ID: 2
+          dialogLineContent: "Buen tiempo, \xBFno te parece?"
+        - Name: Jugador
+          ID: 3
+          dialogLineContent: "\xBFSabes que horas es?"
+      - Name: 
+        ID: 6
+        dialogOwnerName: Juan
+        dialogContent: Solo soy un NPC de este juego. No te atacare, a no ser que
+          me ataques.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList:
+        - Name: 
+          ID: 0
+          dialogLineContent: Dime que quieres.
+        - Name: 
+          ID: 0
+          dialogLineContent: Bueno es saberlo, adios.
+      - Name: 
+        ID: 7
+        dialogOwnerName: Juan
+        dialogContent: "Vaya, eso me hizo da\xF1o. Ahora es mi turno de hacerte da\xF1o
+          a ti."
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 8
+        dialogOwnerName: Jonny
+        dialogContent: "Eso es una extra\xF1a pregunta, pero si, un tiempo encantador."
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 9
+        dialogOwnerName: Juan
+        dialogContent: Adios.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 10
+        dialogOwnerName: Juan
+        dialogContent: "\xBFQue?"
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 11
+        dialogOwnerName: Juan
+        dialogContent: Frio como el infierno.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []
+      - Name: 
+        ID: 12
+        dialogOwnerName: Juan
+        dialogContent: No creo en relojes, no me preguntes eso de nuevo.
+        dialogLineSound: {fileID: 0}
+        dialogLineInfoList: []

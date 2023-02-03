@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1145110429292226}
+  m_IsPrefabParent: 1
+--- !u!1 &1145110429292226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4040194537720212}
+  - component: {fileID: 33328964301644100}
+  - component: {fileID: 65688651660795874}
+  - component: {fileID: 23918856954884628}
+  - component: {fileID: 114426252486390918}
+  m_Layer: 2
+  m_Name: Set Gravity To Normal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4040194537720212
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1145110429292226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.900003, y: 42.218002, z: -54.318005}
+  m_LocalScale: {x: 12.9505625, y: 16.026089, z: 12.950575}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23918856954884628
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1145110429292226}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8e9c28b2d3a26ee45a56ba45772ee7f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33328964301644100
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1145110429292226}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65688651660795874
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1145110429292226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114426252486390918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1145110429292226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71362bbf87b5594ba07be53350c6bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useWithPlayer: 1
+  useWithNPC: 0
+  useWithVehicles: 1
+  useWithAnyRigidbody: 1
+  checkOnlyForArtificialGravitySystem: 0
+  setCustomGravityForce: 0
+  customGravityForce: 0
+  typeOfTrigger: 0
+  setGravityMode: 1
+  setRegularGravity: 1
+  setZeroGravity: 0
+  disableZeroGravity: 0
+  movePlayerToGravityPosition: 0
+  raycastPositionToGetGravityPosition: {fileID: 0}
+  layermaskToGetGravityPosition:
+    serializedVersion: 2
+    m_Bits: 0
+  teleportSpeed: 0
+  rotationSpeed: 0
+  useCustomGravityDirection: 0
+  customGravityDirection: {x: 0, y: 0, z: 0}
+  useCenterPoint: 0
+  centerPoint: {fileID: 0}
+  useCenterPointForRigidbodies: 0
+  useInverseDirectionToCenterPoint: 0
+  useCenterPointList: 0
+  useCenterIfPointListTooClose: 1
+  centerPointList: []
+  useCenterPointListForRigidbodies: 0
+  changeGravityDirectionActive: 0
+  rotateToSurfaceSmoothly: 1
+  setCircumnavigateSurfaceState: 0
+  circumnavigateSurfaceState: 0
+  setCheckSurfaceInFrontState: 0
+  checkSurfaceInFrontState: 0
+  setCheckSurfaceBelowLedgeState: 0
+  checkSurfaceBelowLedgeState: 0
+  preservePlayerVelocity: 1
+  storeSetGravityManager: 1
+  setTargetParent: 0
+  targetParent: {fileID: 0}
+  setRigidbodiesParent: 0
+  useAnimation: 0
+  animationName: 
+  mainAnimation: {fileID: 0}
+  dropObjectIfGabbed: 1
+  dropObjectOnlyIfNotGrabbedPhysically: 0
+  artificialObjectGravityList: []
+  useInitialObjectsOnGravityList: 0
+  initialObjectsOnGravityList: []

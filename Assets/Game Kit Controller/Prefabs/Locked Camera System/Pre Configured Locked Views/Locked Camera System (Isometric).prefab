@@ -1,0 +1,608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1440998876798390}
+  m_IsPrefabParent: 1
+--- !u!1 &1072257362114064
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4796822530364212}
+  m_Layer: 0
+  m_Name: Camera Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1120816499964504
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4920343683513888}
+  m_Layer: 0
+  m_Name: Camera Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1330424266801418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4586522796001916}
+  m_Layer: 0
+  m_Name: Isometric Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1368009540788488
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4919855390881780}
+  m_Layer: 0
+  m_Name: Camera Event Trigger Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1400524047317874
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4322776037018568}
+  m_Layer: 0
+  m_Name: Waypoint List Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1404431615989472
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4461769485578000}
+  m_Layer: 0
+  m_Name: Camera Axis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1440998876798390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4949912814433280}
+  - component: {fileID: 114671102345449364}
+  m_Layer: 0
+  m_Name: Locked Camera System (Isometric)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1441120618794362
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4931345491008704}
+  m_Layer: 0
+  m_Name: Reverse Top Down Camera Direction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1602208010567462
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4170703929717586}
+  m_Layer: 0
+  m_Name: Top Down Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1811979948875822
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4651585402214764}
+  - component: {fileID: 114976615033689172}
+  - component: {fileID: 65912170923960702}
+  m_Layer: 2
+  m_Name: Camera Event Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1823440976758180
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4250427134944402}
+  m_Layer: 0
+  m_Name: Locked Camera Position 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1878851073459720
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4036595047597120}
+  m_Layer: 0
+  m_Name: Top Down Look Direction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4036595047597120
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878851073459720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4170703929717586}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4170703929717586
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602208010567462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4036595047597120}
+  m_Father: {fileID: 4920343683513888}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4250427134944402
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1823440976758180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4919855390881780}
+  - {fileID: 4322776037018568}
+  - {fileID: 4931345491008704}
+  m_Father: {fileID: 4586522796001916}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4322776037018568
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1400524047317874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4250427134944402}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4461769485578000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404431615989472}
+  m_LocalRotation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 5, y: 10, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4796822530364212}
+  m_Father: {fileID: 4920343683513888}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
+--- !u!4 &4586522796001916
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330424266801418}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4250427134944402}
+  m_Father: {fileID: 4949912814433280}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4651585402214764
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811979948875822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.304428, y: 5, z: 10.539694}
+  m_Children: []
+  m_Father: {fileID: 4919855390881780}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4796822530364212
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072257362114064}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4461769485578000}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!4 &4919855390881780
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1368009540788488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4651585402214764}
+  m_Father: {fileID: 4250427134944402}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4920343683513888
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120816499964504}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4461769485578000}
+  - {fileID: 4170703929717586}
+  m_Father: {fileID: 4931345491008704}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4931345491008704
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1441120618794362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4920343683513888}
+  m_Father: {fileID: 4250427134944402}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4949912814433280
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440998876798390}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4586522796001916}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65912170923960702
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811979948875822}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114671102345449364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440998876798390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04149c3a8b01aff48b1c9940d61a0cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerToPlaceNewCamera:
+    serializedVersion: 2
+    m_Bits: 1
+  useRaycastToPlaceCameras: 1
+  eventTriggerScale: {x: 2, y: 5, z: 2}
+  lockedCameraList:
+  - name: Isometric Camera
+    parentList: {fileID: 4586522796001916}
+    cameraTransformList:
+    - name: Camera 1
+      axis: {fileID: 4461769485578000}
+      cameraPosition: {fileID: 4796822530364212}
+      useDifferentCameraFov: 0
+      fovValue: 0
+      cameraTriggerParentTransform: {fileID: 4919855390881780}
+      triggerTransform:
+      - {fileID: 4651585402214764}
+      followPlayerPosition: 1
+      followPlayerPositionSmoothly: 1
+      followPlayerPositionSpeed: 0.1
+      useLerpToFollowPlayerPosition: 0
+      useSeparatedVerticalHorizontalSpeed: 0
+      verticalFollowPlayerPositionSpeed: 0
+      horizontalFollowPlayerPositionSpeed: 0
+      lookAtPlayerPosition: 0
+      lookAtPlayerPositionSpeed: 0
+      lockedCameraPivot: {fileID: 4920343683513888}
+      useRotationLimits: 0
+      rotationLimitsX: {x: -90, y: 90}
+      rotationLimitsY: {x: -90, y: 90}
+      usePositionOffset: 0
+      positionOffset: {x: 0, y: 0, z: 0}
+      smoothCameraTransition: 1
+      cameraTransitionSpeed: 2
+      cameraParentTransform: {fileID: 4250427134944402}
+      startGameWithThisView: 0
+      playerForView: {fileID: 0}
+      useMultiplePlayers: 0
+      playerForViewList: []
+      smoothTransitionAtStart: 0
+      previoslyUseSmoohtTransitionState: 0
+      cameraCanRotate: 0
+      rangeAngleX: {x: -90, y: 90}
+      rangeAngleY: {x: -90, y: 90}
+      useSpringRotation: 0
+      springRotationDelay: 0
+      smoothRotation: 0
+      rotationSpeed: 0
+      originalPivotRotationY: 0
+      originalCameraRotationX: 0
+      canUseZoom: 0
+      zoomValue: 0
+      canMoveCamera: 0
+      moveCameraSpeed: 0
+      moveCameraLimitsX: {x: -2, y: 2}
+      moveCameraLimitsY: {x: -2, y: 2}
+      smoothCameraMovement: 0
+      smoothCameraSpeed: 0
+      useSpringMovement: 0
+      springMovementDelay: 0
+      originalCameraAxisLocalPosition: {x: 0, y: 0, z: 0}
+      originalLockedCameraPivotPosition: {x: 0, y: 0, z: 0}
+      useWaypoints: 0
+      useRaycastToPlaceWaypoints: 0
+      waypointCameraRotationSpeed: 0
+      useNextWaypointDirection: 0
+      waypointList: []
+      waypointParentTransform: {fileID: 0}
+      useZeroCameraTransition: 1
+      useHorizontalOffsetOnFaceSide: 0
+      horizontalOffsetOnFaceSide: 2
+      inputToleranceOnFaceSide: 0.1
+      horizontalOffsetOnFaceSideSpeed: 0.6
+      useHorizontalOffsetOnFaceSideOnMoving: 0
+      horizontalOffsetOnFaceSideOnMoving: 5
+      inputToleranceOnFaceSideOnMoving: 0.4
+      horizontalOffsetOnFaceSideOnMovingSpeed: 0.6
+      useBoundToFollowPlayer: 0
+      heightBoundTop: 5
+      widthBoundRight: 3
+      widthBoundLeft: 3
+      depthBoundFront: 3
+      depthBoundBackward: 3
+      boundOffset: {x: 0, y: -2, z: 0}
+      useTankControls: 0
+      use2_5dView: 0
+      pivot2_5d: {fileID: 0}
+      lookDirection2_5d: {fileID: 0}
+      useDefaultZValue2_5d: 0
+      moveInXAxisOn2_5d: 0
+      moveCameraLimitsX2_5d: {x: -3, y: 3}
+      moveCameraLimitsY2_5d: {x: -3, y: 3}
+      use2_5dVerticalOffsetOnMove: 0
+      verticalTopOffsetOnMove: 0
+      verticalBottomOffsetOnMove: 0
+      verticalOffsetOnMoveSpeed: 0
+      clampAimDirections: 0
+      numberOfAimDirections: 8
+      useTopDownView: 1
+      topDownPivot: {fileID: 4170703929717586}
+      topDownLookDirection: {fileID: 4036595047597120}
+      extraTopDownYRotation: 180
+      moveCameraLimitsXTopDown: {x: -4, y: 4}
+      moveCameraLimitsYTopDown: {x: -3, y: 3}
+      use8DiagonalAim: 0
+      useRelativeMovementToLockedCamera: 1
+      changeRootMotionActive: 0
+      useRootMotionActive: 1
+      canRotateCameraHorizontally: 0
+      horizontalCameraRotationSpeed: 0
+      checkPossibleTargetsBelowCursor: 1
+      useAimAssist: 1
+      lookOnlyIfTargetOnScreen: 0
+      lookOnlyIfTargetVisible: 0
+      moveCameraCursorSpeed: 0.1
+      usePointAndClickSystem: 0
+      useUnityEvent: 0
+      useUnityEventOnEnter: 0
+      unityEventOnEnter:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useUnityEventOnExit: 0
+      unityEventOnExit:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useTransparetSurfaceSystem: 0
+    isCurrentCameraTransform: 0
+    setCameraToFree: 0
+    showGizmo: 1
+  showGizmo: 0
+  showGizmoOnPlaying: 0
+  gizmoColor: {r: 0.6137934, g: 0, b: 1, a: 1}
+  gizmoLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+  gizmoArrowLenght: 0.59
+  gizmoArrowLineLenght: 1.57
+  gizmoArrowAngle: 20
+  gizmoArrowColor: {r: 1, g: 0, b: 0, a: 1}
+  cameraTransformPrefab: {fileID: 174336, guid: e948a42836430cd40ab2c5aee93b0e61,
+    type: 2}
+  cameraTriggerPrefab: {fileID: 171636, guid: 5b4338e035ff21e479bc5fc1abb33155, type: 2}
+  useFreeHandle: 0
+  handleRadius: 1.09
+  handleGizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  boundColor: {r: 1, g: 0, b: 0, a: 1}
+  showDoPositionHandles: 1
+  showFloorTriggersCubes: 0
+  floorTriggersCubesColor: {r: 0.9191176, g: 0.101373255, b: 0.101373255, a: 0.653}
+  showWaypointList: 0
+  waypointListColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114976615033689172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811979948875822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fc770a0dc8169449e7164daf5e37bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventList:
+  - name: camera1
+    objectToCall: {fileID: 1440998876798390}
+    functionNameList:
+    - setCameraTransform
+    secondsDelay: 0
+    sendGameObject: 1
+    objectToSend: {fileID: 1072257362114064}
+    sendObjectDetected: 1
+    sendObjectDetectedFunction: getPlayerGameObject
+    sendObjectDetectedByEvent: 0
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 0
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+  enterEventList: []
+  exitEventList: []
+  useSameFunctionInList: 0
+  sameFunctionList: []
+  useSameObjectToCall: 0
+  callThisObject: 0
+  sameObjectToCall: {fileID: 0}
+  triggeredByButton: 0
+  useObjectToTrigger: 0
+  objectNeededToTrigger: {fileID: 0}
+  useTagToTrigger: 1
+  tagNeededToTrigger: Player
+  useTagList: 1
+  tagList:
+  - Player
+  - vehicle
+  justCallOnTrigger: 0
+  callFunctionEveryTimeTriggered: 1
+  eventTriggered: 0
+  dontUseDelay: 0
+  useSameDelay: 1
+  generalDelay: 0
+  triggerEventType: 0
+  useLayerMask: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  coroutineActive: 0
+  setParentToNull: 0
+  objectDetected: {fileID: 0}
+  triggerEventAtStart: 0
+  isEnter: 0
+  isExit: 0

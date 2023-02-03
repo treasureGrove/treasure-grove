@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871cdb62c88f27b47b5c390fd70817aa, type: 3}
+  m_Name: Process Station
+  m_EditorClassIdentifier: 
+  Name: Process Station
+  ID: 0
+  amountObtained: 1
+  isRawMaterial: 0
+  useObjectToPlace: 1
+  objectToPlace: {fileID: 1497441504510482, guid: 25c1d88ae09f4ed41ac403585cd45aad,
+    type: 2}
+  objectToPlacePositionOffset: {x: 0, y: 0, z: 0}
+  useCustomLayerMaskToPlaceObject: 0
+  customLayerMaskToPlaceObject:
+    serializedVersion: 2
+    m_Bits: 0
+  layerMaskToAttachObject:
+    serializedVersion: 2
+    m_Bits: 0
+  objectCanBeRotatedOnYAxis: 1
+  objectCanBeRotatedOnXAxis: 0
+  craftObjectInTime: 0
+  timeToCraftObject: 0
+  craftingIngredientObjectInfoList:
+  - Name: Wood
+    amountRequired: 20
+  - Name: Nail
+    amountRequired: 100
+  - Name: Iron
+    amountRequired: 30
+  - Name: Steel
+    amountRequired: 20
+  - Name: Lead
+    amountRequired: 10
+  - Name: Diamond
+    amountRequired: 5
+  - Name: Lead
+    amountRequired: 10
+  repairIngredientObjectInfoList: []
+  brokenIngredientObjectInfoList: []
+  disassembleIngredientObjectInfoList:
+  - Name: Wood
+    amountRequired: 10
+  - Name: Nail
+    amountRequired: 10
+  - Name: Lead
+    amountRequired: 5
+  checkStatsInfoToCraft: 0
+  craftingStatInfoToCraftList: []
+  processMaterialInfoList: []

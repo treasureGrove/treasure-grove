@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab22c978bb5e0c4a938f068b8128925, type: 3}
+  m_Name: Red Gem
+  m_EditorClassIdentifier: 
+  Name: Red Gem
+  ID: 0
+  usedOnObject: 1
+  usableObjectList:
+  - Big Axe
+  - Double Axe
+  objectStatInfoList:
+  - Name: Damage
+    statIsAmount: 1
+    statIcon: {fileID: 2800000, guid: 22356b1b3cc7c7443b7b35c956010c38, type: 3}
+    currentFloatValue: 20
+    maxFloatValue: 0
+    currentBoolState: 0
+  - Name: Get Health On Perfect Block
+    statIsAmount: 0
+    statIcon: {fileID: 2800000, guid: 899cf2b718f6df34585a8cfa509eebd4, type: 3}
+    currentFloatValue: 0
+    maxFloatValue: 0
+    currentBoolState: 1

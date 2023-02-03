@@ -1,0 +1,1701 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1493731555381174}
+  m_IsPrefabParent: 1
+--- !u!1 &1390188719329312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4083483898622612}
+  m_Layer: 2
+  m_Name: Camera Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1412800405674298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4683324268607942}
+  m_Layer: 2
+  m_Name: String Action Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1493731555381174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4663305750837352}
+  - component: {fileID: 65392460576753058}
+  - component: {fileID: 114512852932651922}
+  - component: {fileID: 82007279471640906}
+  - component: {fileID: 114613098065645252}
+  - component: {fileID: 114097454042783620}
+  - component: {fileID: 114278990467359920}
+  - component: {fileID: 114744330585262716}
+  - component: {fileID: 114573293545888302}
+  - component: {fileID: 114517164883473782}
+  m_Layer: 2
+  m_Name: Dialog System (Free Dialog Without Pause)
+  m_TagString: device
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1596338434760468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4016099629291158}
+  - component: {fileID: 114829416825128910}
+  - component: {fileID: 65738643246718960}
+  m_Layer: 2
+  m_Name: Change Player State On Trigger System (On Enter-Exit Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1821956329177194
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4967968658043362}
+  - component: {fileID: 114548953855465734}
+  m_Layer: 2
+  m_Name: Change Player State System (Lower Walk Speed Example)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1864185217879138
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4561990816651128}
+  - component: {fileID: 114041959334761222}
+  m_Layer: 2
+  m_Name: Change Player State System (Regular Walk Speed Example)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4016099629291158
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596338434760468}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.009926796, y: -0.15400004, z: 0.6113095}
+  m_LocalScale: {x: 1.5514959, y: 2.941614, z: 1.7527964}
+  m_Children:
+  - {fileID: 4967968658043362}
+  - {fileID: 4561990816651128}
+  m_Father: {fileID: 4663305750837352}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4083483898622612
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390188719329312}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 1.68, z: 0.898}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4663305750837352}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!4 &4561990816651128
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864185217879138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000013, y: 0.9999988, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016099629291158}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4663305750837352
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: -12.78, y: 0, z: 22.06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4683324268607942}
+  - {fileID: 4083483898622612}
+  - {fileID: 4016099629291158}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4683324268607942
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412800405674298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.99, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4663305750837352}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4967968658043362
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1821956329177194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4016099629291158}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65392460576753058
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2225952, y: 2.06, z: 1.2998216}
+  m_Center: {x: -0.028022766, y: 1.12, z: 0.6399108}
+--- !u!65 &65738643246718960
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596338434760468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.65, z: 0}
+--- !u!82 &82007279471640906
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1.66
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114041959334761222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864185217879138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415646ac301bfa544b2959ae07c4bef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changePlayerStatesEnabled: 1
+  disableTriggerAfterEnter: 0
+  changePlayerMode: 0
+  playerModeName: 
+  setJumpEnabledState: 0
+  jumpEnabledState: 0
+  setDoubleJumpState: 0
+  doubleJumpState: 0
+  setCameraViewState: 0
+  setCameraToFirstPerson: 0
+  setActionToChangeBetweenViewsState: 0
+  actionToChangeBetweenViewsState: 0
+  setCameraStateName: 0
+  cameraStateName: 
+  resetCameraRotationState: 0
+  setPlayerInputActionState: 0
+  playerInputActionState: 0
+  multiAxesInputName: 
+  axesInputName: 
+  drawWeapon: 0
+  drawCurrentWeapon: 0
+  drawCertainWeapon: 0
+  weaponNameToDraw: 
+  keepWeapon: 0
+  setCarryWeaponOnLowerPositionState: 1
+  carryWeaponOnLowerPositionState: 0
+  setCanFireWeaponsState: 1
+  canFireWeaponsState: 1
+  setGravityPowerState: 0
+  gravityPowerState: 0
+  setZeroGravityModeState: 0
+  zeroGravityModeState: 0
+  setGravityDirection: 0
+  setGravityManager: {fileID: 0}
+  setFreeFloatingModeState: 0
+  freeFloatingModeState: 0
+  setLookAtPointState: 0
+  lookAtPointState: 0
+  pointToLook: {fileID: 0}
+  useDurationToLookAtPoint: 0
+  durationToLookAtPoint: 0
+  enableLookAtPointStateAfterDuration: 0
+  setLookAtPointSpeed: 0
+  lookAtPointSpeed: 0
+  setMaxDistanceToFindTarget: 0
+  maxDistanceToFindTarget: 0
+  setUseLookTargetIconState: 0
+  useLookTargetIconState: 0
+  setOriginalUseLookTargetIconState: 0
+  setCameraZoomState: 0
+  cameraZoomState: 0
+  useCameraZoomDuration: 0
+  cameraZoomDuration: 0
+  enableCameraZoonInputAfterDuration: 0
+  setTransparentSurfaceDetectionState: 0
+  transparentSurfaceDetectionState: 0
+  setWalkSpeedValue: 0
+  walkSpeedValue: 1
+  setOriginalWalkSpeedValue: 0
+  setIncreaseWalkSpeedValue: 0
+  increaseWalkSpeedValue: 1
+  setIncreaseWalkSpeedEnabled: 0
+  increaseWalkSpeedEnabled: 0
+  setOriginalIncreaseWalkSpeedEnabledValue: 0
+  setSprintEnabledState: 0
+  sprintEnabledState: 0
+  setOriginalSprintEnabledState: 0
+  setStairsAdherenceValue: 0
+  stairsMaxValue: 0.25
+  stairsMinValue: 0.2
+  stairsGroundAdherence: 8
+  changeRootMotionActive: 0
+  useRootMotionActive: 1
+  activateRagdollState: 0
+  ragdollPushDirection: {fileID: 0}
+  ragdollPushForceAmount: 0
+  setAbility: 0
+  abilityNameToSet: 
+  useAbilitiesListToEnable: 0
+  abilitiesListToEnable: []
+  useAbilitiesListToDisable: 0
+  abilitiesListToDisable: []
+  setCurrentPower: 0
+  currentPowerName: 
+  useRemoteEventOnObjectsFound: 0
+  removeEventNameList: []
+  useEventOnTrigger: 0
+  eventOnTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnEvent: 0
+  playerSendEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setPlayerManually: 0
+  playerToConfigure: {fileID: 0}
+  currentPlayer: {fileID: 0}
+--- !u!114 &114097454042783620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe7bfbecac2ee4895bd133d0b782df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: Friend
+  deviceAction: Talk
+  secondaryDeviceAction: 
+  reloadDeviceActionOnPress: 0
+  hideIconOnPress: 0
+  disableIconOnPress: 0
+  showIcon: 1
+  showTouchIconButton: 1
+  hideIconOnUseDevice: 0
+  showIconOnStopUseDevice: 0
+  useTransformForStringAction: 1
+  transformForStringAction: {fileID: 4683324268607942}
+  useSeparatedTransformForEveryView: 0
+  transformForThirdPerson: {fileID: 0}
+  transformForFirstPerson: {fileID: 0}
+  useLocalOffset: 1
+  actionOffset: 0
+  setUsingDeviceState: 0
+  setTextFontSizeActive: 0
+  textFontSize: 17
+  iconEnabled: 1
+  useRaycastToDetectDeviceParts: 0
+  usingDevice: 0
+  useCustomMinDistanceToUseDevice: 0
+  customMinDistanceToUseDevice: 0
+  useCustomMinAngleToUse: 0
+  customMinAngleToUseDevice: 0
+  useRelativeDirectionBetweenPlayerAndObject: 0
+  useCustomIconButtonInfo: 0
+  customIconButtonInfoName: 
+  ignoreUseOnlyDeviceIfVisibleOnCamera: 0
+  useCustomDeviceTransformPosition: 0
+  customDeviceTransformPosition: {fileID: 0}
+  useFixedDeviceIconPosition: 0
+  checkIfObstacleBetweenDeviceAndPlayer: 0
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColor: {r: 1, g: 1, b: 1, a: 1}
+  gizmoRadius: 0.3
+--- !u!114 &114278990467359920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ddab01b84015e4981a3f039ef51d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOutlineEnabled: 0
+  outlineActive: 0
+  renderElementsStored: 0
+  shaderOutlineWidthName: _Outline
+  shaderOutlineColorName: _OutlineColor
+  useCustomOutlineValues: 0
+  customOutlineWidth: 0.05
+  customOutlineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  useTransparencyActive: 1
+  transparencyActive: 0
+  useCustomTransparencyValues: 0
+  customAlphaTransparency: 0
+  meshParent: {fileID: 0}
+  ignoreParticles: 0
+  ignoreLineRenderer: 0
+  useMeshesToIgnore: 0
+  meshesToIgnore: []
+--- !u!114 &114512852932651922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8030885d591eb408518d093fad5d5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useOnlyForTrigger: 1
+  functionToSetPlayer: setCurrentPlayer
+  activateDeviceOnTriggerEnter: 0
+  useFreeInteraction: 0
+  useFreeInteractionEvent: 0
+  freeInteractionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useMoveCameraToDevice: 0
+  disableDeviceWhenStopUsing: 0
+  stopUsingDeviceWhenUnlock: 0
+  disableAndRemoveDeviceWhenUnlock: 0
+  functionToUseDevice:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114744330585262716}
+        m_MethodName: activateDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 65392460576753058}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 114512852932651922}
+        m_MethodName: removeDeviceFromListWithoutDisablingDevice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 114512852932651922}
+        m_MethodName: setUsingDeviceState
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  usingDevice: 0
+  unlockFunctionCall:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  lockFunctionCall:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  currentPlayer: {fileID: 0}
+  activateEventOnTriggerStay: 0
+  triggerStayEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnTriggerStayRate: 0
+  activateEventOnTriggerEnter: 0
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  activateEventOnTriggerExit: 0
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnTriggerEnter: 0
+  eventToSendPlayerOnTriggerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sendPlayerOnTriggerExit: 0
+  eventToSendPlayerOnTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  activateEventIfUnableToUseDevice: 0
+  unableToUseDeviceEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendCurrentPlayerOnEvent: 1
+  setCurrentPlayerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114744330585262716}
+        m_MethodName: setCurrentPlayer
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  useEventOnStartUsingDevice: 0
+  useEventOnStopUsingDevice: 0
+  eventOnStartUsingDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnStopUsingDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  deviceCanBeUsed: 1
+  playerInside: 0
+  cameraMovementManager: {fileID: 0}
+  deviceMovementManager: {fileID: 0}
+  disableDeviceInteractionAfterUsingOnce: 0
+--- !u!114 &114517164883473782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f24ec67cdbece344ba0a0c3f888975a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  setNewDialogIndex: 0
+  newDialogIndex: 0
+  checkDialogContentSystemID: 0
+  IDToCheck: 0
+  mainDialogContentSystem: {fileID: 114744330585262716}
+  mainElectronicDevice: {fileID: 114512852932651922}
+  assignObjectManually: 1
+  playerToConfigure: {fileID: 0}
+  searchPlayerOnSceneIfNotAssigned: 1
+--- !u!114 &114548953855465734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1821956329177194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415646ac301bfa544b2959ae07c4bef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changePlayerStatesEnabled: 1
+  disableTriggerAfterEnter: 0
+  changePlayerMode: 0
+  playerModeName: 
+  setJumpEnabledState: 0
+  jumpEnabledState: 0
+  setDoubleJumpState: 0
+  doubleJumpState: 0
+  setCameraViewState: 0
+  setCameraToFirstPerson: 0
+  setActionToChangeBetweenViewsState: 0
+  actionToChangeBetweenViewsState: 0
+  setCameraStateName: 0
+  cameraStateName: 
+  resetCameraRotationState: 0
+  setPlayerInputActionState: 0
+  playerInputActionState: 0
+  multiAxesInputName: 
+  axesInputName: 
+  drawWeapon: 0
+  drawCurrentWeapon: 0
+  drawCertainWeapon: 0
+  weaponNameToDraw: 
+  keepWeapon: 0
+  setCarryWeaponOnLowerPositionState: 1
+  carryWeaponOnLowerPositionState: 1
+  setCanFireWeaponsState: 1
+  canFireWeaponsState: 0
+  setGravityPowerState: 0
+  gravityPowerState: 0
+  setZeroGravityModeState: 0
+  zeroGravityModeState: 0
+  setGravityDirection: 0
+  setGravityManager: {fileID: 0}
+  setFreeFloatingModeState: 0
+  freeFloatingModeState: 0
+  setLookAtPointState: 0
+  lookAtPointState: 0
+  pointToLook: {fileID: 0}
+  useDurationToLookAtPoint: 0
+  durationToLookAtPoint: 0
+  enableLookAtPointStateAfterDuration: 0
+  setLookAtPointSpeed: 0
+  lookAtPointSpeed: 0
+  setMaxDistanceToFindTarget: 0
+  maxDistanceToFindTarget: 0
+  setUseLookTargetIconState: 0
+  useLookTargetIconState: 0
+  setOriginalUseLookTargetIconState: 0
+  setCameraZoomState: 0
+  cameraZoomState: 0
+  useCameraZoomDuration: 0
+  cameraZoomDuration: 0
+  enableCameraZoonInputAfterDuration: 0
+  setTransparentSurfaceDetectionState: 0
+  transparentSurfaceDetectionState: 0
+  setWalkSpeedValue: 0
+  walkSpeedValue: 0.5
+  setOriginalWalkSpeedValue: 0
+  setIncreaseWalkSpeedValue: 0
+  increaseWalkSpeedValue: 0.5
+  setIncreaseWalkSpeedEnabled: 0
+  increaseWalkSpeedEnabled: 0
+  setOriginalIncreaseWalkSpeedEnabledValue: 0
+  setSprintEnabledState: 0
+  sprintEnabledState: 0
+  setOriginalSprintEnabledState: 0
+  setStairsAdherenceValue: 0
+  stairsMaxValue: 0.25
+  stairsMinValue: 0.2
+  stairsGroundAdherence: 8
+  changeRootMotionActive: 0
+  useRootMotionActive: 1
+  activateRagdollState: 0
+  ragdollPushDirection: {fileID: 0}
+  ragdollPushForceAmount: 0
+  setAbility: 0
+  abilityNameToSet: 
+  useAbilitiesListToEnable: 0
+  abilitiesListToEnable: []
+  useAbilitiesListToDisable: 0
+  abilitiesListToDisable: []
+  setCurrentPower: 0
+  currentPowerName: 
+  useRemoteEventOnObjectsFound: 0
+  removeEventNameList: []
+  useEventOnTrigger: 0
+  eventOnTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendPlayerOnEvent: 0
+  playerSendEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  setPlayerManually: 0
+  playerToConfigure: {fileID: 0}
+  currentPlayer: {fileID: 0}
+--- !u!114 &114573293545888302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ceb6c90a67d825418766c477c318629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followObjectActive: 1
+  objectToFollow: {fileID: 0}
+  followPosition: 1
+  followRotation: 1
+  mainTransform: {fileID: 4663305750837352}
+  checkIfObjectToFollowNull: 1
+  objectToFollowLocated: 0
+  showDebugPrint: 0
+--- !u!114 &114613098065645252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a8b31f995e2034892d0ff2804df26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraMovementActive: 1
+  cameraPosition: {fileID: 1390188719329312}
+  smoothCameraMovement: 1
+  useFixedLerpMovement: 1
+  fixedLerpMovementSpeed: 2
+  cameraMovementSpeedThirdPerson: 1
+  cameraMovementSpeedFirstPerson: 0.2
+  secondMoveCameraToDevice: 0
+  unlockCursor: 1
+  ignoreHideCursorOnClick: 0
+  setNewMouseCursorControllerSpeed: 0
+  newMouseCursroControllerSpeed: 0
+  disablePlayerMeshGameObject: 1
+  enablePlayerMeshGameObjectIfFirstPersonActive: 0
+  disableWeaponsCamera: 0
+  keepWeaponsIfCarrying: 1
+  drawWeaponsIfPreviouslyCarrying: 1
+  keepOnlyIfPlayerIsOnFirstPerson: 0
+  disableWeaponsDirectlyOnStart: 0
+  carryWeaponOnLowerPositionActive: 0
+  setPlayerCameraRotationOnExit: 0
+  playerPivotTransformThirdPerson: {fileID: 0}
+  playerCameraTransformThirdPerson: {fileID: 0}
+  playerPivotTransformFirstPerson: {fileID: 0}
+  playerCameraTransformFirstPerson: {fileID: 0}
+  alignPlayerWithCameraPositionOnStartUseDevice: 0
+  alignPlayerWithCameraPositionOnStopUseDevice: 0
+  alignPlayerWithCameraRotationOnStartUseDevice: 0
+  alignPlayerWithCameraRotationOnStopUseDevice: 0
+  customAlignPlayerTransform: {fileID: 0}
+  resetPlayerCameraDirection: 0
+  disableSecondaryPlayerHUD: 0
+  disableAllPlayerHUD: 1
+  disableTouchControls: 1
+  showGizmo: 0
+  gizmoRadius: 0.1
+  gizmoLabelColor: {r: 0, g: 0, b: 0, a: 1}
+  gizmoArrowLength: 0.3
+  gizmoArrowLineLength: 0.5
+  gizmoArrowAngle: 20
+  gizmoArrowColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &114744330585262716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493731555381174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fdf783067d618f479f4353a0453fd4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogContentID: 2
+  dialogContentScene: 0
+  completeDialogInfoList:
+  - Name: 
+    ID: 0
+    playDialogWithoutPausingPlayerActions: 1
+    playDialogsAutomatically: 1
+    pausePlayerActionsInput: 0
+    pausePlayerMovementInput: 0
+    canUseInputToSetNextDialog: 1
+    showFullDialogLineOnInputIfTextPartByPart: 1
+    showDialogLineWordByWord: 0
+    dialogLineWordSpeed: 0.5
+    showDialogLineLetterByLetter: 0
+    dialogLineLetterSpeed: 0.03
+    useCustomTextAnchorAndAligment: 0
+    textAnchor: 3
+    stopDialogIfPlayerDistanceTooFar: 0
+    maxDistanceToStopDialog: 0
+    rewindLastDialogIfStopped: 0
+    eventOnDialogStopped:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 65392460576753058}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    playDialogOnTriggerEnter: 0
+    eventToPlayDialogOnTriggerEnter:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    dialogInfoList:
+    - Name: 
+      ID: 0
+      dialogOwnerName: "Random Citizen N\xBA2"
+      dialogContent: Hi there. If you pay attention, I am talking to you directly
+        without pausing your actions, like many games do. Pretty cool, huh?
+      showPreviousDialogLineOnOptions: 0
+      dialogLineInfoList: []
+      eventOnDialog:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayer: 0
+      eventToSendPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      activateWhenDialogClosed: 0
+      activateRemoteTriggerSystem: 0
+      remoteTriggerName: 
+      useNexLineButton: 1
+      isEndOfDialog: 0
+      changeToDialogInfoID: 0
+      dialogInfoIDToActivate: 0
+      useRandomDialogInfoID: 0
+      useRandomDialogRange: 0
+      randomDialogRange: {x: 0, y: 0}
+      randomDialogIDList: 
+      checkConditionForNextLine: 0
+      dialogInfoIDToActivateOnConditionTrue: 0
+      dialogInfoIDToActivateOnConditionFalse: 0
+      eventToCheckConditionForNextLine:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayerToCondition: 0
+      eventToSendPlayerToCondition:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      disableDialogAfterSelect: 0
+      dialogInfoIDToJump: 0
+      dialogInfoDisabled: 0
+      setNextCompleteDialogID: 0
+      setNewCompleteDialogID: 0
+      newCompleteDialogID: 0
+      delayToShowNextDialogLine: 7.5
+      delayToShowThisDialogLine: 0.1
+      useDialogLineSound: 1
+      dialogLineSound: {fileID: 8300000, guid: 1fdceaba5d413934d89a6cf503796adc, type: 3}
+      useAnimations: 0
+      animationName: 
+      delayToPlayAnimation: 0
+      useDelayToDisableAnimation: 0
+      delayToDisableAnimation: 0
+      animationUsedOnPlayer: 0
+    - Name: 
+      ID: 1
+      dialogOwnerName: "Random Citizen N\xBA2"
+      dialogContent: Well, it is a very common thing, I mean, there are situations
+        where you need that some NPC or character tells something to you while you
+        keep playing.
+      showPreviousDialogLineOnOptions: 0
+      dialogLineInfoList: []
+      eventOnDialog:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayer: 0
+      eventToSendPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      activateWhenDialogClosed: 0
+      activateRemoteTriggerSystem: 0
+      remoteTriggerName: 
+      useNexLineButton: 1
+      isEndOfDialog: 0
+      changeToDialogInfoID: 0
+      dialogInfoIDToActivate: 0
+      useRandomDialogInfoID: 0
+      useRandomDialogRange: 0
+      randomDialogRange: {x: 0, y: 0}
+      randomDialogIDList: 
+      checkConditionForNextLine: 0
+      dialogInfoIDToActivateOnConditionTrue: 0
+      dialogInfoIDToActivateOnConditionFalse: 0
+      eventToCheckConditionForNextLine:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayerToCondition: 0
+      eventToSendPlayerToCondition:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      disableDialogAfterSelect: 0
+      dialogInfoIDToJump: 0
+      dialogInfoDisabled: 0
+      setNextCompleteDialogID: 0
+      setNewCompleteDialogID: 0
+      newCompleteDialogID: 0
+      delayToShowNextDialogLine: 8
+      delayToShowThisDialogLine: 0
+      useDialogLineSound: 1
+      dialogLineSound: {fileID: 8300000, guid: 64b8e206053fced489d9a71d46f143ff, type: 3}
+      useAnimations: 0
+      animationName: 
+      delayToPlayAnimation: 0
+      useDelayToDisableAnimation: 0
+      delayToDisableAnimation: 0
+      animationUsedOnPlayer: 0
+    - Name: 
+      ID: 2
+      dialogOwnerName: "Random Citizen N\xBA2"
+      dialogContent: It is a way to not break the action and make things more dynamic
+        and natural.
+      showPreviousDialogLineOnOptions: 0
+      dialogLineInfoList: []
+      eventOnDialog:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayer: 0
+      eventToSendPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      activateWhenDialogClosed: 0
+      activateRemoteTriggerSystem: 0
+      remoteTriggerName: 
+      useNexLineButton: 1
+      isEndOfDialog: 0
+      changeToDialogInfoID: 0
+      dialogInfoIDToActivate: 0
+      useRandomDialogInfoID: 0
+      useRandomDialogRange: 0
+      randomDialogRange: {x: 0, y: 0}
+      randomDialogIDList: 
+      checkConditionForNextLine: 0
+      dialogInfoIDToActivateOnConditionTrue: 0
+      dialogInfoIDToActivateOnConditionFalse: 0
+      eventToCheckConditionForNextLine:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayerToCondition: 0
+      eventToSendPlayerToCondition:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      disableDialogAfterSelect: 0
+      dialogInfoIDToJump: 0
+      dialogInfoDisabled: 0
+      setNextCompleteDialogID: 0
+      setNewCompleteDialogID: 0
+      newCompleteDialogID: 0
+      delayToShowNextDialogLine: 4
+      delayToShowThisDialogLine: 0
+      useDialogLineSound: 1
+      dialogLineSound: {fileID: 8300000, guid: da5e0013f02b63740baf9ec21a37e04a, type: 3}
+      useAnimations: 0
+      animationName: 
+      delayToPlayAnimation: 0
+      useDelayToDisableAnimation: 0
+      delayToDisableAnimation: 0
+      animationUsedOnPlayer: 0
+    - Name: 
+      ID: 3
+      dialogOwnerName: "Random Citizen N\xBA2"
+      dialogContent: And this is embarassing, but I haven't nothing more to tell you
+        yet.
+      showPreviousDialogLineOnOptions: 0
+      dialogLineInfoList: []
+      eventOnDialog:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 65392460576753058}
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayer: 0
+      eventToSendPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      activateWhenDialogClosed: 1
+      activateRemoteTriggerSystem: 0
+      remoteTriggerName: 
+      useNexLineButton: 1
+      isEndOfDialog: 0
+      changeToDialogInfoID: 0
+      dialogInfoIDToActivate: 0
+      useRandomDialogInfoID: 0
+      useRandomDialogRange: 0
+      randomDialogRange: {x: 0, y: 0}
+      randomDialogIDList: 
+      checkConditionForNextLine: 0
+      dialogInfoIDToActivateOnConditionTrue: 0
+      dialogInfoIDToActivateOnConditionFalse: 0
+      eventToCheckConditionForNextLine:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayerToCondition: 0
+      eventToSendPlayerToCondition:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      disableDialogAfterSelect: 0
+      dialogInfoIDToJump: 0
+      dialogInfoDisabled: 0
+      setNextCompleteDialogID: 1
+      setNewCompleteDialogID: 0
+      newCompleteDialogID: 0
+      delayToShowNextDialogLine: 3.5
+      delayToShowThisDialogLine: 0
+      useDialogLineSound: 1
+      dialogLineSound: {fileID: 8300000, guid: ecd134a0e3e26674fb8edd6bb5874913, type: 3}
+      useAnimations: 0
+      animationName: 
+      delayToPlayAnimation: 0
+      useDelayToDisableAnimation: 0
+      delayToDisableAnimation: 0
+      animationUsedOnPlayer: 0
+  - Name: 
+    ID: 1
+    playDialogWithoutPausingPlayerActions: 1
+    playDialogsAutomatically: 1
+    pausePlayerActionsInput: 0
+    pausePlayerMovementInput: 0
+    canUseInputToSetNextDialog: 1
+    showFullDialogLineOnInputIfTextPartByPart: 1
+    showDialogLineWordByWord: 0
+    dialogLineWordSpeed: 0.5
+    showDialogLineLetterByLetter: 0
+    dialogLineLetterSpeed: 0.03
+    useCustomTextAnchorAndAligment: 0
+    textAnchor: 3
+    stopDialogIfPlayerDistanceTooFar: 0
+    maxDistanceToStopDialog: 0
+    rewindLastDialogIfStopped: 0
+    eventOnDialogStopped:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 65392460576753058}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    playDialogOnTriggerEnter: 0
+    eventToPlayDialogOnTriggerEnter:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    dialogInfoList:
+    - Name: 
+      ID: 0
+      dialogOwnerName: "Random Citizen N\xBA2"
+      dialogContent: I have nothing much to tell to you for now. Maybe later.
+      showPreviousDialogLineOnOptions: 0
+      dialogLineInfoList: []
+      eventOnDialog:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 65392460576753058}
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayer: 0
+      eventToSendPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      activateWhenDialogClosed: 1
+      activateRemoteTriggerSystem: 0
+      remoteTriggerName: 
+      useNexLineButton: 1
+      isEndOfDialog: 0
+      changeToDialogInfoID: 0
+      dialogInfoIDToActivate: 0
+      useRandomDialogInfoID: 0
+      useRandomDialogRange: 0
+      randomDialogRange: {x: 0, y: 0}
+      randomDialogIDList: 
+      checkConditionForNextLine: 0
+      dialogInfoIDToActivateOnConditionTrue: 0
+      dialogInfoIDToActivateOnConditionFalse: 0
+      eventToCheckConditionForNextLine:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayerToCondition: 0
+      eventToSendPlayerToCondition:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      disableDialogAfterSelect: 0
+      dialogInfoIDToJump: 0
+      dialogInfoDisabled: 0
+      setNextCompleteDialogID: 1
+      setNewCompleteDialogID: 0
+      newCompleteDialogID: 0
+      delayToShowNextDialogLine: 3.5
+      delayToShowThisDialogLine: 0.2
+      useDialogLineSound: 1
+      dialogLineSound: {fileID: 8300000, guid: 2cf42823b10111947a322051832955b2, type: 3}
+      useAnimations: 0
+      animationName: 
+      delayToPlayAnimation: 0
+      useDelayToDisableAnimation: 0
+      delayToDisableAnimation: 0
+      animationUsedOnPlayer: 0
+  - Name: 
+    ID: 2
+    playDialogWithoutPausingPlayerActions: 1
+    playDialogsAutomatically: 1
+    pausePlayerActionsInput: 0
+    pausePlayerMovementInput: 0
+    canUseInputToSetNextDialog: 1
+    showFullDialogLineOnInputIfTextPartByPart: 1
+    showDialogLineWordByWord: 0
+    dialogLineWordSpeed: 0.5
+    showDialogLineLetterByLetter: 0
+    dialogLineLetterSpeed: 0.03
+    useCustomTextAnchorAndAligment: 0
+    textAnchor: 3
+    stopDialogIfPlayerDistanceTooFar: 0
+    maxDistanceToStopDialog: 0
+    rewindLastDialogIfStopped: 0
+    eventOnDialogStopped:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 65392460576753058}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    playDialogOnTriggerEnter: 0
+    eventToPlayDialogOnTriggerEnter:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    dialogInfoList:
+    - Name: 
+      ID: 0
+      dialogOwnerName: "Random Citizen N\xBA2"
+      dialogContent: Nope. Still nothing to tell you about.
+      showPreviousDialogLineOnOptions: 0
+      dialogLineInfoList: []
+      eventOnDialog:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 65392460576753058}
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayer: 0
+      eventToSendPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      activateWhenDialogClosed: 1
+      activateRemoteTriggerSystem: 0
+      remoteTriggerName: 
+      useNexLineButton: 1
+      isEndOfDialog: 0
+      changeToDialogInfoID: 0
+      dialogInfoIDToActivate: 0
+      useRandomDialogInfoID: 0
+      useRandomDialogRange: 0
+      randomDialogRange: {x: 0, y: 0}
+      randomDialogIDList: 
+      checkConditionForNextLine: 0
+      dialogInfoIDToActivateOnConditionTrue: 0
+      dialogInfoIDToActivateOnConditionFalse: 0
+      eventToCheckConditionForNextLine:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayerToCondition: 0
+      eventToSendPlayerToCondition:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      disableDialogAfterSelect: 0
+      dialogInfoIDToJump: 0
+      dialogInfoDisabled: 0
+      setNextCompleteDialogID: 1
+      setNewCompleteDialogID: 0
+      newCompleteDialogID: 0
+      delayToShowNextDialogLine: 3
+      delayToShowThisDialogLine: 0.2
+      useDialogLineSound: 1
+      dialogLineSound: {fileID: 8300000, guid: 2467256c66258d548a1b3ea273fd4608, type: 3}
+      useAnimations: 0
+      animationName: 
+      delayToPlayAnimation: 0
+      useDelayToDisableAnimation: 0
+      delayToDisableAnimation: 0
+      animationUsedOnPlayer: 0
+  - Name: 
+    ID: 3
+    playDialogWithoutPausingPlayerActions: 1
+    playDialogsAutomatically: 1
+    pausePlayerActionsInput: 0
+    pausePlayerMovementInput: 0
+    canUseInputToSetNextDialog: 1
+    showFullDialogLineOnInputIfTextPartByPart: 1
+    showDialogLineWordByWord: 0
+    dialogLineWordSpeed: 0.5
+    showDialogLineLetterByLetter: 0
+    dialogLineLetterSpeed: 0.03
+    useCustomTextAnchorAndAligment: 0
+    textAnchor: 3
+    stopDialogIfPlayerDistanceTooFar: 0
+    maxDistanceToStopDialog: 0
+    rewindLastDialogIfStopped: 0
+    eventOnDialogStopped:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 65392460576753058}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    playDialogOnTriggerEnter: 0
+    eventToPlayDialogOnTriggerEnter:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    dialogInfoList:
+    - Name: 
+      ID: 0
+      dialogOwnerName: "Random Citizen N\xBA2"
+      dialogContent: (Gasp...) How many times are you going to insist? I have nothing
+        to say.
+      showPreviousDialogLineOnOptions: 0
+      dialogLineInfoList: []
+      eventOnDialog:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 65392460576753058}
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayer: 0
+      eventToSendPlayer:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      activateWhenDialogClosed: 1
+      activateRemoteTriggerSystem: 0
+      remoteTriggerName: 
+      useNexLineButton: 1
+      isEndOfDialog: 0
+      changeToDialogInfoID: 0
+      dialogInfoIDToActivate: 0
+      useRandomDialogInfoID: 0
+      useRandomDialogRange: 0
+      randomDialogRange: {x: 0, y: 0}
+      randomDialogIDList: 
+      checkConditionForNextLine: 0
+      dialogInfoIDToActivateOnConditionTrue: 0
+      dialogInfoIDToActivateOnConditionFalse: 0
+      eventToCheckConditionForNextLine:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useEventToSendPlayerToCondition: 0
+      eventToSendPlayerToCondition:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      disableDialogAfterSelect: 0
+      dialogInfoIDToJump: 0
+      dialogInfoDisabled: 0
+      setNextCompleteDialogID: 0
+      setNewCompleteDialogID: 1
+      newCompleteDialogID: 1
+      delayToShowNextDialogLine: 4
+      delayToShowThisDialogLine: 0.2
+      useDialogLineSound: 1
+      dialogLineSound: {fileID: 8300000, guid: d7435df7091c40f47990fb07cf04004e, type: 3}
+      useAnimations: 0
+      animationName: 
+      delayToPlayAnimation: 0
+      useDelayToDisableAnimation: 0
+      delayToDisableAnimation: 0
+      animationUsedOnPlayer: 0
+  currentDialogIndex: 0
+  dialogOwner: {fileID: 0}
+  showDialogOnwerName: 1
+  dialogActive: 0
+  dialogInProcess: 0
+  playingExternalDialog: 0
+  useEventsOnStartEndDialog: 0
+  eventOnStartDialog:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnEndDialog:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  pauseAIOnDialogStart: 0
+  resumeAIOnDialogEnd: 0
+  interruptWanderAroundStateIfActiveOnDialogStart: 0
+  disableWanderAroundStateOnDialogEnd: 0
+  useAnimations: 0
+  mainAnimator: {fileID: 0}
+  mainPlayerController: {fileID: 0}
+  playerAnimationsOnDialogEnabled: 1
+  dialogueActiveAnimatorName: Dialogue Active
+  newCharacterToAddDialog: {fileID: 0}
+  useDialogContentTemplate: 0
+  mainDialogContentTemplate: {fileID: 0}
+--- !u!114 &114829416825128910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596338434760468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fc770a0dc8169449e7164daf5e37bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventList:
+  - name: 
+    objectToCall: {fileID: 0}
+    functionNameList: []
+    secondsDelay: 0
+    useRandomDelay: 0
+    randomDelayRange: {x: 0, y: 0}
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 1
+    sendObjectDetectedFunction: 
+    sendObjectDetectedByEvent: 1
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114548953855465734}
+          m_MethodName: setCurrentPlayer
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114548953855465734}
+          m_MethodName: changePlayerState
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+    useRemoteEvent: 0
+    remoteEventNameList: []
+  enterEventList:
+  - name: 
+    objectToCall: {fileID: 0}
+    functionNameList: []
+    secondsDelay: 0
+    useRandomDelay: 0
+    randomDelayRange: {x: 0, y: 0}
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 1
+    sendObjectDetectedFunction: 
+    sendObjectDetectedByEvent: 1
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114548953855465734}
+          m_MethodName: setCurrentPlayer
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114548953855465734}
+          m_MethodName: changePlayerState
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+    useRemoteEvent: 0
+    remoteEventNameList: []
+  exitEventList:
+  - name: 
+    objectToCall: {fileID: 0}
+    functionNameList: []
+    secondsDelay: 0
+    useRandomDelay: 0
+    randomDelayRange: {x: 0, y: 0}
+    sendGameObject: 0
+    objectToSend: {fileID: 0}
+    sendObjectDetected: 1
+    sendObjectDetectedFunction: 
+    sendObjectDetectedByEvent: 1
+    eventToSendObjectDetected:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114041959334761222}
+          m_MethodName: setCurrentPlayer
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    useEventFunction: 1
+    eventFunction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114041959334761222}
+          m_MethodName: changePlayerState
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    useBroadcastMessage: 0
+    broadcastMessageStringList: []
+    useRemoteEvent: 0
+    remoteEventNameList: []
+  useSameFunctionInList: 0
+  sameFunctionList: []
+  useSameObjectToCall: 0
+  callThisObject: 0
+  sameObjectToCall: {fileID: 0}
+  triggeredByButton: 0
+  useObjectToTrigger: 0
+  objectNeededToTrigger: {fileID: 0}
+  useTagToTrigger: 1
+  tagNeededToTrigger: Player
+  useTagList: 0
+  tagList: []
+  justCallOnTrigger: 0
+  callFunctionEveryTimeTriggered: 1
+  eventTriggered: 0
+  dontUseDelay: 1
+  useSameDelay: 0
+  generalDelay: 0
+  useRandomDelay: 0
+  randomDelayRange: {x: 0, y: 0}
+  triggerEventType: 2
+  useLayerMask: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  coroutineActive: 0
+  setParentToNull: 0
+  objectDetected: {fileID: 0}
+  triggerEventAtStart: 0
+  isEnter: 0
+  isExit: 0

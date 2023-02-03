@@ -1,0 +1,796 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff400eece7fb7cb4e93d51d69e12b589, type: 3}
+  m_Name: Regular Sword
+  m_EditorClassIdentifier: 
+  Name: Regular Sword
+  ID: 0
+  mainMeleeWeaponInfo:
+    setNewMovementValues: 0
+    setNewIdleID: 0
+    idleIDUsed: 0
+    useStrafeMode: 1
+    strafeIDUsed: 2
+    activateStrafeModeOnLockOnTargetActive: 0
+    toggleStrafeModeIfRunningActive: 0
+    setSprintEnabledStateWithWeapon: 0
+    sprintEnabledStateWithWeapon: 0
+    setNewCrouchID: 0
+    crouchIDUsed: 0
+    setNewMovementID: 0
+    movementIDUsed: 0
+    mainAttackInfoList:
+    - Name: 
+      attackDamage: 8
+      attackType: Regular
+      minDelayBeforeNextAttack: 0.6
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.34
+        activateDamageTrigger: 1
+        delayTriggered: 1
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0.612
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.7
+        activateDamageTrigger: 0
+        delayTriggered: 1
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 1.26
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Sword Attack 2 Hands 1
+      attackDuration: 1.8
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 7
+      customRefillStaminaDelayAfterUse: 1.6
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 9
+      attackType: Regular
+      minDelayBeforeNextAttack: 0.6
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.35
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.7
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Sword Attack 2 Hands 2
+      attackDuration: 1.26
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 7
+      customRefillStaminaDelayAfterUse: 1.6
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 10
+      attackType: Regular
+      minDelayBeforeNextAttack: 0.6
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.34
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.7
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Sword Attack 2 Hands 3
+      attackDuration: 1.76
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 7
+      customRefillStaminaDelayAfterUse: 1.5
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 10
+      attackType: Strong
+      minDelayBeforeNextAttack: 0.6
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.3
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.65
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Sword Attack 2 Hands Body 1
+      attackDuration: 1.79
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 9
+      customRefillStaminaDelayAfterUse: 1.5
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 11
+      attackType: Strong
+      minDelayBeforeNextAttack: 0.6
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.2
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.35
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.44
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.58
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.7
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.85
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Sword Attack 2 Hands Body 2
+      attackDuration: 3.5
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 10
+      customRefillStaminaDelayAfterUse: 3
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 11
+      attackType: Strong
+      minDelayBeforeNextAttack: 0.6
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.3
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 1
+        limbToPlaceTrigger: 6
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.5
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 6
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Sword Attack 2 Hands Body 3
+      attackDuration: 1.49
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 10
+      customRefillStaminaDelayAfterUse: 1
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 12
+      attackType: Strong
+      minDelayBeforeNextAttack: 0.6
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.3
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 1
+        limbToPlaceTrigger: 5
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.5
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 5
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Sword Attack 2 Hands Body 4
+      attackDuration: 1.7
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 10
+      customRefillStaminaDelayAfterUse: 1.5
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 20
+      attackType: Special
+      minDelayBeforeNextAttack: 0.6
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 0
+      pauseSoundIfAttackOnAir: 1
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.1
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 1
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 198150033113175322, guid: 203fe2398d4957f4e9997ab33a042985,
+                type: 2}
+              m_MethodName: Play
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.4
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.51
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 1
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 198385141376948928, guid: 203fe2398d4957f4e9997ab33a042985,
+                type: 2}
+              m_MethodName: Play
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.57
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Sword Attack 2 Hands Special 1
+      attackDuration: 4.79
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 30
+      customRefillStaminaDelayAfterUse: 4.5
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6

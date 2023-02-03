@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1528425615673174}
+  m_IsPrefabParent: 1
+--- !u!1 &1528425615673174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4995378763167628}
+  - component: {fileID: 114751936026143010}
+  m_Layer: 0
+  m_Name: Decal Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4995378763167628
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1528425615673174}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114751936026143010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1528425615673174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470700e5b29089e4a8a0fdc977a6b7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDecals: 1
+  fadeSpeed: 0.1
+  impactListInfo:
+  - name: Default Regular Shoot
+    decalEnabled: 1
+    surfaceName: Concrete
+    impactSound: {fileID: 8300000, guid: bb1d3c051c892e449a8a05766c9fbbe3, type: 3}
+    scorch: {fileID: 1284746936255918, guid: a55cf1d0dd38cda40b0ca1a0c986b080, type: 2}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1814661906621346, guid: cc47f79337e38b448b86985987da7350,
+      type: 2}
+    checkTerrain: 1
+    terrainTextureIndex: 2
+    useNoise: 1
+  - name: Metal Regular Shoot
+    decalEnabled: 1
+    surfaceName: Metal
+    impactSound: {fileID: 8300000, guid: b9355af134c455f438af3f30b41d9ab3, type: 3}
+    scorch: {fileID: 1825901928615642, guid: 2558a8541ecce104bbc208fd7ca0223f, type: 2}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1610473435043676, guid: 42435e04270169446a70ee08d5021f20,
+      type: 2}
+    checkTerrain: 1
+    terrainTextureIndex: 3
+    useNoise: 1
+  - name: Flesh Regular Shoot
+    decalEnabled: 1
+    surfaceName: Flesh
+    impactSound: {fileID: 8300000, guid: d12c05f55c64d4048868c9099f5fc6bc, type: 3}
+    scorch: {fileID: 0}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1427860078137350, guid: 19d4a114fcfdfa742973b6b7bc044c07,
+      type: 2}
+    checkTerrain: 1
+    terrainTextureIndex: 0
+    useNoise: 0
+  - name: Stone Shoot
+    decalEnabled: 1
+    surfaceName: Stone
+    impactSound: {fileID: 8300000, guid: 4fbd89ed6f333ed468a8b4363c29a501, type: 3}
+    scorch: {fileID: 1721055299322900, guid: 42b777ccc0976f44d91371625f2f8873, type: 2}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1659249590203044, guid: 7e62f764dc84f234f919e37e0667ea76,
+      type: 2}
+    checkTerrain: 1
+    terrainTextureIndex: 4
+    useNoise: 1
+  - name: Sand Shoot
+    decalEnabled: 1
+    surfaceName: Sand
+    impactSound: {fileID: 8300000, guid: db4a64e39b7a4864b96263c294e1dab4, type: 3}
+    scorch: {fileID: 0}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1228176667078610, guid: bba656f67e5dbc6458bb12d7556655c0,
+      type: 2}
+    checkTerrain: 1
+    terrainTextureIndex: 5
+    useNoise: 1
+  - name: Wood Shoot
+    decalEnabled: 1
+    surfaceName: Wood
+    impactSound: {fileID: 8300000, guid: a79588aa4f2fdb74b874e650ca473558, type: 3}
+    scorch: {fileID: 1499963058524170, guid: 387c7b3903e638347bbc302c995f94b4, type: 2}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1103827689150644, guid: 3d4bde7b651aca042917975a0ef0ed61,
+      type: 2}
+    checkTerrain: 1
+    terrainTextureIndex: 1
+    useNoise: 1
+  - name: Default Regular Shoot No Scorch
+    decalEnabled: 1
+    surfaceName: Concrete
+    impactSound: {fileID: 8300000, guid: bb1d3c051c892e449a8a05766c9fbbe3, type: 3}
+    scorch: {fileID: 0}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1814661906621346, guid: cc47f79337e38b448b86985987da7350,
+      type: 2}
+    checkTerrain: 0
+    terrainTextureIndex: 2
+    useNoise: 1
+  - name: Metal Shoot No Scorch
+    decalEnabled: 1
+    surfaceName: Metal
+    impactSound: {fileID: 8300000, guid: b9355af134c455f438af3f30b41d9ab3, type: 3}
+    scorch: {fileID: 0}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1610473435043676, guid: 42435e04270169446a70ee08d5021f20,
+      type: 2}
+    checkTerrain: 0
+    terrainTextureIndex: 3
+    useNoise: 1
+  - name: Shield
+    decalEnabled: 1
+    surfaceName: Shield
+    impactSound: {fileID: 8300000, guid: 6dc2543dfcf43dc4686fd862dba73fba, type: 3}
+    scorch: {fileID: 0}
+    scorchScale: 1
+    fadeScorch: 0
+    timeToFade: 0
+    impactParticles: {fileID: 1288134892982134, guid: 74e8772292f0c254f92933d0063b3893,
+      type: 2}
+    checkTerrain: 0
+    terrainTextureIndex: 3
+    useNoise: 1
+  projectileImpactSoundPrefab: {fileID: 1907695086637296, guid: 5539bf0c0bbdbca40bade52cbcb83f46,
+    type: 2}

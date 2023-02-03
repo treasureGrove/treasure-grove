@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871cdb62c88f27b47b5c390fd70817aa, type: 3}
+  m_Name: Knight 1 Chest
+  m_EditorClassIdentifier: 
+  Name: Knight 1 Chest
+  ID: 0
+  amountObtained: 1
+  useObjectToPlace: 0
+  objectToPlace: {fileID: 0}
+  craftingIngredientObjectInfoList:
+  - Name: Gold
+    amountRequired: 1
+  - Name: Iron
+    amountRequired: 3
+  - Name: Steel
+    amountRequired: 6
+  repairIngredientObjectInfoList:
+  - Name: Iron
+    amountRequired: 2
+  - Name: Steel
+    amountRequired: 3
+  brokenIngredientObjectInfoList:
+  - Name: Steel
+    amountRequired: 2
+  disassembleIngredientObjectInfoList:
+  - Name: Gold
+    amountRequired: 1
+  - Name: Steel
+    amountRequired: 2

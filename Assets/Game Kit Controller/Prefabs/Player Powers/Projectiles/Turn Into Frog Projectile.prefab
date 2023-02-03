@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1586101760358244}
+  m_IsPrefabParent: 1
+--- !u!1 &1284780342164972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4490310154081008}
+  - component: {fileID: 33652907913072934}
+  - component: {fileID: 23563222031571274}
+  m_Layer: 0
+  m_Name: meshBullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1586101760358244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4119014594567854}
+  - component: {fileID: 54718631860141018}
+  - component: {fileID: 96238376719638518}
+  - component: {fileID: 82735615548994768}
+  - component: {fileID: 114134008932144860}
+  - component: {fileID: 65886981532346118}
+  m_Layer: 2
+  m_Name: Turn Into Frog Projectile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4119014594567854
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586101760358244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 192.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4490310154081008}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4490310154081008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284780342164972}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.15875, y: 0.15875, z: 0.4795}
+  m_Children: []
+  m_Father: {fileID: 4119014594567854}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23563222031571274
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284780342164972}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2fec67a62f8669e42bcda75768abd740, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33652907913072934
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284780342164972}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54718631860141018
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586101760358244}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65886981532346118
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586101760358244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24, y: 0.24, z: 0.48}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &82735615548994768
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586101760358244}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!96 &96238376719638518
+TrailRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586101760358244}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b8709997674ff3c409094876126b5e49, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Time: 0.6
+  m_Parameters:
+    serializedVersion: 2
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0.08627451, g: 0.83137256, b: 0.0627451, a: 1}
+      key1: {r: 0.60784316, g: 0.050980393, b: 0.69803923, a: 1}
+      key2: {r: 0.8156863, g: 0.05882353, b: 0.85882354, a: 0.7921569}
+      key3: {r: 0.15686275, g: 0.03529412, b: 0.79607844, a: 1}
+      key4: {r: 0.09019608, g: 0.5137255, b: 0.5137255, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 16384
+      ctime2: 32768
+      ctime3: 49151
+      ctime4: 65535
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 16384
+      atime2: 32768
+      atime3: 49151
+      atime4: 65535
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 5
+      m_NumAlphaKeys: 5
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    generateLightingData: 0
+  m_MinVertexDistance: 0.1
+  m_Autodestruct: 0
+--- !u!114 &114134008932144860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586101760358244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb53fc348906ac46831436b1831e807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  setContinuousSpeculativeIngame: 0
+  abilityFunctionNameAtStart: 
+  abilityFunctionName: checkObjectDetected
+  useCustomValues: 0
+  currentProjectileInfo:
+    isHommingProjectile: 0
+    isSeeker: 0
+    targetOnScreenForSeeker: 1
+    waitTimeToSearchTarget: 0
+    useRaycastCheckingOnRigidbody: 0
+    customRaycastCheckingRate: 0
+    customRaycastCheckingDistance: 0.1
+    useRayCastShoot: 0
+    useRaycastShootDelay: 0
+    raycastShootDelay: 0
+    getDelayWithDistance: 0
+    delayWithDistanceSpeed: 0
+    maxDelayWithDistance: 0
+    useFakeProjectileTrails: 0
+    projectileDamage: 0
+    projectileSpeed: 0
+    impactForceApplied: 0
+    forceMode: 0
+    applyImpactForceToVehicles: 0
+    impactForceToVehiclesMultiplier: 0
+    projectileWithAbility: 0
+    impactSoundEffect: {fileID: 0}
+    scorch: {fileID: 0}
+    target: {fileID: 0}
+    owner: {fileID: 0}
+    projectileParticles: {fileID: 0}
+    impactParticles: {fileID: 0}
+    isExplosive: 0
+    isImplosive: 0
+    explosionForce: 0
+    explosionRadius: 0
+    useExplosionDelay: 0
+    explosionDelay: 0
+    explosionDamage: 0
+    pushCharacters: 0
+    canDamageProjectileOwner: 0
+    applyExplosionForceToVehicles: 0
+    explosionForceToVehiclesMultiplier: 0
+    killInOneShot: 0
+    useDisableTimer: 0
+    noImpactDisableTimer: 0
+    impactDisableTimer: 0
+    useCustomIgnoreTags: 0
+    customTagsToIgnoreList: []
+    targetToDamageLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    targetForScorchLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    scorchRayCastDistance: 0
+    impactDecalIndex: 0
+    launchProjectile: 0
+    adhereToSurface: 0
+    adhereToLimbs: 0
+    useGravityOnLaunch: 0
+    useGraivtyOnImpact: 0
+    breakThroughObjects: 0
+    infiniteNumberOfImpacts: 0
+    numberOfImpacts: 0
+    canDamageSameObjectMultipleTimes: 0
+    forwardDirection: {x: 0, y: 0, z: 0}
+    damageTargetOverTime: 0
+    damageOverTimeDelay: 0
+    damageOverTimeDuration: 0
+    damageOverTimeAmount: 0
+    damageOverTimeRate: 0
+    damageOverTimeToDeath: 0
+    removeDamageOverTimeState: 0
+    sedateCharacters: 0
+    sedateDelay: 0
+    useWeakSpotToReduceDelay: 0
+    sedateUntilReceiveDamage: 0
+    sedateDuration: 0
+    pushCharacter: 0
+    pushCharacterForce: 0
+    pushCharacterRagdollForce: 0
+    setProjectileMeshRotationToFireRotation: 0
+    useRemoteEventOnObjectsFound: 0
+    remoteEventNameList: []
+    useRemoteEventOnObjectsFoundOnExplosion: 0
+    remoteEventNameOnExplosion: 
+    ignoreShield: 0
+    canActivateReactionSystemTemporally: 0
+    damageReactionID: -1
+    damageTypeID: -1
+    projectilesPoolEnabled: 0
+    maxAmountOfPoolElementsOnWeapon: 0
+    allowDamageForProjectileOwner: 0
+  armorSurfaceLayer: Armor Surface
+  disableProjectileMeshOnImpact: 1
+  objectToDamage: {fileID: 0}
+  projectileUsed: 0
+  projectilePaused: 0
+  projectileLocalRotation: {x: 0, y: 0, z: 0}
+  useLayerMaskImpact: 0
+  layerMaskImpact:
+    serializedVersion: 2
+    m_Bits: 0
+  useEventOnImpact: 0
+  eventOnImpact:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  sendObjectDetectedOnImpactEvent: 0
+  objectDetectedOnImpactEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  useLayerMaskCollision: 0
+  layerMaskCollision:
+    serializedVersion: 2
+    m_Bits: 0
+  useEventOnCollision: 0
+  eventOnCollision:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventOnExplosion: 0
+  evenOnExplosion:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mainTrailRenderer: {fileID: 0}
+  mainCollider: {fileID: 0}
+  secondaryBulletMeshCollider: {fileID: 0}
+  mainMapObjectInformation: {fileID: 0}
+  audioClipBipManager: {fileID: 0}
+  mainRigidbody: {fileID: 0}
+  bulletMesh: {fileID: 1284780342164972}
+  secondaryBulletMesh: {fileID: 0}
+  mainProjectileImpactSystem: {fileID: 0}
+  fakeProjectileTrail: {fileID: 0}
+  factionToConfigure: Neutral
+  setNewName: 1
+  newName: Frog
+  newTag: friend
+  followPartnerOnTriggerEnabled: 0
+  setPlayerAsPartner: 0
+  useRemoteEvents: 1

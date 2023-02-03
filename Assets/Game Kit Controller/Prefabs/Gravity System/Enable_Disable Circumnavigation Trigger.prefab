@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1799670396450974}
+  m_IsPrefabParent: 1
+--- !u!1 &1406055880716354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4422927125780786}
+  - component: {fileID: 65165000129437358}
+  - component: {fileID: 114888439831691966}
+  m_Layer: 2
+  m_Name: Enable Circumnavigation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1511554694503756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4187551372159866}
+  - component: {fileID: 65385705278347620}
+  - component: {fileID: 114684339608920890}
+  m_Layer: 2
+  m_Name: Disable Circumnavigation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1799670396450974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4653530641799938}
+  m_Layer: 0
+  m_Name: Enable_Disable Circumnavigation Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4187551372159866
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1511554694503756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.28, y: 147.58, z: -36}
+  m_LocalScale: {x: 0.56131, y: 3.0449998, z: 3.9625099}
+  m_Children: []
+  m_Father: {fileID: 4653530641799938}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4422927125780786
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406055880716354}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.61, y: 147.58, z: -36}
+  m_LocalScale: {x: 0.56131, y: 3.0449998, z: 3.9625099}
+  m_Children: []
+  m_Father: {fileID: 4653530641799938}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4653530641799938
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799670396450974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4422927125780786}
+  - {fileID: 4187551372159866}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65165000129437358
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406055880716354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65385705278347620
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1511554694503756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114684339608920890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1511554694503756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71362bbf87b5594ba07be53350c6bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useWithPlayer: 1
+  useWithNPC: 0
+  useWithVehicles: 0
+  useWithAnyRigidbody: 0
+  checkOnlyForArtificialGravitySystem: 0
+  typeOfTrigger: 0
+  setGravityMode: 1
+  setRegularGravity: 1
+  useCustomGravityDirection: 0
+  customGravityDirection: {x: 0, y: 0, z: 0}
+  useCenterPoint: 0
+  centerPoint: {fileID: 0}
+  useCenterPointForRigidbodies: 0
+  useInverseDirectionToCenterPoint: 0
+  useCenterPointList: 0
+  useCenterIfPointListTooClose: 1
+  centerPointList: []
+  useCenterPointListForRigidbodies: 0
+  changeGravityDirectionActive: 0
+  rotateToSurfaceSmoothly: 1
+  setCircumnavigateSurfaceState: 1
+  circumnavigateSurfaceState: 0
+  preservePlayerVelocity: 1
+  storeSetGravityManager: 1
+  setTargetParent: 0
+  targetParent: {fileID: 0}
+  setRigidbodiesParent: 0
+  useAnimation: 0
+  animationName: 
+  artificialObjectGravityList: []
+--- !u!114 &114888439831691966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406055880716354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71362bbf87b5594ba07be53350c6bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useWithPlayer: 1
+  useWithNPC: 0
+  useWithVehicles: 0
+  useWithAnyRigidbody: 0
+  checkOnlyForArtificialGravitySystem: 0
+  typeOfTrigger: 0
+  setGravityMode: 0
+  setRegularGravity: 0
+  useCustomGravityDirection: 0
+  customGravityDirection: {x: 0, y: 0, z: 0}
+  useCenterPoint: 0
+  centerPoint: {fileID: 0}
+  useCenterPointForRigidbodies: 0
+  useInverseDirectionToCenterPoint: 0
+  useCenterPointList: 0
+  useCenterIfPointListTooClose: 1
+  centerPointList: []
+  useCenterPointListForRigidbodies: 0
+  changeGravityDirectionActive: 0
+  rotateToSurfaceSmoothly: 1
+  setCircumnavigateSurfaceState: 1
+  circumnavigateSurfaceState: 1
+  preservePlayerVelocity: 1
+  storeSetGravityManager: 1
+  setTargetParent: 0
+  targetParent: {fileID: 0}
+  setRigidbodiesParent: 0
+  useAnimation: 0
+  animationName: 
+  artificialObjectGravityList: []

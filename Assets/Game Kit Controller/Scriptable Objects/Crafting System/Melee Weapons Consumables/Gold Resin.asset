@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871cdb62c88f27b47b5c390fd70817aa, type: 3}
+  m_Name: Gold Resin
+  m_EditorClassIdentifier: 
+  Name: Gold Resin
+  ID: 0
+  amountObtained: 1
+  useObjectToPlace: 0
+  objectToPlace: {fileID: 0}
+  craftObjectInTime: 0
+  timeToCraftObject: 0
+  craftingIngredientObjectInfoList:
+  - Name: Powder
+    amountRequired: 4
+  - Name: Beer
+    amountRequired: 1
+  - Name: Red Herb
+    amountRequired: 3
+  - Name: Oil
+    amountRequired: 2
+  - Name: Coal
+    amountRequired: 1
+  repairIngredientObjectInfoList: []
+  brokenIngredientObjectInfoList: []
+  disassembleIngredientObjectInfoList:
+  - Name: Red Herb
+    amountRequired: 1
+  - Name: Powder
+    amountRequired: 2
+  checkStatsInfoToCraft: 1
+  craftingStatInfoToCraftList:
+  - statName: Level
+    valueRequired: 3
+    useStatValue: 0
+    statValueToUse: 0
+  - statName: Alchemy
+    valueRequired: 2
+    useStatValue: 0
+    statValueToUse: 0

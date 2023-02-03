@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957cf821b97e0f5438c9f3a087349e1c, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  m_list:
+  - m_commandName: GameObject/GKC/Create Prefabs Manager
+    m_buttonName: Prefabs Manager
+    m_useImage: 0
+    m_image: {fileID: 0}
+    m_width: 120
+    m_hint: Prefabs Manager
+  - m_commandName: GameObject/GKC/Objects Options/Toggle GameObject Active
+    m_buttonName: Toggle Active GameObject
+    m_useImage: 1
+    m_image: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    m_width: 30
+    m_hint: Toggle Active GameObject
+  - m_commandName: Game Kit Controller/Others/Collapse Components On Current Object
+    m_buttonName: Collapse All Components On Current Selected Object
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: f5f384b206150dd40bc8f48f109aa11d, type: 3}
+    m_width: 30
+    m_hint: Collapse All Components On Current Selected Object
+  - m_commandName: Game Kit Controller/Others/Move Player On Camera Editor
+    m_buttonName: Place Player In Camera Editor Position
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 5167fd24c3cd0704a9bbfc8ad4761dd1, type: 3}
+    m_width: 30
+    m_hint: Place Player In Camera Editor Position
+  - m_commandName: Game Kit Controller/Others/Move Current Object Selected On Camera
+      Editor
+    m_buttonName: Place Object In Camera Editor Position
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 40be93257b252f548a28160af1e0ef7c, type: 3}
+    m_width: 30
+    m_hint: Place Object In Camera Editor Position
+  - m_commandName: Game Kit Controller/Others/Snap Object On Ground
+    m_buttonName: Snap Object On Ground
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 755deab82e5478345a9fcbe095b174e6, type: 3}
+    m_width: 30
+    m_hint: Snap Object On Ground
+  - m_commandName: Game Kit Controller/Others/Select Main Player
+    m_buttonName: Select Main Player
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 64c6cf7240470d542833d07488c37e3a, type: 3}
+    m_width: 30
+    m_hint: Select Main Player
+  - m_commandName: Game Kit Controller/Others/Select Main Player Inventory
+    m_buttonName: Select Main Player Inventory Manager
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: c60ea770d1e9ac74ab7b3b7edcb498e3, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Inventory Manager
+  - m_commandName: Game Kit Controller/Others/Select Main Player Controller
+    m_buttonName: Select Main Player Character Controller
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 9f6bd2db44724d940b876ebffd5d9eb6, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Character Controller
+  - m_commandName: Game Kit Controller/Others/Select Main Player Controller Input
+    m_buttonName: Select Main Player Input Manager
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: f58cd3506fd5a9c4cae4a5bf9cfd6e57, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Input Manager
+  - m_commandName: Game Kit Controller/Others/Select Main Input Manager
+    m_buttonName: Select Main Input Manager
+    m_useImage: 1
+    m_image: {fileID: 10910, guid: 0000000000000000f000000000000000, type: 0}
+    m_width: 30
+    m_hint: Select Main Input Manager
+  - m_commandName: Game Kit Controller/Others/Select Main Player Camera
+    m_buttonName: Select Main Player Camera
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 135efa5ac8c49f44284dae1b0ead50a3, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Camera
+  - m_commandName: Game Kit Controller/Others/Toggle Main Player Camera View
+    m_buttonName: Toggle Main Player Camera View
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 9441b71f30c603b4ebdb1b651dd8ac76, type: 3}
+    m_width: 30
+    m_hint: Toggle Main Player Camera View
+  - m_commandName: Game Kit Controller/Others/Select Main Player Weapons Manager
+    m_buttonName: Select Main Player Weapons Manager
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: cfd8c557cbef2514a91b01e0c2a2ed74, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Weapons Manager
+  - m_commandName: Game Kit Controller/Others/Select Main Player Fire Weapons
+    m_buttonName: Select Main Player Fire Weapons
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 29df2c218b07fbf47b816e9a58b6f861, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Fire Weapons
+  - m_commandName: Game Kit Controller/Others/Select Main Player Close Combat
+    m_buttonName: Select Main Player Close Combat
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 22356b1b3cc7c7443b7b35c956010c38, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Close Combat
+  - m_commandName: Game Kit Controller/Others/Select Main Player Melee Weapons
+    m_buttonName: Select Main Player Melee Weapons
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 3c290c0ea18caa041a8421f0f4a4e364, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Melee Weapons
+  - m_commandName: Game Kit Controller/Others/Select Main Player Character Custom
+      Character Manager
+    m_buttonName: Select Main Player Character Custom Character Manager
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 068fb15eace42bd4590fd82dd25ff05a, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Character Custom Character Manager
+  - m_commandName: Game Kit Controller/Others/Select Main Player Health
+    m_buttonName: Select Main Player Health
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 899cf2b718f6df34585a8cfa509eebd4, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Health
+  - m_commandName: Game Kit Controller/Others/Select Main Player Manual Character
+      Creator
+    m_buttonName: Select Main Player Manual Character Creator
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 7d8ea0035ff9f96499f8261334bedfdb, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Manual Character Creator
+  - m_commandName: Game Kit Controller/Others/Select Main Player Menu Pause
+    m_buttonName: Select Main Player Menu Pause
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: b7918b3ee241d8242b8cdf01f091bd60, type: 3}
+    m_width: 30
+    m_hint: Select Main Player Menu Pause
+  - m_commandName: Game Kit Controller/Others/Select Map System
+    m_buttonName: Select Map System
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 8e5d93551c073e6439e162faf5e1da74, type: 3}
+    m_width: 30
+    m_hint: Select Map System
+  - m_commandName: GameObject/GKC/Create New Character
+    m_buttonName: Create New Character
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 2d0b85cba4c2b8349b019ee3855fe729, type: 3}
+    m_width: 30
+    m_hint: Create New Character
+  - m_commandName: Game Kit Controller/Others/Select Main Inventory List Manager
+    m_buttonName: Select Main Inventory Manager
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: ebabfab9358c7b44c92cb14a5b7edbff, type: 3}
+    m_width: 30
+    m_hint: Select Main Inventory Manager
+  - m_commandName: Game Kit Controller/Others/Select Main Element On Scene Manager
+    m_buttonName: Select Main Element On Scene Manager
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 2eee62b2b8155fb4b8b3e7cf50e630cf, type: 3}
+    m_width: 30
+    m_hint: Select Main Element On Scene Manager
+  - m_commandName: Game Kit Controller/Others/Select Main Managers Parent
+    m_buttonName: Select Main Managers Parent
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: c4208c449f7fb9f44b0667a95099c30e, type: 3}
+    m_width: 30
+    m_hint: Select Main Managers Parent
+  - m_commandName: Game Kit Controller/Others/Select Main Tool Bar Settings Object
+    m_buttonName: Select Main Tool Bar Settings Object
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 1fbf66e851490314a822a39a3ed5d46e, type: 3}
+    m_width: 30
+    m_hint: Select Main Tool Bar Settings Object
+  - m_commandName: Game Kit Controller/Others/Select Current Character Weapons Manager
+    m_buttonName: Select Current Character Weapons Manager
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: cfd8c557cbef2514a91b01e0c2a2ed74, type: 3}
+    m_width: 30
+    m_hint: Select Current Character Weapons Manager
+  - m_commandName: Game Kit Controller/Others/Select Current Character Fire Weapons
+    m_buttonName: Select Current Character Fire Weapons
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 29df2c218b07fbf47b816e9a58b6f861, type: 3}
+    m_width: 30
+    m_hint: Select Current Character Fire Weapons
+  - m_commandName: Game Kit Controller/Others/Select Current Character Close Combat
+    m_buttonName: Select Current Character Close Combat
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 22356b1b3cc7c7443b7b35c956010c38, type: 3}
+    m_width: 30
+    m_hint: Select Current Character Close Combat
+  - m_commandName: Game Kit Controller/Others/Select Current Character Melee Weapons
+    m_buttonName: Select Current Character Melee Weapons
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 3c290c0ea18caa041a8421f0f4a4e364, type: 3}
+    m_width: 30
+    m_hint: Select Current Character Melee Weapons
+  - m_commandName: Game Kit Controller/Others/Select Current Character Custom Character
+      Manager
+    m_buttonName: Select Current Character Custom Character Manager
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 068fb15eace42bd4590fd82dd25ff05a, type: 3}
+    m_width: 30
+    m_hint: Select Current Character Custom Character Manager
+  - m_commandName: Game Kit Controller/Others/Select Current Character Health
+    m_buttonName: Select Current Character Health
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 899cf2b718f6df34585a8cfa509eebd4, type: 3}
+    m_width: 30
+    m_hint: Select Current Character Health
+  - m_commandName: Game Kit Controller/Others/Select Current Character Manual Character
+      Creator
+    m_buttonName: Select Current Character Manual Character Creator
+    m_useImage: 1
+    m_image: {fileID: 2800000, guid: 7d8ea0035ff9f96499f8261334bedfdb, type: 3}
+    m_width: 30
+    m_hint: Select Current Character Manual Character Creator
+  numberOfColumns: 27
+  windowsHeight: 50

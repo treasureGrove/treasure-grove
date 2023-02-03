@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1728232334013728}
+  m_IsPrefabParent: 1
+--- !u!1 &1728232334013728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4763519332074592}
+  - component: {fileID: 114950906569095350}
+  m_Layer: 0
+  m_Name: Screen Objectives Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4763519332074592
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728232334013728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.8746195, y: 4.8332324, z: -18.89891}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114950906569095350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728232334013728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f59603f25f89b4ea2469751ddc7f06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showObjectivesActive: 1
+  objectiveIconList:
+  - name: Objective
+    iconInfoElement: {fileID: 11462938, guid: 77fc080bde2cfb247bf2cee04d4ccd0c, type: 2}
+    changeObjectiveColors: 1
+    objectiveColor: {r: 0, g: 0, b: 1, a: 1}
+    minDefaultDistance: 5
+  - name: Path Element
+    iconInfoElement: {fileID: 11482972, guid: 0dbc8bc85ea2e124c8642a7e8126c0c1, type: 2}
+    changeObjectiveColors: 1
+    objectiveColor: {r: 0, g: 1, b: 0, a: 1}
+    minDefaultDistance: 5
+  - name: Mark
+    iconInfoElement: {fileID: 11454394, guid: df059205b2caf794bbd19fac7b1c2966, type: 2}
+    changeObjectiveColors: 1
+    objectiveColor: {r: 1, g: 0, b: 0, a: 1}
+    minDefaultDistance: 5
+  - name: Grenade
+    iconInfoElement: {fileID: 114499694625098930, guid: 1022504b9c3f9874ab00028c429e2485,
+      type: 2}
+    changeObjectiveColors: 1
+    objectiveColor: {r: 1, g: 1, b: 1, a: 1}
+    minDefaultDistance: 5
+  - name: Located Enemy
+    iconInfoElement: {fileID: 114967449702209124, guid: 2188edf5ffe879d4395a14d8b6083f72,
+      type: 2}
+    changeObjectiveColors: 1
+    objectiveColor: {r: 1, g: 1, b: 1, a: 1}
+    minDefaultDistance: 5
+  - name: Homing Located Enemy
+    iconInfoElement: {fileID: 114180117610358262, guid: d301b6e0c879b6a4aa66192ab027f961,
+      type: 2}
+    changeObjectiveColors: 1
+    objectiveColor: {r: 1, g: 1, b: 1, a: 1}
+    minDefaultDistance: 5
+  - name: Object To Check
+    iconInfoElement: {fileID: 11499376, guid: 7c623999c18b53a4ea10ef4644b89e50, type: 2}
+    changeObjectiveColors: 1
+    objectiveColor: {r: 1, g: 1, b: 1, a: 1}
+    minDefaultDistance: 5
+  - name: Melee Located Enemy Icon
+    iconInfoElement: {fileID: 114967449702209124, guid: 54e15fbeefcbf52419e3575522835e77,
+      type: 2}
+    changeObjectiveColors: 1
+    objectiveColor: {r: 1, g: 1, b: 1, a: 1}
+    minDefaultDistance: 5
+  objectiveList: []
+  playerScreenObjectivesList: []

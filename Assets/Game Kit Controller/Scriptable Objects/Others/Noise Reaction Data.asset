@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e747714bc0dfb8d4b94bc0dce9dd74e0, type: 3}
+  m_Name: Noise Reaction Data
+  m_EditorClassIdentifier: 
+  noiseReactionInfoList:
+  - Name: Run Away
+    ID: 0
+    noiseReactionEnabled: 1
+    checkNoiseOrigin: 0
+    runAwayFromNoiseOrigin: 1
+    useRemoteEventOnNoise: 1
+    remoteEventOnNoise: Run Away From Attacker as Pedestrian
+    useMaxNoiseDistance: 0
+    maxNoiseDistance: 0
+  - Name: Walk Foot Steps
+    ID: 1
+    noiseReactionEnabled: 1
+    checkNoiseOrigin: 1
+    runAwayFromNoiseOrigin: 0
+    useRemoteEventOnNoise: 0
+    remoteEventOnNoise: 
+    useMaxNoiseDistance: 0
+    maxNoiseDistance: 0

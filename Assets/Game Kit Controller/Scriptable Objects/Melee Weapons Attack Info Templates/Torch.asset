@@ -1,0 +1,619 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff400eece7fb7cb4e93d51d69e12b589, type: 3}
+  m_Name: Torch
+  m_EditorClassIdentifier: 
+  Name: Torch
+  ID: 0
+  mainMeleeWeaponInfo:
+    setNewMovementValues: 0
+    setNewIdleID: 0
+    idleIDUsed: 0
+    useStrafeMode: 1
+    strafeIDUsed: 9
+    activateStrafeModeOnLockOnTargetActive: 0
+    toggleStrafeModeIfRunningActive: 0
+    setSprintEnabledStateWithWeapon: 0
+    sprintEnabledStateWithWeapon: 0
+    setNewCrouchID: 1
+    crouchIDUsed: 9
+    setNewMovementID: 0
+    movementIDUsed: 0
+    mainAttackInfoList:
+    - Name: 
+      attackDamage: 7
+      attackType: Regular
+      minDelayBeforeNextAttack: 1
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 0
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.3
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.6
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0.2
+      delayToDeactivateSingleSlashDamageTrigger: 0.55
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Torch Attack 1
+      attackDuration: 3
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 5
+      customRefillStaminaDelayAfterUse: 2
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 9
+      attackType: Regular
+      minDelayBeforeNextAttack: 1
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 0
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.25
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.5
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Torch Attack 2
+      attackDuration: 2.3
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 6
+      customRefillStaminaDelayAfterUse: 2
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 11
+      attackType: Regular
+      minDelayBeforeNextAttack: 1
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 0
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.16
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.36
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.4
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.6
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Torch Attack 3
+      attackDuration: 3.5
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 7
+      customRefillStaminaDelayAfterUse: 2.5
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 13
+      attackType: Strong
+      minDelayBeforeNextAttack: 1
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 0
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.2
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.4
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.47
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.66
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Torch Attack 4
+      attackDuration: 3.83
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 8
+      customRefillStaminaDelayAfterUse: 3
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 3
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 10
+      attackType: Strong
+      minDelayBeforeNextAttack: 1
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.15
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.35
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.45
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.66
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 0
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Torch Attack 5
+      attackDuration: 3.2
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 9
+      customRefillStaminaDelayAfterUse: 3
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 1
+      messageNameToSend: pushCharacter
+      pushForceAmount: 2
+      useProbabilityToPushCharacters: 1
+      probability: 1
+      useExtraPushDirection: 1
+      extraPushDirection: {x: 0, y: 1, z: 0}
+      extraPushForce: 1.3
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 1
+      tagsToIgnorePush:
+      - Player
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6
+    - Name: 
+      attackDamage: 11
+      attackType: Special
+      minDelayBeforeNextAttack: 1
+      damageReactionID: -1
+      damageTypeID: -1
+      playerOnGroundToActivateAttack: 1
+      pauseSoundIfAttackOnAir: 0
+      damageTriggerActiveInfoList:
+      - delayToActiveTrigger: 0.29
+        activateDamageTrigger: 1
+        delayTriggered: 0
+        setNewTriggerScale: 1
+        newTriggerScale: {x: 0.23, y: 0.5, z: 1.15}
+        setOriginalScale: 0
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.2
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 4
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      - delayToActiveTrigger: 0.49
+        activateDamageTrigger: 0
+        delayTriggered: 0
+        setNewTriggerScale: 1
+        newTriggerScale: {x: 0, y: 0, z: 0}
+        setOriginalScale: 1
+        checkSurfacesWithCapsuleRaycast: 1
+        checkSurfaceCapsuleRaycastRadius: 0.1
+        changeDamageTriggerToLimb: 0
+        limbToPlaceTrigger: 0
+        useEventOnAttack: 0
+        eventOnAtatck:
+          m_PersistentCalls:
+            m_Calls: []
+          m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        calculatedPercentageAttackDuration: 0
+        useRangeAttackID: 0
+        rangeAttackID: 0
+        disableRangeAttackID: 0
+        rangeAttackIDToDisable: 0
+      useSingleSlashDamageInfo: 0
+      delayToActivateSingleSlashDamageTrigger: 0
+      delayToDeactivateSingleSlashDamageTrigger: 0
+      ignoreDetectedObjectsOnList: 0
+      useCustomAction: 1
+      customActionName: Torch Attack 6
+      attackDuration: 2.43
+      attackAnimationSpeed: 1
+      staminaUsedOnAttack: 10
+      customRefillStaminaDelayAfterUse: 1.5
+      useRemoteEvent: 0
+      remoteEventNameList: []
+      useCutModeOnAttack: 0
+      pushCharactersOnDamage: 0
+      messageNameToSend: pushCharacter
+      pushForceAmount: 4
+      useProbabilityToPushCharacters: 0
+      probability: 1
+      useExtraPushDirection: 0
+      extraPushDirection: {x: 0, y: 0, z: 0}
+      extraPushForce: 0
+      ignoreMeleeWeaponAttackDirection: 0
+      useIgnoreTagsToPush: 0
+      tagsToIgnorePush: []
+      useMatchPositionSystem: 1
+      matchPositionOffset: 1.6

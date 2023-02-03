@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871cdb62c88f27b47b5c390fd70817aa, type: 3}
+  m_Name: Inventory Bank
+  m_EditorClassIdentifier: 
+  Name: Inventory Bank
+  ID: 0
+  amountObtained: 1
+  useObjectToPlace: 1
+  objectToPlace: {fileID: 1580340663045218, guid: a9ecce70e27730840976a3423b315d9a,
+    type: 2}
+  objectToPlacePositionOffset: {x: 0, y: 0.47, z: 0}
+  craftObjectInTime: 0
+  timeToCraftObject: 0
+  craftingIngredientObjectInfoList:
+  - Name: Iron
+    amountRequired: 12
+  - Name: Titanium
+    amountRequired: 3
+  - Name: Zync
+    amountRequired: 5
+  repairIngredientObjectInfoList: []
+  brokenIngredientObjectInfoList: []
+  disassembleIngredientObjectInfoList:
+  - Name: Iron
+    amountRequired: 5
+  - Name: Zync
+    amountRequired: 2
+  checkStatsInfoToCraft: 0
+  craftingStatInfoToCraftList: []

@@ -1,0 +1,695 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1464882691654038}
+  m_IsPrefabParent: 1
+--- !u!1 &1007260792350072
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4682835311427256}
+  m_Layer: 0
+  m_Name: Controller Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1175649352293786
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4846486130837116}
+  m_Layer: 2
+  m_Name: Position To Reapear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1404146091411330
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4178856804513428}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1450942548811274
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4755159587791206}
+  m_Layer: 0
+  m_Name: Raycast Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1464882691654038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4677521648107166}
+  - component: {fileID: 23621771056293818}
+  - component: {fileID: 33270494765975816}
+  - component: {fileID: 135138317731541944}
+  - component: {fileID: 54688204860990640}
+  - component: {fileID: 114485505911012192}
+  m_Layer: 0
+  m_Name: Custom Override Object (Sphere)
+  m_TagString: box
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1526403028550772
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4092389918816642}
+  - component: {fileID: 114599050429237678}
+  m_Layer: 0
+  m_Name: 'Override Camera '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1576302135163258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4562313550861748}
+  - component: {fileID: 54814961218381994}
+  - component: {fileID: 114754148517834334}
+  - component: {fileID: 114674660502772840}
+  m_Layer: 2
+  m_Name: Override Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: -1376725286, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1936357753253772
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4726430936452760}
+  m_Layer: 0
+  m_Name: Regular Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4092389918816642
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1526403028550772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4726430936452760}
+  - {fileID: 4846486130837116}
+  - {fileID: 4755159587791206}
+  m_Father: {fileID: 4562313550861748}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4178856804513428
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404146091411330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4726430936452760}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4562313550861748
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576302135163258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4682835311427256}
+  - {fileID: 4092389918816642}
+  m_Father: {fileID: 4677521648107166}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4677521648107166
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464882691654038}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.363573, y: 0.5, z: -5.774068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4562313550861748}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4682835311427256
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1007260792350072}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4562313550861748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4726430936452760
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936357753253772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4178856804513428}
+  m_Father: {fileID: 4092389918816642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4755159587791206
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450942548811274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4092389918816642}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4846486130837116
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1175649352293786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4092389918816642}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23621771056293818
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464882691654038}
+  m_Enabled: 1
+  m_CastShadows: 2
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c3072e3e04de08d478fc76f7555f1e29, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 2
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33270494765975816
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464882691654038}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54688204860990640
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464882691654038}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &54814961218381994
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576302135163258}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114485505911012192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464882691654038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0adfc0de6a462d141b0dd5fef223c193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canBeOverriden: 1
+  objectToOverride: {fileID: 1464882691654038}
+  useRemoteEventsOnObjectOnStart: 0
+  remoteEventNameListOnObjectOnStart: []
+  useRemoteEventsOnObjectOnEnd: 0
+  remoteEventNameListOnObjectOnEnd: []
+  useRemoteEventsOnPlayerOnStart: 0
+  remoteEventNameListOnPlayerOnStart: []
+  useRemoteEventsOnPlayerOnEnd: 0
+  remoteEventNameListOnPlayerOnEnd: []
+--- !u!114 &114599050429237678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1526403028550772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07ecb0c6ac15674fa7bfad504c00703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraControllerEnabled: 1
+  targetToFollow: {fileID: 4562313550861748}
+  pivotTransform: {fileID: 4726430936452760}
+  cameraTransform: {fileID: 4178856804513428}
+  cameraActive: 0
+  xLimits: {x: -60, y: 90}
+  rotationSpeed: 5
+  cameraRotationSpeedVertical: 25
+  cameraRotationSpeedHorizontal: 25
+  layer:
+    serializedVersion: 2
+    m_Bits: 1
+  clipCastRadius: 0.1
+  backClipSpeed: 0
+  controllerRadius: 1.5
+  reapearInCertainPosition: 1
+  positionToReapear: {fileID: 4846486130837116}
+  showGizmo: 0
+  gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  overrideInput: {fileID: 114754148517834334}
+--- !u!114 &114674660502772840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576302135163258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5daaf357072b241b0a0dcca583bd3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 1
+  moveSpeedMultiplier: 0.2
+  airControlAmount: 1
+  jumpPower: 400
+  canJump: 1
+  brakeForce: 5
+  timeToJumpOnCollidingExit: 0.4
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  raycastDistance: 0.2
+  useAngularVelocity: 1
+  angularVelocityRotationSpeed: 100
+  angularVelocityRotationLerpSpeed: 5
+  applyForceOnAngularVelocity: 1
+  forceMultiplierOnAngularVelocity: 1
+  canRun: 1
+  runSpeed: 2
+  canImpulse: 1
+  impulseForce: 1000
+  impulseCoolDown: 0.5
+  damageObjectsEnabled: 1
+  damageObjectsMultiplier: 1.8
+  ignoreShield: 0
+  collisionForceLimit: 5
+  canActivateReactionSystemTemporally: 0
+  damageReactionID: -1
+  damageTypeID: -1
+  controllerEnabled: 0
+  onGround: 0
+  currentSpeed: 0
+  runActive: 0
+  overrideInput: {fileID: 114754148517834334}
+  overrideCameraTransform: {fileID: 4092389918816642}
+  overrideCameraParentTransform: {fileID: 4178856804513428}
+  controllerMeshParent: {fileID: 4682835311427256}
+  controllerMesh: {fileID: 0}
+  raycastPosition: {fileID: 4755159587791206}
+  mainRigidbody: {fileID: 0}
+--- !u!114 &114754148517834334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576302135163258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5af0f47a36dde49b1d1d6e68aa1cd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiAxesList:
+  - axesName: Override Regular Object
+    axes:
+    - actionName: Jump
+      Name: Jump
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114674660502772840}
+            m_MethodName: inputJump
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 0
+      axesStringList:
+      - Jump
+      - Brake
+      multiAxesStringIndex: 0
+    - actionName: Start Brake
+      Name: Brake
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114674660502772840}
+            m_MethodName: inputSetBrakeState
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 1
+      axesStringList:
+      - Jump
+      - Brake
+      multiAxesStringIndex: 0
+    - actionName: Stop Brake
+      Name: Brake
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 2
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114674660502772840}
+            m_MethodName: inputSetBrakeState
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 1
+      axesStringList:
+      - Jump
+      - Brake
+      multiAxesStringIndex: 0
+    - actionName: Impulse
+      Name: Impulse
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114674660502772840}
+            m_MethodName: inputImpulse
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 2
+      axesStringList:
+      - Jump
+      - Brake
+      - Impulse
+      multiAxesStringIndex: 0
+    screenActionsGameObject: {fileID: 0}
+    currentlyActive: 1
+    multiAxesStringIndex: 22
+    multiAxesStringList:
+    - Player Controller
+    - Player Camera
+    - Gravity System
+    - Grab Objects
+    - Powers
+    - Abilities
+    - Use Devices
+    - Close Combat
+    - Scanner
+    - Player Weapons
+    - Inventory Menu
+    - Map Menu
+    - Friend List Manager
+    - Examine Object
+    - Puzzles
+    - Hide System
+    - Override System
+    - Fly System
+    - Jetpack
+    - Others
+    - Vehicle
+    - Override Turrets
+    - Override Regular Object
+  - axesName: Use Devices
+    axes:
+    - actionName: Stop Override
+      Name: Activate Device
+      actionEnabled: 1
+      canBeUsedOnPausedGame: 0
+      buttonPressType: 1
+      buttonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114754148517834334}
+            m_MethodName: stopOverride
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      axesStringIndex: 0
+      axesStringList:
+      - Activate Device
+      multiAxesStringIndex: 1
+    screenActionsGameObject: {fileID: 0}
+    currentlyActive: 1
+    multiAxesStringIndex: 6
+    multiAxesStringList:
+    - Player Controller
+    - Player Camera
+    - Gravity System
+    - Grab Objects
+    - Powers
+    - Abilities
+    - Use Devices
+    - Close Combat
+    - Scanner
+    - Player Weapons
+    - Inventory Menu
+    - Map Menu
+    - Friend List Manager
+    - Examine Object
+    - Puzzles
+    - Hide System
+    - Override System
+    - Fly System
+    - Jetpack
+    - Others
+    - Vehicle
+    - Override Turrets
+    - Override Regular Object
+  inputEnabled: 0
+  isPlayerController: 0
+  playerInput: {fileID: 0}
+  startOverrideFunction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114674660502772840}
+        m_MethodName: changeControllerState
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  stopOverrideFunction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114674660502772840}
+        m_MethodName: changeControllerState
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  usePreOverrideFunctions: 0
+  preStartOverrideFunction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  preStopOverrideFunction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  activateActionScreen: 1
+  actionScreenName: Override Rigidbody
+  destroyObjectOnStopOverride: 0
+  eventToDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  showDebugActions: 0
+  overrideCameraControllerManager: {fileID: 114599050429237678}
+  input: {fileID: 0}
+--- !u!135 &135138317731541944
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464882691654038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}

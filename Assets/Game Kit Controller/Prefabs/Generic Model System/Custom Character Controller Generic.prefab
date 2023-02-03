@@ -1,0 +1,2491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1587782335979238}
+  m_IsPrefabParent: 1
+--- !u!1 &1146060161229880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4939883418532956}
+  - component: {fileID: 114921809699421256}
+  m_Layer: 0
+  m_Name: Damage and Effect Triggers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1196324234215904
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4276139272533364}
+  m_Layer: 0
+  m_Name: Damage Triggers Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1204720658467342
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4751436565951058}
+  - component: {fileID: 114812392130360410}
+  - component: {fileID: 114205364908665324}
+  - component: {fileID: 114761014091537864}
+  m_Layer: 2
+  m_Name: Paw Attack Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1587782335979238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4077609975491556}
+  - component: {fileID: 114997099954298486}
+  - component: {fileID: 114387968994099174}
+  - component: {fileID: 114285060058851878}
+  m_Layer: 0
+  m_Name: Custom Character Controller Generic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4077609975491556
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587782335979238}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4939883418532956}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4276139272533364
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196324234215904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.543, z: 0.813}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939883418532956}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4751436565951058
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204720658467342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939883418532956}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4939883418532956
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146060161229880}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4751436565951058}
+  - {fileID: 4276139272533364}
+  m_Father: {fileID: 4077609975491556}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114205364908665324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204720658467342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1688134050b0e8a4b86b67ac8cc8f30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  externalShakeName: Kick Combo
+  shakeUsingDistance: 0
+  minDistanceToShake: 0
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
+  useShakeListTriggeredByActions: 0
+  shakeTriggeredByActionList:
+  - actionName: Big Fall
+    shakeName: Medium Fall
+    nameIndex: 8
+    useShakeEvent: 0
+    eventAtStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    eventAtEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  useShakeEvent: 0
+  eventAtStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventAtEnd:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  setPlayerManually: 1
+  currentPlayer: {fileID: 0}
+  mainManagerName: External Shake List Manager
+  showGizmo: 0
+  gizmoLabelColor: {r: 0, g: 0, b: 0, a: 0}
+  nameIndex: 13
+  nameList:
+  - Big Explosion
+  - Medium Explosion
+  - Little Explosion
+  - Big Bullets
+  - Medium Bullets
+  - Little Bullets
+  - Laser
+  - Big Fall
+  - Medium Fall
+  - Core Activation
+  - Jump Scare
+  - Big Door Opening
+  - Foot Stomp Test
+  - Kick Combo
+--- !u!114 &114285060058851878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587782335979238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c613971cae792154dae1427b1f88eb10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settingsInfoCategoryList:
+  - Name: Collider Settings
+    settingsInfoList:
+    - Name: Capsule Collider Direction
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 2
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCapsuleColliderDirectionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Capsule Collider Center
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 2
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCapsuleColliderDirectionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 1
+      vector3Value: {x: 0, y: 0.37, z: 0.25}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCapsuleColliderCenterValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Capsule Collider Radius
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 0.35
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCapsuleColliderRadiusValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Capsule Collider Height
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 1.5
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCapsuleColliderHeightValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Place To Shoot Offset
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 0.7
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setPlaceToShootOffsetValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Animator Settings
+    settingsInfoList:
+    - Name: Character Position Offset
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1587782335979238}
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 1
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCharactetPositionOffsetValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Character Rotation Offset
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1587782335979238}
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 1
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCharacterRotationOffsetValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Root Motion Settings
+    settingsInfoList:
+    - Name: Use Root Motion
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: No Root Walk Movement Speed
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 1.6
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootWalkMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: No Root Run Movement Speed
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 6
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootRunMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: No Root Sprint Movement Speed
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 10
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootSprintMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: No Root Crouch Movement Speed
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 1.6
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootCrouchMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: No Root Walk Strafe Movement Speed
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 1.7
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootWalkStrafeMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: No Root Run Strafe Movement Speed
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 3.4
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootRunStrafeMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Camera Settings
+    settingsInfoList:
+    - Name: Set New Camera States
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setSetNewCameraStatesValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Camera View Third Person
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 1.6
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootWalkMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 1
+      stringValue: Character View Third Person
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNewCameraStateThirdPersonValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Camera View First Person
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 1.6
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootWalkMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 1
+      stringValue: Character View First Person
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNewCameraStateFirstPersonValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: Other Settings
+    settingsInfoList:
+    - Name: Custom Action Category ID
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 1
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCustomActionCategoryIDValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Character Radius
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 0.9
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCharacterRadiusValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Combat Type ID
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 2
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCombatTypeIDValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Custom Ragdoll Info Name
+      settingEnabled: 0
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 1.6
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootCrouchMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 1
+      stringValue: Character Ragdoll
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setCustomRagdollInfoNameValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Player Mode Name
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 1.7
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNoRootWalkStrafeMovementSpeedValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 1
+      stringValue: Combat
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setPlayerModeNameValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Health Bar Offset
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setHealthBarOffsetValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: AI Visibility
+    settingsInfoList:
+    - Name: Hidden From AI Attacks
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setHiddenFromAIAttacksValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  - Name: AI Settings
+    settingsInfoList:
+    - Name: Set AI Values
+      settingEnabled: 1
+      useBoolState: 1
+      boolState: 1
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setSetAIValuesValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 0
+      floatValue: 0
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Max Random Time Between Attacks
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 0.9
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setMaxRandomTimeBetweenAttacksValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Min Random Time Between Attacks
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 0.82
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setMinRandomTimeBetweenAttacksValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: New Min Distance To Enemy
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 1.4
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNewMinDistanceToEnemyUsingCloseCombatValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: New Min Distance To Attack
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 1.6
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setNewMinDistanceToCloseCombatValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+    - Name: Raycast View Position Offset
+      settingEnabled: 1
+      useBoolState: 0
+      boolState: 0
+      eventToSetBoolState:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setUseRootMotionValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithBool, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useFloatValue: 1
+      floatValue: 0.5
+      eventToSetFloatValue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114997099954298486}
+            m_MethodName: setRaycastPositionOffsetValue
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 1
+        m_TypeName: eventParameters+eventToCallWithAmount, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useStringValue: 0
+      stringValue: 
+      eventToSetStringValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithString, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useVector3Value: 0
+      vector3Value: {x: 0, y: 0, z: 0}
+      eventToSetVector3Value:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: eventParameters+eventToCallWithVector3, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      useRegularValue: 0
+      regularValue: 0
+      eventToEnableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      eventToDisableActiveValue:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      useFieldExplanation: 0
+      fieldExplanation: 
+  mainCustomCharacterControllerBase: {fileID: 114997099954298486}
+--- !u!114 &114387968994099174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587782335979238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 038b77ea6276c554baa56c6bf68b0c95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollName: New Ragdoll
+  setMassOnRagdoll: 0
+  totalMass: 20
+  strength: 0
+  flipForward: 0
+  rotationYOffset: 0
+  pelvis: {fileID: 0}
+  leftHips: {fileID: 0}
+  leftKnee: {fileID: 0}
+  rightHips: {fileID: 0}
+  rightKnee: {fileID: 0}
+  leftArm: {fileID: 0}
+  leftElbow: {fileID: 0}
+  rightArm: {fileID: 0}
+  rightElbow: {fileID: 0}
+  middleSpine: {fileID: 0}
+  head: {fileID: 0}
+  useListToIgnoreOnRagdollActivated: 0
+  colliderListToIgnoreOnRagdollActivated: []
+  bones: []
+  ragdollActivated: 0
+  eventToSentBonesList:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithTransformList, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  mainRagdollActivator: {fileID: 0}
+  characterBody: {fileID: 0}
+--- !u!114 &114761014091537864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204720658467342}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ceb6c90a67d825418766c477c318629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followObjectActive: 1
+  objectToFollow: {fileID: 0}
+  followPosition: 1
+  followRotation: 1
+  mainTransform: {fileID: 0}
+  checkIfObjectToFollowNull: 0
+  objectToFollowLocated: 0
+  showDebugPrint: 0
+--- !u!114 &114812392130360410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204720658467342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dee34cafbc74a44a9f08ac62ebb7d59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerEnabled: 1
+  pushObjectsFromCenterPosition: 0
+  pushObjectsFromPlayerForwardDirection: 0
+  layer:
+    serializedVersion: 2
+    m_Bits: 1310721
+  ignoreTagList:
+  - Player
+  useMessageToPushCharactersFound: 1
+  messageNameToSend: pushCharacter
+  applyDamageOnFoundObjects: 0
+  damageToApply: 0
+  ignoreShield: 0
+  canActivateReactionSystemTemporally: 0
+  damageReactionID: -1
+  damageTypeID: -1
+  forceToApply: 18
+  forceMode: 1
+  canApplyForceToVehicles: 1
+  applyForceToVehiclesMultiplier: 0.2
+  applyForceToFoundObjectsOnlyOnce: 0
+  checkRagdollsDetected: 0
+  ragdollMultiplierForce: 1
+  useCustomPushCenterDistance: 1
+  pushCenterDistance: 10
+  searchForObjectsOnUpdate: 0
+  checkIfObjectInFrontOfPlayer: 1
+  useRemoteEventOnObjectsFound: 1
+  remoteEventNameList:
+  - Break Object
+  callRemoteEventsBeforeApplyingForce: 0
+  useOfPowerPaused: 0
+  vehiclesRigidbodyFoundList: []
+  gameObjectsFoundList: []
+  mainPlayerWeaponSystem: {fileID: 0}
+  playerGameObject: {fileID: 0}
+  centerPosition: {fileID: 4751436565951058}
+  powersManager: {fileID: 0}
+  pushObjectsCenter: {fileID: 4751436565951058}
+  mainCameraTransform: {fileID: 4751436565951058}
+--- !u!114 &114921809699421256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146060161229880}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ceb6c90a67d825418766c477c318629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followObjectActive: 1
+  objectToFollow: {fileID: 0}
+  followPosition: 1
+  followRotation: 1
+  mainTransform: {fileID: 0}
+  checkIfObjectToFollowNull: 0
+  objectToFollowLocated: 0
+  showDebugPrint: 0
+--- !u!114 &114997099954298486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587782335979238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee90bcc81c11244bb0121b4c93a4f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterControllerEnabled: 1
+  animatorForwardInputLerpSpeed: 0.1
+  animatorTurnInputLerpSpeed: 0.1
+  forwardAmountMultiplier: 2
+  updateForwardAmountInputValueFromPlayerController: 1
+  updateTurnAmountInputValueFromPlayerController: 1
+  updateUsingInputValueFromPlayerController: 1
+  setCapsuleColliderValues: 1
+  capsuleColliderDirection: 2
+  capsuleColliderCenter: {x: 0, y: 0.37, z: 0.25}
+  capsuleColliderRadius: 0.35
+  capsuleColliderHeight: 1.5
+  placeToShootOffset: 0.7
+  mainAnimator: {fileID: 0}
+  originalAnimatorController: {fileID: 0}
+  originalAvatar: {fileID: 0}
+  charactetPositionOffset: {x: 0, y: 0, z: 0}
+  characterRotationOffset: {x: 0, y: 0, z: 0}
+  useRootMotion: 1
+  noRootWalkMovementSpeed: 1.6
+  noRootRunMovementSpeed: 6
+  noRootSprintMovementSpeed: 10
+  noRootCrouchMovementSpeed: 1.6
+  noRootWalkStrafeMovementSpeed: 1.7
+  noRootRunStrafeMovementSpeed: 3.4
+  setNewCameraStates: 1
+  newCameraStateThirdPerson: Character View Third Person
+  newCameraStateFirstPerson: Character View First Person
+  customActionCategoryID: 1
+  characterRadius: 0.9
+  combatTypeID: 2
+  parentForCombatDamageTriggers: {fileID: 4276139272533364}
+  customRagdollInfoName: Character Ragdoll
+  playerModeName: Combat
+  healthBarOffset: 0
+  hiddenFromAIAttacks: 0
+  setAIValues: 1
+  maxRandomTimeBetweenAttacks: 0.9
+  minRandomTimeBetweenAttacks: 0.82
+  newMinDistanceToEnemyUsingCloseCombat: 1.4
+  newMinDistanceToCloseCombat: 1.6
+  raycastPositionOffset: 0.5
+  characterMeshesList: []
+  characterGameObject: {fileID: 0}
+  characterControllerActive: 0
+  horizontalInput: 0
+  verticalInput: 0
+  playerUsingInput: 0
+  movementInput: {x: 0, y: 0, z: 0}
+  forwardAmount: 0
+  turnAmount: 0
+  onGround: 0
+  useEventsOnStateChange: 1
+  eventOnCharacterControllerActivated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114921809699421256}
+        m_MethodName: setEnabledState
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  eventOnCharacterControllerDeactivated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114921809699421256}
+        m_MethodName: setEnabledState
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useEventToSendCharacterObjectOnStart: 0
+  eventToSendCharacterObjectOnStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventToSendCharacterObjectOnEnd:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: eventParameters+eventToCallWithGameObject, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventOnInstantiateCustomCharacterObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  horizontalAnimatorName: Horizontal
+  verticalAnimatorName: Vertical
+  stateAnimatorName: State
+  groundedStateAnimatorName: Grounded
+  movementAnimatorName: Movement
+  speedMultiplierAnimatorName: SpeedMultiplier
+  jumpState: 2
+  movementState: 1
+  fallState: 3
+  deathState: 10
+  currentState: 0

@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UniversalAI;
+
+public class GKCUniversalAIDamageDetectionInterface : healthManagement
+{
+    public UniversalDamageable mainUniversalDamageable;
+
+    bool damageComponentLocated;
+
+    public override void setDamageWithHealthManagement(float damageAmount,
+Vector3 fromDirection, Vector3 damagePos, GameObject attacker, GameObject projectile,
+bool damageConstant,
+bool searchClosestWeakSpot, bool ignoreShield, bool
+ignoreDamageInScreen, bool damageCanBeBlocked, bool
+canActivateReactionSystemTemporally, int damageReactionID, int damageTypeID)
+    {
+        if (!damageComponentLocated)
+        {
+            mainUniversalDamageable = GetComponent<UniversalDamageable>();
+
+            damageComponentLocated = true;
+        }
+
+        if (damageComponentLocated)
+        {
+            mainUniversalDamageable.TakeDamage((int)damageAmount);
+        }
+    }
+}

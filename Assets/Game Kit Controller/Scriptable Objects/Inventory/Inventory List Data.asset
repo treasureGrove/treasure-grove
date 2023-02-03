@@ -1,0 +1,4132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a85dbdace788e3b4ca3ffc77fc712a66, type: 3}
+  m_Name: Inventory List Data
+  m_EditorClassIdentifier: 
+  inventoryList:
+  - Name: Consumables
+    cateogryTexture: {fileID: 2800000, guid: 899cf2b718f6df34585a8cfa509eebd4, type: 3}
+    emptyInventoryPrefab: {fileID: 0}
+    inventoryList:
+    - Name: Usb
+      inventoryGameObject: {fileID: 188738, guid: 557ec2fc5fc11764ca0a3683245061fc,
+        type: 2}
+      objectInfo: This Usb drive allows to hack an encryted computer.
+      icon: {fileID: 2800000, guid: 68d5fc435e426674bbcd7180743fb77d, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 100
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 0
+      sellPrice: 80
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.2
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 151230, guid: 651fe2423f67e4d4db46136168a409fc,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Capsule
+      inventoryGameObject: {fileID: 168738, guid: 2c3b90fcea9e6c9438436a483bf31821,
+        type: 2}
+      objectInfo: Just a capsule
+      icon: {fileID: 2800000, guid: 6b565c0d29b1f684db596eb27d302e7c, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 10
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 1
+      sellPrice: 6
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 176400, guid: 8e999b897bd55fe4ab3cd248407a5b6e,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Battery
+      inventoryGameObject: {fileID: 143164, guid: b6852027ac7a9c144832b1c3454f5aa8,
+        type: 2}
+      objectInfo: A regular AA battery. It can be used with a lantern, a remote control,
+        etc...
+      icon: {fileID: 2800000, guid: 6d53c27c55f9a9a4fb7b60b6a9a23f08, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 20
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 2
+      sellPrice: 15
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 10
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 167994, guid: eab343a183cab1f4498501b91bc9f431,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Vehicle Fuel
+      inventoryGameObject: {fileID: 139162, guid: 4145dcb43f483934e85862697a5560af,
+        type: 2}
+      objectInfo: Fuel usable in any vehicle
+      icon: {fileID: 2800000, guid: 93d116bd6bb526f4284e2651d987aeee, type: 3}
+      amount: 0
+      amountPerUnit: 20
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 50
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 3
+      sellPrice: 43
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 21
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 171374, guid: 08915edd32fa8a9499e2f59096bbf7b8,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Health
+      inventoryGameObject: {fileID: 1715645539678264, guid: 68dfab8cf963eaf4093a1a3fc513688e,
+        type: 2}
+      objectInfo: It heals 30 units of damage.
+      icon: {fileID: 2800000, guid: 99a8d65b56a37ce42a5fb7919c58d31e, type: 3}
+      amount: 0
+      amountPerUnit: 30
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 1
+      newBehaviorOnUseMessage: Health refilled with -AMOUNT- units.
+      newBehaviorOnUnableToUseMessage: Player's health is full.
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 50
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 4
+      sellPrice: 10
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 1
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1157993704289744, guid: 89fb9d6112960464eb7e081f08a323d7,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1182826269123592, guid: 9686b1624e052d04a97710c7278f4978,
+        type: 2}
+    - Name: Energy
+      inventoryGameObject: {fileID: 1762248570137770, guid: 6e7992dedc5b9f64484eefb312e51832,
+        type: 2}
+      objectInfo: It refills 20 units of energy.
+      icon: {fileID: 2800000, guid: fe7df5edc9a10fb43939220e913e1158, type: 3}
+      amount: 0
+      amountPerUnit: 20
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 1
+      newBehaviorOnUseMessage: Energy refilled with -AMOUNT- units.
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 20
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 5
+      sellPrice: 5
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 2
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1776990645864290, guid: 4f5a37e72094be64385b7e9e18139a2f,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Jetpack Fuel
+      inventoryGameObject: {fileID: 1406356301405622, guid: 5d54187bcb7ed2e45a8160d60f2aea9f,
+        type: 2}
+      objectInfo: This can has 30 liters of fuel for the jetpack.
+      icon: {fileID: 2800000, guid: 91fcaf7a1347366479a34b8da59b434e, type: 3}
+      amount: 0
+      amountPerUnit: 30
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 1
+      newBehaviorOnUseMessage: Jetpack reloaded with -AMOUNT- liters of fuel.
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 30
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 6
+      sellPrice: 10
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 31
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1096337566271372, guid: c4a4f2858c36f8a41bd8d29afc2e733a,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Shield Energy
+      inventoryGameObject: {fileID: 1919487871126662, guid: ec14daf0da9f20943983d69fa45a83f4,
+        type: 2}
+      objectInfo: It refills 50 units of shield.
+      icon: {fileID: 2800000, guid: a15bd35f7a848ab49927bb4805ae3179, type: 3}
+      amount: 0
+      amountPerUnit: 50
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 1
+      newBehaviorOnUseMessage: Shield refilled with -AMOUNT- units.
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 100
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 7
+      sellPrice: 40
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 4
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1617516044844576, guid: ab4722a47d943d847a745f61c9b34f4e,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Stamina
+      inventoryGameObject: {fileID: 1320811672308704, guid: 0c97b2f0254fa1842b06eb5be3e51053,
+        type: 2}
+      objectInfo: It refills 30 units of stamina.
+      icon: {fileID: 2800000, guid: 69ce3aae04c0bcf4da9d24bddd1a3236, type: 3}
+      amount: 0
+      amountPerUnit: 30
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 1
+      newBehaviorOnUseMessage: Stamina refilled with -AMOUNT- units.
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 10
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 8
+      sellPrice: 3
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 3
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1649942301460230, guid: 90b48a1d62f8dcd46bc15362ecab86e6,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Oxygen
+      inventoryGameObject: {fileID: 1601220192759612, guid: b9c78604cac9bd648b52d1ab15ca822b,
+        type: 2}
+      objectInfo: It refills 40 units of oxygen.
+      icon: {fileID: 2800000, guid: f851a011ff5b7e043b89c6d6c3dd780b, type: 3}
+      amount: 0
+      amountPerUnit: 30
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 1
+      newBehaviorOnUseMessage: Oxygen refilled with -AMOUNT- units.
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 100
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 9
+      sellPrice: 40
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 10
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1046427436348982, guid: 23e5c3aacfd9e1b47ba00eeb31613cbb,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Beer
+      inventoryGameObject: {fileID: 1764992364208632, guid: 1ca671c07d2ce2946bb43ba55f5542ee,
+        type: 2}
+      objectInfo: It restores health but you will get drunk for a few minutes.
+      icon: {fileID: 2800000, guid: a4a92f46689ebf040ab3b974d055be99, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 1
+      newBehaviorOnUseMessage: You get 30 units of health, but you are drunk for a
+        while.
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 1
+      soundOnUseObject: {fileID: 8300000, guid: d6f77c71a1b2a2042abe401da3c55a34,
+        type: 3}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 100
+      infiniteVendorAmountAvailable: 0
+      categoryName: Consumables
+      categoryIndex: 0
+      elementIndex: 10
+      sellPrice: 10
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.3
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1095240593633006, guid: b4ef75072fdb0d64dba7c1cbe6212a30,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+  - Name: Quest Objects
+    cateogryTexture: {fileID: 2800000, guid: 2eee62b2b8155fb4b8b3e7cf50e630cf, type: 3}
+    emptyInventoryPrefab: {fileID: 0}
+    inventoryList:
+    - Name: Simple Key
+      inventoryGameObject: {fileID: 124612, guid: 73863e7e39f7788498f4ad2b0768c8b8,
+        type: 2}
+      objectInfo: Simple key to unlock some door in this level
+      icon: {fileID: 2800000, guid: 41265636deda52c4b9f46405e4113b7a, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 0
+      vendorPrice: 300
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 0
+      sellPrice: 220
+      useMinLevelToBuy: 1
+      minLevelToBuy: 5
+      weight: 1.5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 1
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 161680, guid: dad1b7c9f8496f7498fa4e3f7c85d683,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Lamp
+      inventoryGameObject: {fileID: 109144, guid: dea7b7b327b9e884f85d7c2e7d15e2c1,
+        type: 2}
+      objectInfo: Find a lamp support to place it and activate the lamp.
+      icon: {fileID: 2800000, guid: 4dda6e7434286174185fb0f3910b4042, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 150
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 1
+      sellPrice: 110
+      useMinLevelToBuy: 1
+      minLevelToBuy: 1
+      weight: 2
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 166276, guid: a27ad9816df1b37429cdb013227387a3,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Fuse
+      inventoryGameObject: {fileID: 1806193440758864, guid: 55f7766221ebb9c43aa11b40b13c1ea9,
+        type: 2}
+      objectInfo: You can use it in a fuse box to close a circuit and give power to
+        a device.
+      icon: {fileID: 2800000, guid: 57dd0b2334873374bafa482411161511, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 200
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 2
+      sellPrice: 180
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1192222526716240, guid: 7d5127efee9240545bff54e126fe0682,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Blue Wire
+      inventoryGameObject: {fileID: 1615349461786282, guid: 418b522bce036204399e789c53569b3e,
+        type: 2}
+      objectInfo: This wire can be used to close a circuit.
+      icon: {fileID: 2800000, guid: 2e2d19d7f36175b41af8422eca9e97b1, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 130
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 3
+      sellPrice: 100
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.2
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1889762363113474, guid: 1751cf1600bb58647a7911bcbc55f717,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Red Wire
+      inventoryGameObject: {fileID: 1362173786955548, guid: 1c421eabd5c24c34495cad9c762dd349,
+        type: 2}
+      objectInfo: It is a red wire used to close a circuit.
+      icon: {fileID: 2800000, guid: bfdb606090ddf00469549d0fe2ffe3c6, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 130
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 4
+      sellPrice: 105
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.2
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1160187407906828, guid: 3288948192ad8b84584b6b7a7130db0b,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Left Half Cog
+      inventoryGameObject: {fileID: 1169158823500012, guid: 80756624db6a87043a75f7f472218f21,
+        type: 2}
+      objectInfo: It is the left half of a cog mechanism.
+      icon: {fileID: 2800000, guid: 462a5cf6c3c4a584b9325c995f57027a, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1737768133305320, guid: 7fca5b5ea2108bd41b82077f3a6bf288,
+        type: 2}
+      combinedObject: {fileID: 1575031730499728, guid: 831b27d8b4b9d4243867f37680bac566,
+        type: 2}
+      combinedObjectMessage: The two parts of the cog have been joined to form a full
+        cog.
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 250
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 5
+      sellPrice: 230
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1053836179616070, guid: f494658e06af5d14097ad27dcdabf040,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Right Half Cog
+      inventoryGameObject: {fileID: 1737768133305320, guid: 7fca5b5ea2108bd41b82077f3a6bf288,
+        type: 2}
+      objectInfo: It is the left half of a cog mechanism.
+      icon: {fileID: 2800000, guid: bc9dc9aa69c1fd747a4145992978a7ff, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1169158823500012, guid: 80756624db6a87043a75f7f472218f21,
+        type: 2}
+      combinedObject: {fileID: 1575031730499728, guid: 831b27d8b4b9d4243867f37680bac566,
+        type: 2}
+      combinedObjectMessage: The two parts of the cog have been joined to form a full
+        cog.
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 250
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 6
+      sellPrice: 235
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1058453394719524, guid: 9f2f10e8a93946040aae50d6d181129e,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Full Cog
+      inventoryGameObject: {fileID: 1317425198382714, guid: 4f359aeec3a838a4d8fb61c4e61c3cfd,
+        type: 2}
+      objectInfo: It is the full cog combined from two parts. It can be used to open
+        a heavy mechanism.
+      icon: {fileID: 2800000, guid: ec53a5c6a52270d45a5c9252a5005587, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 400
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 7
+      sellPrice: 370
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 10
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1575031730499728, guid: 831b27d8b4b9d4243867f37680bac566,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Toy
+      inventoryGameObject: {fileID: 1297486154249386, guid: 8e010fe5ae416eb41a44550ab4c0cfe6,
+        type: 2}
+      objectInfo: New Description
+      icon: {fileID: 2800000, guid: 6404141e14dbbb34e8f34b1f25de081c, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 1
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 350
+      infiniteVendorAmountAvailable: 0
+      categoryName: Quest Objects
+      categoryIndex: 1
+      elementIndex: 8
+      sellPrice: 200
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 14
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 1
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1502011107542912, guid: 01ace2f2bf871bc479f0eee4b791c8ff,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+  - Name: Weapons
+    cateogryTexture: {fileID: 2800000, guid: cfd8c557cbef2514a91b01e0c2a2ed74, type: 3}
+    emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+      type: 2}
+    inventoryList:
+    - Name: P-35
+      inventoryGameObject: {fileID: 1948321825039272, guid: 7a35dca24648c68449c9aca6ddea5dcc,
+        type: 2}
+      objectInfo: Simple pistol with manual shoot.
+      icon: {fileID: 2800000, guid: 29df2c218b07fbf47b816e9a58b6f861, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1096862678165824, guid: 55a117c90c80ae84e9455b7ed6d08d1a,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 700
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 0
+      sellPrice: 500
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 1.7
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1086675229080870, guid: 0283d2f70e1a2bd46aa8f1de06297056,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: P-36
+      inventoryGameObject: {fileID: 1589353741627784, guid: cabb96e71311f844a82be40d8cf64eea,
+        type: 2}
+      objectInfo: Simple pistol with auto shoot.
+      icon: {fileID: 2800000, guid: 4e617e4ef61e15f46921362d72a3f287, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1054455855940084, guid: d3cbaa81a3ce74f42a2ec3307f1fa563,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 800
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 1
+      sellPrice: 400
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 2.5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1984054559879142, guid: 7de00244abeb7fc4e9523c6898af7733,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Shotgun
+      inventoryGameObject: {fileID: 1021827165656938, guid: d1a5d5b9f58b7e944b16a30a41b4ff45,
+        type: 2}
+      objectInfo: A regular shotgun with storage to multiple shells.
+      icon: {fileID: 2800000, guid: 9e8716f0fb52afa47b10233ea3c133ab, type: 3}
+      amount: 1
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1820368236934758, guid: 95dc041f76378b948b0ecd15567ef6bf,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 1100
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 2
+      sellPrice: 1000
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 4
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1705763463588140, guid: c7ef6b5f1cb23f948acf54af5b2873f7,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Assault Rifle
+      inventoryGameObject: {fileID: 1658499585258234, guid: f326b60016a3ae746a0c3366604ebac4,
+        type: 2}
+      objectInfo: A powerful assault rifle with auto shoot and large magazine.
+      icon: {fileID: 2800000, guid: 85c4ef21aa9f0304387075e2acb6058a, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1212976682897944, guid: 16d519faa3567ad498ed90fea8e876f6,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 2000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 3
+      sellPrice: 1500
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 6
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1831777861938010, guid: d06e1327ddcb56f45999e791d2af815e,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Double Shotgun
+      inventoryGameObject: {fileID: 1174643899615396, guid: 5cab93e128add774186493a77bcda6ff,
+        type: 2}
+      objectInfo: A double barrel shotgun, with a lot of recoil and very harmful.
+      icon: {fileID: 2800000, guid: 775e9065b7a858e4ebbcdf56afc46c6f, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1726084300740834, guid: 2ff7d6d73e43c234bb05e84a759ccf27,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 3000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 4
+      sellPrice: 2700
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 12
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1085498934211630, guid: 143a657cfffeaee4593b51d460d411aa,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Homing Missiles
+      inventoryGameObject: {fileID: 1855045469831854, guid: 87a73d30a3cf35f4db26400ccb70b37d,
+        type: 2}
+      objectInfo: A missile launcher which uses homming projectiles.
+      icon: {fileID: 2800000, guid: b630834b6fea986419dea3a0da580c47, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1535989630302590, guid: b8694a8943b769f4f941c8c7f8ce10a9,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 5000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 5
+      sellPrice: 3800
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 25
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1808816529065720, guid: 2cbc0151de376f74a9a341d759afc39a,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Laser Miner
+      inventoryGameObject: {fileID: 1750321913222054, guid: 73a44aecf7a26c24b9d64123daa01b67,
+        type: 2}
+      objectInfo: This weapon shoots laser traps which damages anything that touchs.
+        Also, the mines adhere to any surface.
+      icon: {fileID: 2800000, guid: 9bf93410f364e2044951c91046a48559, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1218451942111110, guid: b4c9dfcb4e1dcc04f89e2da3694c63b8,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 3400
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 6
+      sellPrice: 2500
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1699328620683110, guid: a80ce6107862dfd4b88d9f56ee01902d,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Sticky Grenade Launcher
+      inventoryGameObject: {fileID: 1106307701974000, guid: d677a8a5c690ee549b88d788c03034f6,
+        type: 2}
+      objectInfo: A grenade launcher which adheres to any surface and explode after
+        a few seconds.
+      icon: {fileID: 2800000, guid: a80e1602ee798e845ac25d82883980d3, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1336190854626374, guid: d8a887f4df651374cada25d28515b2d8,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 3150
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 7
+      sellPrice: 2800
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 8
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1829843781139704, guid: 2f1c2efeaa243144fa1ca93034b5a6b4,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Revolver
+      inventoryGameObject: {fileID: 1469893357397094, guid: e3ce6cf70b2a8934e98355e9822d76d9,
+        type: 2}
+      objectInfo: A powerful revolver with 6 shoots
+      icon: {fileID: 2800000, guid: 994273b2cb1ac904f87c5b80b13f285c, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1170505024008278, guid: ac9c600a50d26c640ae85d3a0151c5f2,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 2450
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 8
+      sellPrice: 2000
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 2
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1563683833251080, guid: de1cf0ad865eaa84f8dfdbb014238afe,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Healer
+      inventoryGameObject: {fileID: 1188925371321942, guid: 51a5fce02b79ba1438fa454ae7918ce4,
+        type: 2}
+      objectInfo: This device can take energy, fuel or health from anything and transfer
+        it to any other element, like a character, a vehicle, etc...
+      icon: {fileID: 2800000, guid: 8d18a6fd7c3c15a4093243fb1b65d924, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1272745893276956, guid: 1019c94d6e7e5c54cac94a91f07d891a,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 1540
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 9
+      sellPrice: 1100
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 4
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1108217318950852, guid: fe981ecf49b206b4ca532197b673354e,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Flashlight
+      inventoryGameObject: {fileID: 1530928380877744, guid: 6129c6024a5252845894c31e08f575e9,
+        type: 2}
+      objectInfo: An useful flashlight with interchangeable batteries.
+      icon: {fileID: 2800000, guid: edb1a94d232bdbe4a876d25498c47e10, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1064375886465580, guid: 6785e6a3217071d48ae1cb19323c992d,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 2220
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 10
+      sellPrice: 1600
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.9
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1023937755435072, guid: 3226d17316919764d8b00cfa2f5fd973,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Spear Launcher
+      inventoryGameObject: {fileID: 1091188169843684, guid: c17b57b7aa4082749bebda5ec32e8096,
+        type: 2}
+      objectInfo: This weapon launchs spears able to impale enemies.
+      icon: {fileID: 2800000, guid: 9bf93410f364e2044951c91046a48559, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1815007978368138, guid: 6d15faf8bc784e040b74e8c0c2f2faf3,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 3200
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 11
+      sellPrice: 1500
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 6.3
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1441647534432934, guid: a8e61e3e9bad74d468245b6268d634bb,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Smartphone
+      inventoryGameObject: {fileID: 1648414844569264, guid: 4e1834ca2c1d7d64eb5837fc5c5305f8,
+        type: 2}
+      objectInfo: This device allows to take captures and see objects invisible at
+        simple sight.
+      icon: {fileID: 2800000, guid: 1e8e3ab10daa0244c9a886fda19f0223, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 4000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 12
+      sellPrice: 2000
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.2
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1512320961089438, guid: 1f41f9e300d4f3c40a72fc7687ea7fad,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Laser Shooter
+      inventoryGameObject: {fileID: 1277414305988006, guid: 5a884e0ce9ff11a44a5bf2c29eef0c1e,
+        type: 2}
+      objectInfo: A powerful weapon that fires a laser that can produce a lot of damage.
+      icon: {fileID: 2800000, guid: dea797c0028475f4aa2acc954cd81505, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1997994311450000, guid: 8be2997c7c1928144b850e4b12ba48bb,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 3700
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 13
+      sellPrice: 3100
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 9
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1490415502636580, guid: 4fb869dc789d9af458b3eaeb169094ce,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Gravity Gun
+      inventoryGameObject: {fileID: 1703136339977620, guid: faa044eeb6af95d4da4139646d773ef7,
+        type: 2}
+      objectInfo: A tool which allows to grab and move any object.
+      icon: {fileID: 2800000, guid: 14a307d6afa61644897c2bdb8de87e47, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 6000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 14
+      sellPrice: 5550
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 13
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1437419087039372, guid: c6a834d59e37a07428b193610b380b57,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1825423029936550, guid: a6817e46c104c8d4ebd9e253c804e91a,
+        type: 2}
+    - Name: Plasma Cutter
+      inventoryGameObject: {fileID: 1670004146950124, guid: d55a5c5856f373445b0f94c55969902f,
+        type: 2}
+      objectInfo: Don't aim to the head
+      icon: {fileID: 2800000, guid: 29df2c218b07fbf47b816e9a58b6f861, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 1
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 1
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1704063855400126, guid: 6b8c00f4f8825184a8c40f748382c5e3,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 4000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons
+      categoryIndex: 2
+      elementIndex: 15
+      sellPrice: 2000
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 3
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1998216593573018, guid: 9c98def1479960747a4c57e5115017f4,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+  - Name: Ammo
+    cateogryTexture: {fileID: 2800000, guid: c9300f270cd3bdc4f9ec0cf7b97cbf3e, type: 3}
+    emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+      type: 2}
+    inventoryList:
+    - Name: Assault Rifle Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 2d2890fcc5da9df4880e50d3dcb8db4e,
+        type: 2}
+      objectInfo: Ammo for the assault rifle weapon. It contains 30 projectiles per
+        box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 30
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- refilled with -AMOUNT- projectiles.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1658499585258234, guid: f326b60016a3ae746a0c3366604ebac4,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 100
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 0
+      sellPrice: 50
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 3
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1212976682897944, guid: 16d519faa3567ad498ed90fea8e876f6,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Double Shotgun Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 4787a098ad3162c4381f7bb7abe62d8f,
+        type: 2}
+      objectInfo: Ammo for the double shotgun weapon. It contains 20 projectiles per
+        box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 20
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: Double Shotgun refilled with -AMOUNT- projectiles.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1174643899615396, guid: 5cab93e128add774186493a77bcda6ff,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 200
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 1
+      sellPrice: 60
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 4
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1726084300740834, guid: 2ff7d6d73e43c234bb05e84a759ccf27,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Flashlight Battery
+      inventoryGameObject: {fileID: 1636767478942136, guid: f6560d9668e73f447b5e586f70bdb744,
+        type: 2}
+      objectInfo: Batteries for the flashlight. It contains 40 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 40
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: Flashlight recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1530928380877744, guid: 6129c6024a5252845894c31e08f575e9,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 150
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 2
+      sellPrice: 30
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 1
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1064375886465580, guid: 6785e6a3217071d48ae1cb19323c992d,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Healer Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 242109b53edc3454c80a00b7c547b9e4,
+        type: 2}
+      objectInfo: Ammo for the healer. It contains 50 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 50
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: Healer recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1188925371321942, guid: 51a5fce02b79ba1438fa454ae7918ce4,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 80
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 3
+      sellPrice: 20
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1272745893276956, guid: 1019c94d6e7e5c54cac94a91f07d891a,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Homing Missiles Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: adcbf351ec3f1c94b82f03b61bfc72bc,
+        type: 2}
+      objectInfo: Ammo for the homing missiles weapon. It contains 10 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 10
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1855045469831854, guid: 87a73d30a3cf35f4db26400ccb70b37d,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 200
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 4
+      sellPrice: 50
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 10
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1535989630302590, guid: b8694a8943b769f4f941c8c7f8ce10a9,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Laser Miner Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 49d9c687a212e4642b29dc24052f9832,
+        type: 2}
+      objectInfo: Ammo for the laser miner weapon. It contains 25 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 25
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1750321913222054, guid: 73a44aecf7a26c24b9d64123daa01b67,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 500
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 5
+      sellPrice: 100
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 10
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1218451942111110, guid: b4c9dfcb4e1dcc04f89e2da3694c63b8,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Laser Shooter Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 1c953871a0cf2a643874a0b590d849a7,
+        type: 2}
+      objectInfo: Ammo for the laser shooter weapon. It contains 100 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 100
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1277414305988006, guid: 5a884e0ce9ff11a44a5bf2c29eef0c1e,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 300
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 6
+      sellPrice: 140
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 10
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1997994311450000, guid: 8be2997c7c1928144b850e4b12ba48bb,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: P-35 Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 34291a4f63014f04cb7afe7e0c2b3203,
+        type: 2}
+      objectInfo: Ammo for the P-35 weapon. It contains 30 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 30
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1948321825039272, guid: 7a35dca24648c68449c9aca6ddea5dcc,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 150
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 7
+      sellPrice: 75
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 3
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1096862678165824, guid: 55a117c90c80ae84e9455b7ed6d08d1a,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: P-36 Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 42379dc090858d64da0c87fa2ca43b52,
+        type: 2}
+      objectInfo: Ammo for the P-36 weapon. It contains 45 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 45
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1589353741627784, guid: cabb96e71311f844a82be40d8cf64eea,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 200
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 8
+      sellPrice: 100
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 9
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1054455855940084, guid: d3cbaa81a3ce74f42a2ec3307f1fa563,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Revolver Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 020e8d7e0a437c547853bd4d8a39f0dd,
+        type: 2}
+      objectInfo: Ammo for the revolver weapon. It contains 20 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 20
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1469893357397094, guid: e3ce6cf70b2a8934e98355e9822d76d9,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 400
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 9
+      sellPrice: 110
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 8
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1170505024008278, guid: ac9c600a50d26c640ae85d3a0151c5f2,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Shotgun Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: d06216450a5af9a4a95e51712de4e98d,
+        type: 2}
+      objectInfo: Ammo for the shotgun weapon. It contains 10 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 10
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1021827165656938, guid: d1a5d5b9f58b7e944b16a30a41b4ff45,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 240
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 10
+      sellPrice: 80
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1820368236934758, guid: 95dc041f76378b948b0ecd15567ef6bf,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Spear Launcher Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: af7c5fa71006ac54685c9568c52fcdd0,
+        type: 2}
+      objectInfo: Ammo for the spear launcher weapon. It contains 15 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 15
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1091188169843684, guid: c17b57b7aa4082749bebda5ec32e8096,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 500
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 11
+      sellPrice: 100
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 15
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1815007978368138, guid: 6d15faf8bc784e040b74e8c0c2f2faf3,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Sticky Grenade Launcher Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: cf91ec488231cd743ac9a9fc8fe2c207,
+        type: 2}
+      objectInfo: Ammo for the sticky grenade launcher weapon. It contains 9 units
+        per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 9
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: -OBJECT- recharged with -AMOUNT- units.
+      useOneUnitOnNewBehaviourCombine: 0
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1106307701974000, guid: d677a8a5c690ee549b88d788c03034f6,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 600
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 12
+      sellPrice: 170
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 18
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1336190854626374, guid: d8a887f4df651374cada25d28515b2d8,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1916194044251300, guid: 369bdf3b736d1634995f61a805c20c08,
+        type: 2}
+    - Name: Plasma Cutter Ammo
+      inventoryGameObject: {fileID: 1636767478942136, guid: 36f3ce5be5763194493958bb1f3740ef,
+        type: 2}
+      objectInfo: Ammo for the plasma cutter weapon. It contains 10 units per box.
+      icon: {fileID: 2800000, guid: 69ba3f3c79073a949ae0d2528f160228, type: 3}
+      amount: 0
+      amountPerUnit: 10
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 1
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 1670004146950124, guid: d55a5c5856f373445b0f94c55969902f,
+        type: 2}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: -OBJECT- recharged with -AMOUNT- units.
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 300
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 13
+      sellPrice: 110
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1704063855400126, guid: 6b8c00f4f8825184a8c40f748382c5e3,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Grenade
+      inventoryGameObject: {fileID: 1691844318192960, guid: dc47b74095f6bef46993219f8f67e597,
+        type: 2}
+      objectInfo: Powerful explosive with a count down of a few seconds.
+      icon: {fileID: 2800000, guid: ccadd0b924918f248b583cd2e569439d, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 1
+      canBeSold: 1
+      vendorPrice: 500
+      infiniteVendorAmountAvailable: 0
+      categoryName: Ammo
+      categoryIndex: 3
+      elementIndex: 14
+      sellPrice: 100
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1273201295902812, guid: 3da8ab82b2af877439df8fb274f76f65,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 181576, guid: 6448300a96e4544428c241835deff26e,
+        type: 2}
+  - Name: Weapons Attachments
+    cateogryTexture: {fileID: 2800000, guid: 16aa4b56b0e27f046ab9fc23e724b469, type: 3}
+    emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+      type: 2}
+    inventoryList:
+    - Name: Extended Magazine
+      inventoryGameObject: {fileID: 1251698687772948, guid: 84817a97f5787624a9c7c08554a2a5e9,
+        type: 2}
+      objectInfo: It increases the maximum amount of projectiles in the weapon's clip
+      icon: {fileID: 2800000, guid: fef3ba4a7ab4bf1468e2ee8a466c096a, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The extended magazine has been attached to the
+        -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 2500
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 0
+      sellPrice: 1200
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 1
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1912563092380702, guid: 55fb4a2a90d7c5141b969a2bfb844dc9,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Fire Mode Selector Automatic
+      inventoryGameObject: {fileID: 1166137160262258, guid: 59c44ecbf8b5e3047a11a31372847ce1,
+        type: 2}
+      objectInfo: Set the weapon in automatic fire, just needing to press and hold
+        the trigger to keep firing
+      icon: {fileID: 2800000, guid: 83deeea8fcd922842b94033be5972fa4, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The Fire Mode Selector Automatic has been attached
+        to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 3000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 1
+      sellPrice: 1000
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.1
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1892548123049648, guid: cb41508406c001e4cb610311336f9690,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Fire Mode Selector Burst
+      inventoryGameObject: {fileID: 1589908916133888, guid: 8bb00b9df36554d4daa3e468811ef4ff,
+        type: 2}
+      objectInfo: Set the weapon in burst fire, firing a few projectiles on each trigger
+        press.
+      icon: {fileID: 2800000, guid: 7979cc3a32c987b4bb2ba7ca2178b6b9, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The Fire Mode Selector Burst has been attached
+        to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 1500
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 2
+      sellPrice: 600
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.1
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1586077494111184, guid: 7dce500a1f5eaef4c89acb4727a6555a,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Fire Mode Selector Manual
+      inventoryGameObject: {fileID: 1034945821478746, guid: c9a108537bf7d4042849bd8aeb2030ad,
+        type: 2}
+      objectInfo: Set the weapon in manual fire, firing a projectile on each trigger
+        press.
+      icon: {fileID: 2800000, guid: 0ef5d44482f7c904fabea8ebb83c9f56, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The Fire Mode Selector Manual has been attached
+        to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 1000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 3
+      sellPrice: 100
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.1
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1018856252853870, guid: 3e8d64333e47b6f4493208f183761e18,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Flashlight
+      inventoryGameObject: {fileID: 1118329631201570, guid: e291074982e7f344fa2ca1160b5f5417,
+        type: 2}
+      objectInfo: An useful flashlight to see in enviroments with low or zero ilumination.
+      icon: {fileID: 2800000, guid: f5f446d90ceeea241b6dde470de012ea, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The Flashlight has been attached to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 4000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 4
+      sellPrice: 2000
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 1
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1768161161474924, guid: aac8245c7afd19449b878caf2fdf1cf0,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Grenade Launcher
+      inventoryGameObject: {fileID: 1192075776895322, guid: d3348be025a7297468f705e7f665aecf,
+        type: 2}
+      objectInfo: A classical grenade launcher attachment, with very powerful rounds.
+      icon: {fileID: 2800000, guid: 65e927598d1b3f1449f55bb66cc64814, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The Grenade Launcher has been attached to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 7000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 5
+      sellPrice: 4460
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 4
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1376816636362076, guid: 66fefb9dd7f07c849874bad0fe1ece86,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Holographic Sight
+      inventoryGameObject: {fileID: 1022644263171902, guid: cb89317a3e7337f4a9cc2cb69aa28c8c,
+        type: 2}
+      objectInfo: An advanced sight with holographic display.
+      icon: {fileID: 2800000, guid: e22315c675877a440bfa770e675be1ec, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The holographic sight has been attached to the
+        -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 9000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 6
+      sellPrice: 4000
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 1
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1890051941110096, guid: 10c88bf1977bc5b4faf1a3962e9e3adf,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Laser
+      inventoryGameObject: {fileID: 1920282874726974, guid: b005305d62c4b464f99517d6c132244e,
+        type: 2}
+      objectInfo: A laser attachment to help with the aiming of the weapon
+      icon: {fileID: 2800000, guid: d31f806eb5f662a4e935e04927933e1e, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The laser has been attached to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 4200
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 7
+      sellPrice: 3000
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.5
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1923217180114402, guid: b0bf32b1205b60146b37ebd17a3a97b2,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Red Dot
+      inventoryGameObject: {fileID: 1840408084838592, guid: 5e712a2dca98be44b852f6dd0b70f461,
+        type: 2}
+      objectInfo: A Red Dot attachment to help with the aiming of the weapon
+      icon: {fileID: 2800000, guid: a91aeadbae5a6c747a48342392736add, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The red dot has been attached to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 5000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 8
+      sellPrice: 3500
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0.7
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1436625432184324, guid: 6362b72a7b327b6479984a66c9912033,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Silencer
+      inventoryGameObject: {fileID: 1875874462522012, guid: 72d7872c2c3b5e24b854d7120f0793b3,
+        type: 2}
+      objectInfo: A silence to remove the fire sound of any weapon.
+      icon: {fileID: 2800000, guid: 7d23403c71e533b42a2614e0e03a8d6a, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The silencer has been attached to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 3200
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 9
+      sellPrice: 1800
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 2
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1891153634413854, guid: 2285a26a762c639409cb18a975473fb9,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+    - Name: Telescopic
+      inventoryGameObject: {fileID: 1388583824031582, guid: 60e003ebd1d68c5489f13bbfa3d056ad,
+        type: 2}
+      objectInfo: A Telescopic attachment to help with the aiming of the weapon.
+      icon: {fileID: 2800000, guid: 9226a8e1533fa164a8ba73f8e982af8f, type: 3}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 1
+      canBeCombined: 1
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 1
+      newBehaviorOnCombineMessage: The telescopic has been attached to the -OBJECT-.
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 6000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Weapons Attachments
+      categoryIndex: 4
+      elementIndex: 10
+      sellPrice: 3900
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 1.4
+      spawnObject: 0
+      cantBeStoredOnInventory: 0
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1020744821359044, guid: 9e68252c98bb6bc44ae30f84fe41d8f4,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 1076242459881378, guid: ff0130f7c45d3cb45bda24212033cf55,
+        type: 2}
+  - Name: Vehicles
+    cateogryTexture: {fileID: 2800000, guid: 9566e5bc314110b46aaf4c47868623b0, type: 3}
+    emptyInventoryPrefab: {fileID: 0}
+    inventoryList:
+    - Name: Aircraft
+      inventoryGameObject: {fileID: 1006809377300032, guid: 0097f50fee3c74e4199cad1e79d42228,
+        type: 2}
+      objectInfo: This ship allows you to move freely in the air, use a boost, stop
+        the ship, land and takeoff in any surface and use weapons.
+      icon: {fileID: 0}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 0
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 20000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Vehicles
+      categoryIndex: 5
+      elementIndex: 0
+      sellPrice: 0
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0
+      spawnObject: 0
+      cantBeStoredOnInventory: 1
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 160730, guid: aaace884ba324d447b97952a6e68a4e1,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Car
+      inventoryGameObject: {fileID: 1703771096074084, guid: 9e3059b7be646e34984670868be5d6f6,
+        type: 2}
+      objectInfo: This vehicle has a weapon turret attached. Use it with the mouse
+        AND DESTROY ANYTHING YOU WANT.
+      icon: {fileID: 0}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 0
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 0
+      vendorPrice: 10000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Vehicles
+      categoryIndex: 5
+      elementIndex: 1
+      sellPrice: 0
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0
+      spawnObject: 0
+      cantBeStoredOnInventory: 1
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 183320, guid: 755b3b4962ee993419b392af99ef0a91,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Flying Vehicle
+      inventoryGameObject: {fileID: 1446592651479930, guid: 73b84fab81eb23e45a3bd81eee78e80f,
+        type: 2}
+      objectInfo: A vehicle which allows you to move in the air, sides, backward and
+        forward and up and down.
+      icon: {fileID: 0}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 0
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 14000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Vehicles
+      categoryIndex: 5
+      elementIndex: 2
+      sellPrice: 0
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0
+      spawnObject: 0
+      cantBeStoredOnInventory: 1
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1376792074171880, guid: f9f6c6fd12671dc40bdda359e2f1209c,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Hoverboard
+      inventoryGameObject: {fileID: 1389654611946606, guid: 517a55010a5479b45b4b151c491ea4d1,
+        type: 2}
+      objectInfo: This hoverboard is the best vehicle to move quickly through any
+        place. Even go back to the future.
+      icon: {fileID: 0}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 0
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 12000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Vehicles
+      categoryIndex: 5
+      elementIndex: 3
+      sellPrice: 0
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0
+      spawnObject: 0
+      cantBeStoredOnInventory: 1
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 137382, guid: 69b029dd5038cfd46bbe1de327545e04,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Hovercraft
+      inventoryGameObject: {fileID: 1044294827298586, guid: 25c38599ba98d9c41b3de5938d8156dd,
+        type: 2}
+      objectInfo: This hoverCraft has a weapon turret attached. Use it with the mouse
+        AND DESTROY ANYTHING YOU WANT. Use it with caution.
+      icon: {fileID: 0}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 0
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 17000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Vehicles
+      categoryIndex: 5
+      elementIndex: 4
+      sellPrice: 0
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0
+      spawnObject: 0
+      cantBeStoredOnInventory: 1
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 188888, guid: 22f71bc1219972d4bb082138f840dbe7,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Motorbike
+      inventoryGameObject: {fileID: 1263596118569646, guid: df53fcfebf97c2946b3b8b65f8d62308,
+        type: 2}
+      objectInfo: This vehicle makes you cooler, am I right?
+      icon: {fileID: 0}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 0
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 11000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Vehicles
+      categoryIndex: 5
+      elementIndex: 5
+      sellPrice: 0
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0
+      spawnObject: 0
+      cantBeStoredOnInventory: 1
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 143166, guid: e99477e4c24ab704ba05c56f82e31487,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Radio Control Car
+      inventoryGameObject: {fileID: 1703771096074084, guid: 9e3059b7be646e34984670868be5d6f6,
+        type: 2}
+      objectInfo: This vehicle has a weapon turret attached. Use it with the mouse
+        AND DESTROY ANYTHING YOU WANT.
+      icon: {fileID: 0}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 0
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 9000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Vehicles
+      categoryIndex: 5
+      elementIndex: 6
+      sellPrice: 0
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0
+      spawnObject: 0
+      cantBeStoredOnInventory: 1
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 1558945483910364, guid: 53ed25dee604233469c41c642bd945ac,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}
+    - Name: Sphere Vehicle
+      inventoryGameObject: {fileID: 1307337196712766, guid: c39cea203ec8e29479f6ec4ead4ae31d,
+        type: 2}
+      objectInfo: Just a sphere vehicle, nothing strange.
+      icon: {fileID: 0}
+      amount: 0
+      amountPerUnit: 0
+      infiniteAmount: 0
+      storeTotalAmountPerUnit: 0
+      showAmountPerUnitInAmountText: 0
+      canBeUsed: 0
+      canBeEquiped: 0
+      canBeDropped: 0
+      canBeCombined: 0
+      useNewBehaviorOnUse: 0
+      newBehaviorOnUseMessage: 
+      newBehaviorOnUnableToUseMessage: 
+      useNewBehaviorOnCombine: 0
+      newBehaviorOnCombineMessage: 
+      useOneUnitOnNewBehaviourCombine: 1
+      useSoundOnUseObject: 0
+      soundOnUseObject: {fileID: 0}
+      isEquiped: 0
+      isWeapon: 0
+      IKWeaponManager: {fileID: 0}
+      projectilesInMagazine: -1
+      objectToCombine: {fileID: 0}
+      combinedObject: {fileID: 0}
+      combinedObjectMessage: 
+      canBeDiscarded: 0
+      canBeSold: 1
+      vendorPrice: 2000
+      infiniteVendorAmountAvailable: 0
+      categoryName: Vehicles
+      categoryIndex: 5
+      elementIndex: 7
+      sellPrice: 0
+      useMinLevelToBuy: 0
+      minLevelToBuy: 0
+      weight: 0
+      spawnObject: 0
+      cantBeStoredOnInventory: 1
+      canBeHeld: 0
+      button: {fileID: 0}
+      menuIconElement: {fileID: 0}
+      inventoryObjectPrefab: {fileID: 185056, guid: e20610f0344dc4441a69a28d1f0d0b3c,
+        type: 2}
+      currentVendorObjectSlotPanelInfo:
+        Name: 
+        categoryName: 
+        button: {fileID: 0}
+        objectNameText: {fileID: 0}
+        objectAmountAvailableText: {fileID: 0}
+        objectPriceText: {fileID: 0}
+        pressedIcon: {fileID: 0}
+        objectLevelText: {fileID: 0}
+      emptyInventoryPrefab: {fileID: 0}

@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1801802576996090}
+  m_IsPrefabParent: 1
+--- !u!1 &1801802576996090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4215300550656174}
+  - component: {fileID: 114791563042186046}
+  m_Layer: 0
+  m_Name: Map Creator (Empty)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215300550656174
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1801802576996090}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114791563042186046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1801802576996090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e6af74335cde4f8c354af0a8cd4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingList: []
+  layerToPlaceElements:
+    serializedVersion: 2
+    m_Bits: 1
+  useRaycastToPlaceElements: 1
+  mapPartEnabledTriggerScale: {x: 2, y: 3, z: 1}
+  enabledTriggerGizmoColor: {r: 1, g: 0, b: 0, a: 0.409}
+  floorMaterial: {fileID: 2100000, guid: 4c7d354f916d62a42a67ca18faff6694, type: 2}
+  triggerToChangeBuildingPrefab: {fileID: 1877924059306558, guid: 463fc4a3702139e489d391315180da10,
+    type: 2}
+  triggerToChangeFloorPrefab: {fileID: 182414, guid: 648e811165ba9c7439095310af5ce625,
+    type: 2}
+  triggerToChangeDynamicObjectPrefab: {fileID: 1132161490797424, guid: 86a1e258c01cd664abf31b542025a5ec,
+    type: 2}
+  mapLayer: radar
+  showGizmo: 0
+  showMapPartsGizmo: 0
+  showMapPartsTextGizmo: 0
+  showMapPartEnabledTrigger: 0
+  useSameLineColor: 1
+  mapLinesColor: {r: 1, g: 1, b: 1, a: 1}
+  showBuildingTriggersLine: 0
+  buildingTriggersLineColor: {r: 1, g: 0, b: 0.859, a: 1}
+  showBuildingTriggers: 0
+  buildingTriggersColor: {r: 0, g: 0, b: 0, a: 0.447}
+  showBuildingTriggersCubes: 0
+  buildingTriggersCubesColor: {r: 1, g: 1, b: 0, a: 0.534}
+  showFloorTriggersLine: 0
+  floorTriggersLineColor: {r: 1, g: 0, b: 0, a: 1}
+  showFloorTriggers: 0
+  floorTriggersColor: {r: 1, g: 1, b: 0, a: 0.797}
+  showFloorTriggersCubes: 0
+  floorTriggersCubesColor: {r: 0, g: 0, b: 1, a: 0.397}
+  gizmoLabelColor: {r: 1, g: 0, b: 0, a: 0.703}
+  useHandleForVertex: 1
+  handleRadius: 2.41
+  showVertexHandles: 0
+  generate3dMeshesActive: 1
+  generate3dMeshesShowGizmo: 0
+  generateFull3dMapMeshes: 0
+  mapPart3dMeshMaterial: {fileID: 2100000, guid: 9cd5b2342ce65804594865c49553c142,
+    type: 2}
+  mapPart3dMaterialColor: {r: 1, g: 1, b: 1, a: 1}
+  mapPart3dOffset: {x: 0, y: 0, z: 0}
+  mapPart3dHeight: 1
+  mapSystemList: []
+  mapSystemInfoList:
+  - Name: Player 1
+    playerGameObject: {fileID: 0}
+    mainMapSystem: {fileID: 0}
+  mapIconTypes:
+  - typeName: Enemy
+    icon: {fileID: 22415146, guid: a28dae3317dc50d4fb9bbbc705e68752, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Friend
+    icon: {fileID: 22416938, guid: 5bdb802b1c4549246953e45797367420, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Objective
+    icon: {fileID: 22490298, guid: 359581fb6c93a4946a574470d05fce3f, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 1
+    compassIconPrefab: {fileID: 1827045098766130, guid: ef4bec0acfc3d2e4cb4e71a03a9deddb,
+      type: 2}
+    verticalOffset: -5
+  - typeName: Locked Door
+    icon: {fileID: 22495538, guid: 92ed2986987d19846bc545dfaeaf16cd, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Mark
+    icon: {fileID: 22406884, guid: ab4613f839995994c8f92bb2fb4500ca, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Recharge Station
+    icon: {fileID: 22407486, guid: ef4b9c1e0bbcda04b8d03f2208d8cf3f, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Unlocked Door
+    icon: {fileID: 22474460, guid: a749e8c0f123dd4409b8fc6a2182fecb, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Security Camera
+    icon: {fileID: 22480352, guid: 764e22c234a1125418fcd6682f5f51bd, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Chest
+    icon: {fileID: 22409760, guid: 719a2d8333f64ba4589c010c90748a4b, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Vehicle
+    icon: {fileID: 22479308, guid: 74ccb8ec9dcec0a4e9138f83f9f6b89d, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Elevator
+    icon: {fileID: 22480924, guid: 42777d1bf37908f408d8f1b9a87b4bd3, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Elevator Button
+    icon: {fileID: 22487038, guid: 689e43a2778bab84a9de524e6b272298, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Beacon
+    icon: {fileID: 22472310, guid: 10f990a49fab3ba4f82eb1e7b89df8d7, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Path Element
+    icon: {fileID: 22490298, guid: 359581fb6c93a4946a574470d05fce3f, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Save Station
+    icon: {fileID: 22465510, guid: 4a9602e20fe083d4f97bf5dd76b745f8, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Locked Chest
+    icon: {fileID: 22487970, guid: 865034c712bdfba42ac2d1bdd746176e, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Grenade
+    icon: {fileID: 224740497205115970, guid: 766614e24cde80d4485884576b04b701, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Inventory Bank
+    icon: {fileID: 224642132821905312, guid: a4ecf6f4000c68e4ba1954729c3b31d9, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Player
+    icon: {fileID: 224681174785978306, guid: 5a6cd528e656e764a855f01fd43557da, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Unchecked Door
+    icon: {fileID: 224306426201725970, guid: f97c1974ff67da642b8e6005e864304c, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  - typeName: Mission Board
+    icon: {fileID: 224306426201725970, guid: cbbed0bec98073a4d8f8e314b54f9c93, type: 2}
+    showIconPreview: 0
+    enabled: 0
+    useCompassIcon: 0
+    compassIconPrefab: {fileID: 0}
+    verticalOffset: 0
+  generate3dMapPartMesh: 1
+  updateAllMapTilesEveryFrame: 0

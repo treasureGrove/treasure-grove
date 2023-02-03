@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1360928614833730}
+  m_IsPrefabParent: 1
+--- !u!1 &1360928614833730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4265765927628458}
+  - component: {fileID: 65710238894673200}
+  - component: {fileID: 114975634247141636}
+  m_Layer: 2
+  m_Name: Swim Zone Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1825727301576054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4455450948586832}
+  m_Layer: 2
+  m_Name: Swim Zone Surface Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4265765927628458
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1360928614833730}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.368, y: 15.439, z: 121.88}
+  m_LocalScale: {x: 40.81372, y: 38.063957, z: 54.760998}
+  m_Children:
+  - {fileID: 4455450948586832}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4455450948586832
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1825727301576054}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.4975198, z: 0}
+  m_LocalScale: {x: 0.024501564, y: 0.026271572, z: 0.018261172}
+  m_Children: []
+  m_Father: {fileID: 4265765927628458}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65710238894673200
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1360928614833730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114975634247141636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1360928614833730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd0d41c1e184df4fa7cbe214312faf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagToCheck: Player
+  swimZoneActive: 1
+  checkVehiclesOnEnteringWater: 1
+  disableVehiclesInteractionOnEnterWater: 0
+  ejectPassengersOnVehicleOnEnterWater: 0
+  explodeVehiclesAfterXTime: 0
+  timeToExplodeVehiclesAfterXTime: 8
+  setVehicleGravityForce: 1
+  newVehicleGravityForce: 5
+  reduceVehicleSpeedOnEnterWater: 1
+  reducedVehicleSpeedMultiplier: 0.5
+  vehicleLayerToCheck:
+    serializedVersion: 2
+    m_Bits: 262144
+  checkVehiclesOnExitingWater: 1
+  useRemoteEvents: 1
+  useRemoteEventOnSwimStart: 1
+  remoteEventNameListOnSwimStart:
+  - Deactivate Fire
+  useRemoteEventOnSwimEnd: 0
+  remoteEventNameListOnSwimEnd: []
+  vehicleDetectedList: []
+  swimZoneTransform: {fileID: 4455450948586832}
